@@ -1,0 +1,78 @@
+{
+  "words": [
+    {"word":"기쁘다","phonetic":"gippeuda","meaning":"形容词，高兴、快乐","example":"오늘 소식을 들으니 정말 기쁘다.","exampleZh":"今天听到这个消息真的很高兴。"},
+    {"word":"슬프다","phonetic":"seulpeuda","meaning":"形容词，伤心、难过","example":"헤어지는 모습을 보니 슬프다.","exampleZh":"看到离别的样子，心里很难过。"},
+    {"word":"화나다","phonetic":"hwanada","meaning":"动词，生气、恼怒","example":"기다리게 되면 화가 나요.","exampleZh":"被人晾着等久了就会生气。"},
+    {"word":"놀라다","phonetic":"nollada","meaning":"动词，吃惊、惊讶","example":"갑자기 나타나서 정말 놀랐어요.","exampleZh":"突然出现，真把我吓了一跳。"},
+    {"word":"부끄럽다","phonetic":"bukkeureopda","meaning":"形容词，害羞、不好意思","example":"사람들 앞에서 노래하면 부끄러워요.","exampleZh":"在大家面前唱歌会觉得不好意思。"},
+    {"word":"긴장되다","phonetic":"ginjangdoeda","meaning":"动词，紧张","example":"첫 출근이라서 조금 긴장되네요.","exampleZh":"因为是第一次上班，有点紧张。"},
+    {"word":"편안하다","phonetic":"pyeonanhada","meaning":"形容词，舒适、轻松、安心","example":"집에 있으면 마음이 편안해요.","exampleZh":"待在家里就会心情轻松。"},
+    {"word":"외롭다","phonetic":"oeropda","meaning":"形容词，孤单、寂寞","example":"혼자 사니까 가끔 외로워요.","exampleZh":"因为一个人住，有时会觉得孤单。"},
+    {"word":"설레다","phonetic":"seolleda","meaning":"动词，心动、激动、期待","example":"여행을 가기 전날 밤에 설레요.","exampleZh":"去旅行前的那一晚会激动不已。"},
+    {"word":"스트레스","phonetic":"seuteureseu","meaning":"名词，压力","example":"요즘 일이 많아서 스트레스가 커요.","exampleZh":"最近工作很多，压力很大。"}
+  ],
+  "article": {
+    "title":"감정 표현",
+    "titleZh":"情绪表达",
+    "paragraphs": [
+      {"en":"감정은 우리 마음의 신호입니다.","phonetic":"Gamjeong-eun uri maeum-ui sinho-imnida.","zh":"情绪是我们内心的信号。"},
+      {"en":"사람마다 감정을 나타내는 방법이 다릅니다.","phonetic":"Sarammada gamjeong-eul natanaeneun bangbeobi dareumnida.","zh":"每个人表达情绪的方式各不相同。"},
+      {"en":"기쁠 때는 웃고, 슬플 때는 울기도 합니다.","phonetic":"Gippeul ttaeneun utgo, seulpeul ttaeneun ulgido hamnida.","zh":"高兴时会笑，难过时也会流泪。"},
+      {"en":"감정을 잘 표현하면 사람과의 관계가 더 좋아집니다.","phonetic":"Gamjeong-eul jal pyohyeonhamyeon saram-gwa-ui gwangyega deo joajimnida.","zh":"善于表达情绪，人际关系就会变得更好。"}
+    ],
+    "phrases": [
+      {"phrase":"기분이 좋다","meaning":"心情好"},
+      {"phrase":"기분이 안 좋다","meaning":"心情不好"},
+      {"phrase":"화가 나다","meaning":"生气"},
+      {"phrase":"긴장이 풀리다","meaning":"放松下来"}
+    ],
+    "grammar": [
+      {"point":"-ㄹ 때","explain":"表示时间点，意为“当……的时候”。例：기쁠 때 웃어요（高兴的时候笑）。"},
+      {"point":"-기 때문에","explain":"表示原因，意为“因为……”。例：기분이 좋기 때문에 웃어요（因为心情好所以笑）。"},
+      {"point":"-아/어지다","explain":"表示变成某种状态，意为“变得……”。例：마음이 편해지다（心情变得轻松）。"}
+    ],
+    "tips": [
+      "表达情绪时常用“기분”（心情）这个词，记得搭配“좋다/나쁘다”使用。",
+      "“화가 나다”里的“화”是火，字面意思是“火冒上来”，用来形容生气很形象。",
+      "想表达“我有点……”时可用“조금 + 形容词”，如“조금 긴장돼요（我有点紧张）”。"
+    ],
+    "quiz": {
+      "choice": [
+        {"q":"“기분이 안 좋아요”是什么意思？","options":["心情很好","心情不好","有点紧张","非常孤单"],"answer":1},
+        {"q":"下面哪个词表示“孤单、寂寞”？","options":["놀라다","외롭다","부끄럽다","설레다"],"answer":1}
+      ],
+      "fill": [{"q":"오늘은 기분이 _ 정말 기쁘다.（意思是“今天心情真的很好”）","answer":"정말"}],
+      "writing": {"prompt":"用韩语写一段话，描述你最近一次感到高兴或紧张的经历，至少三句，注意使用情绪相关词汇和“-기 때문에”表达理由。"}
+    }
+  },
+  "scenarios": [
+    {
+      "scene":"기분 이야기",
+      "situationZh":"和朋友聊天，聊最近的心情和情绪。",
+      "roles":{"clerk":"朋友","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"요즘 왜 기분이 좋아 보여요?","phonetic":"Yojeum wae gibuni joa boyeoyo?","zh":"最近为什么看起来心情很好呀？"},
+        {"role":"user","ko":"친구를 만났기 때문이에요.","phonetic":"Chingu-reul mannatgi ttaemun-ieyo.","zh":"因为见到了朋友。"},
+        {"role":"clerk","ko":"정말요? 누구예요?","phonetic":"Jeongmallo? Nuguyeyo?","zh":"真的吗？是哪个朋友呀？"},
+        {"role":"user","ko":"대학교 때 친구예요.","phonetic":"Daehakgyo ttae chingu-yeyo.","zh":"是大学时期的朋友。"},
+        {"role":"clerk","ko":"다음에 같이 소개해 주세요.","phonetic":"Daeume gachi sogaehae juseyo.","zh":"下次介绍给我认识吧。"},
+        {"role":"user","ko":"좋아요. 그러면 기분이 더 좋을 거예요.","phonetic":"Joayo. Geureomyeon gibuni deo joeul geoyeyo.","zh":"好的，那样的话心情会更高兴。"}
+      ],
+      "tips":["“-기 때문이에요”是表达原因的常用句型，适合口语。","和朋友聊天时语气可以更随意，不必用太正式的敬语。"]
+    },
+    {
+      "scene":"음식점 대화",
+      "situationZh":"在餐厅等了很久菜还没来，向店员表达不满。",
+      "roles":{"clerk":"店员","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"손님, 무엇을 도와드릴까요?","phonetic":"Sonnim, mueoseul dowadeurilkkayo?","zh":"客人，需要我帮忙吗？"},
+        {"role":"user","ko":"주문한 음식이 아직 안 와요.","phonetic":"Jumunhan eumsigi ajik an wayo.","zh":"我点的菜还没来。"},
+        {"role":"clerk","ko":"정말 죄송합니다. 바로 확인하겠습니다.","phonetic":"Jeongmal joesonghamnida. Baro hwaginhagetsseumnida.","zh":"非常抱歉，我马上确认一下。"},
+        {"role":"user","ko":"기다리는 시간이 너무 길어서 조금 화가 나요.","phonetic":"Gidarineun sigani neomu gireoseo jogeum hwaga nayo.","zh":"等得太久了，我有点生气。"},
+        {"role":"clerk","ko":"금방 준비해 드릴게요. 잠시만 기다려 주세요.","phonetic":"Geumbang junbihae deurilgeyo. Jamsimman gidaryeo juseyo.","zh":"马上为您准备好，请稍等。"},
+        {"role":"user","ko":"네, 기다리겠습니다. 감사합니다.","phonetic":"Ne, gidarigetsseumnida. Gamsahamnida.","zh":"好的，我等您。谢谢。"}
+      ],
+      "tips":["表达不满时加上“정말（真的）”和敬语“죄송합니다”，语气会更礼貌。","“-아/어서”表示原因，如“너무 길어서 화가 나요（因为太久所以生气）”。"]
+    }
+  ]
+}

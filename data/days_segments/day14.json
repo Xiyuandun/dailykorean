@@ -1,0 +1,81 @@
+{
+  "words": [
+    {"word":"은행","phonetic":"eunhaeng","meaning":"银行（名词）","example":"은행에 돈을 예금했어요.","exampleZh":"我把钱存在了银行。"},
+    {"word":"돈","phonetic":"don","meaning":"钱（名词）","example":"돈을 좀 찾고 싶어요.","exampleZh":"我想取一些钱。"},
+    {"word":"환전","phonetic":"hwanjeon","meaning":"换钱、兑换外币（名词）","example":"공항에서 환전을 했어요.","exampleZh":"我在机场兑换了外币。"},
+    {"word":"계좌","phonetic":"gyejwa","meaning":"账户（名词）","example":"계좌를 새로 만들고 싶어요.","exampleZh":"我想新开一个账户。"},
+    {"word":"통장","phonetic":"tongjang","meaning":"存折、活期存折（名词）","example":"통장에 돈이 얼마 있어요?","exampleZh":"存折上有多少钱？"},
+    {"word":"현금","phonetic":"hyeongeum","meaning":"现金（名词）","example":"현금이 부족해요.","exampleZh":"现金不够。"},
+    {"word":"카드","phonetic":"kadeu","meaning":"卡（名词）","example":"카드로 계산해도 돼요?","exampleZh":"可以用卡结算吗？"},
+    {"word":"이자","phonetic":"ija","meaning":"利息（名词）","example":"예금 이자가 좋은 편이에요.","exampleZh":"存款利率还算不错。"},
+    {"word":"인출","phonetic":"inchul","meaning":"取款、提取（名词）","example":"ATM에서 현금을 인출했어요.","exampleZh":"我在ATM取出了现金。"},
+    {"word":"환율","phonetic":"hwanyul","meaning":"汇率（名词）","example":"오늘 환율이 좀 올랐어요.","exampleZh":"今天的汇率涨了一些。"}
+  ],
+  "article": {
+    "title":"은행에서 돈을 찾다",
+    "titleZh":"在银行取钱",
+    "paragraphs": [
+      {"en":"오늘은 은행에 가서 돈을 좀 찾으려고 해요. 카드와 통장을 가져갔어요.","phonetic":"oneureun eunhaeng-e gaseo doneul jom chajeuryeogo haeyo. kadeuwa tongjangeul gajyeogasseoyo.","zh":"今天打算去银行取些钱。我带上了卡和存折。"},
+      {"en":"은행에 사람이 많아서 번호표를 뽑고 조금 기다렸어요.","phonetic":"eunhaeng-e sarami manaseo beonhopyeoreul ppopgo jogeum gidaryeosseoyo.","zh":"银行人很多，我取了号稍微等了一会儿。"},
+      {"en":"창구에서 여권이 필요하다고 해서 환전도 함께 했어요.","phonetic":"changgu-eseo yeogwoni piryohadago haeseo hwanjeondo hamkke haesseoyo.","zh":"柜台说需要护照，所以顺便一起换了钱。"},
+      {"en":"오늘 환율이 좋아서 생각보다 많은 돈을 받았어요.","phonetic":"oneul hwanyuri joaseo saenggakboda maneun doneul batasseoyo.","zh":"今天汇率不错，比想象中换到了更多的钱。"}
+    ],
+    "phrases": [
+      {"phrase":"돈을 찾다","meaning":"取钱"},
+      {"phrase":"돈을 넣다","meaning":"存钱"},
+      {"phrase":"환전을 하다","meaning":"换钱"},
+      {"phrase":"계좌를 만들다","meaning":"开户"}
+    ],
+    "grammar": [
+      {"point":"-(으)려고 하다","explain":"表示“打算做……”。接在动词词干后。例：돈을 찾으려고 해요（打算去取钱）。"},
+      {"point":"-(아)서 / -(으)니까","explain":"表示原因，“因为……”。例：환율이 좋아서 많이 받았어요（因为汇率好，所以拿到了很多）。"},
+      {"point":"보다","explain":"跟在名词后表示比较，“比……”。例：생각보다 많아요（比想象中多）。"}
+    ],
+    "tips":[
+      "韩国银行开户一般需要护照或外国人登录证。",
+      "换钱说“환전”，取钱说“돈을 찾다”，存钱说“돈을 넣다”，注意区分。",
+      "ATM叫“현금인출기”或直接叫“ATM”，很常用。"
+    ],
+    "quiz": {
+      "choice": [
+        {"q":"“我想换钱”用韩语怎么说？","options":["돈을 찾고 싶어요","환전하고 싶어요","돈을 넣고 싶어요","계좌를 만들고 싶어요"],"answer":1},
+        {"q":"“需要护照”用韩语怎么说？","options":["여권이 필요해요","카드가 필요해요","통장이 필요해요","현금이 필요해요"],"answer":0}
+      ],
+      "fill": [
+        {"q":"환율이 좋아서 생각____ 많은 돈을 받았어요.（因为汇率好，所以比想象中拿到了更多的钱）","answer":"보다"}
+      ],
+      "writing": {"prompt":"用韩语写一段话，描述你去银行兑换外币或在ATM取钱的经过，包括带了什么证件、汇率如何。"}
+    }
+  },
+  "scenarios": [
+    {
+      "scene":"은행 창구에서",
+      "situationZh":"在银行柜台办理取款业务。",
+      "roles":{"clerk":"银行职员","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"안녕하세요. 무엇을 도와드릴까요?","phonetic":"annyeonghaseyo. mueoseul dowadeurilkkayo?","zh":"您好。有什么可以帮您的吗？"},
+        {"role":"user","ko":"현금을 좀 찾고 싶어요.","phonetic":"hyeongeumeul jom chatgo sipeoyo.","zh":"我想取一些现金。"},
+        {"role":"clerk","ko":"얼마를 찾으세요? 통장이나 카드가 있으세요?","phonetic":"eolmareul chajeuseyo? tongjangeona kadeuga isseuseyo?","zh":"要取多少？有存折或卡吗？"},
+        {"role":"user","ko":"통장으로 50만 원을 찾고 싶어요.","phonetic":"tongjangeuro osipman woneul chatgo sipeoyo.","zh":"我想用存折取50万韩元。"},
+        {"role":"clerk","ko":"여기 서류에 사인해 주세요. 잠시만 기다려 주세요.","phonetic":"yeogi seoryue sainhae juseyo. jamsiman gidaryeo juseyo.","zh":"请在这份文件上签字，请稍等。"},
+        {"role":"user","ko":"네, 고맙습니다.","phonetic":"ne, gomapseumnida.","zh":"好的，谢谢您。"}
+      ],
+      "tips":["取款说“돈을 찾다”，说金额可用“……만 원”(……万韩元)。","柜台取款一般需要签字确认。"]
+    },
+    {
+      "scene":"환전소에서",
+      "situationZh":"在换钱所把美元换成韩元。",
+      "roles":{"clerk":"工作人员","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"환전하러 오셨나요?","phonetic":"hwanjeonharyeo osyeonnayo?","zh":"您是来换钱的吗？"},
+        {"role":"user","ko":"네, 달러를 원화로 바꾸고 싶어요.","phonetic":"ne, dalleoreul wonhwaro bakkugo sipeoyo.","zh":"是的，我想把美元换成韩元。"},
+        {"role":"clerk","ko":"오늘 환율이 좋아요. 지금 많이 받으실 수 있어요.","phonetic":"oneul hwanyuri joayo. jigeum mani badeusil su isseoyo.","zh":"今天的汇率不错。现在可以换很多。"},
+        {"role":"user","ko":"여기에 300달러를 바꿔 주세요.","phonetic":"yeogie sambaek dalleoreul bakkwo juseyo.","zh":"请在这里换300美元。"},
+        {"role":"clerk","ko":"네, 여권을 보여 주시겠어요?","phonetic":"ne, yeogwoneul boyeo jusigesseoyo?","zh":"好的，请出示一下护照好吗？"},
+        {"role":"user","ko":"여기 있어요. 모두 얼마에요?","phonetic":"yeogi isseoyo. modu eolmaeyo?","zh":"在这里。一共是多少？"},
+        {"role":"clerk","ko":"오늘 환율로 33만 원입니다.","phonetic":"oneul hwanyullo samsipsamman wonimnida.","zh":"按今天的汇率是33万韩元。"}
+      ],
+      "tips":["换钱说“환전”，说货币可以加“달러(美元)、원화(韩元)”。","兑换外币通常需要出示护照。"]
+    }
+  ]
+}

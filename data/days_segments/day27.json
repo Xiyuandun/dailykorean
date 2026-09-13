@@ -1,0 +1,77 @@
+{
+  "words": [
+    {"word":"컴퓨터","phonetic":"keompyuteo","meaning":"名词，电脑","example":"저는 컴퓨터로 서류를 만들어요.","exampleZh":"我用电脑做文件。"},
+    {"word":"문서","phonetic":"munseo","meaning":"名词，文档、文件","example":"이 문서를 저장해 주세요.","exampleZh":"请保存这份文档。"},
+    {"word":"파일","phonetic":"pail","meaning":"名词，文件","example":"그 파일을 저에게 보내 주세요.","exampleZh":"请把那个文件发给我。"},
+    {"word":"저장하다","phonetic":"jeojanghada","meaning":"动词，保存","example":"작업이 끝나면 반드시 저장하세요.","exampleZh":"工作结束后一定要保存。"},
+    {"word":"보내다","phonetic":"bonaeda","meaning":"动词，发送","example":"메일을 보내서 확인해 주세요.","exampleZh":"请发邮件确认一下。"},
+    {"word":"인쇄하다","phonetic":"inwaehada","meaning":"动词，打印","example":"계약서를 두 장 인쇄해 주세요.","exampleZh":"请把合同打印两份。"},
+    {"word":"회의","phonetic":"hoeui","meaning":"名词，会议","example":"오후에 회의가 있어요.","exampleZh":"下午有会议。"},
+    {"word":"보고서","phonetic":"bogoseo","meaning":"名词，报告、报告书","example":"보고서를 내일 아침까지 제출해 주세요.","exampleZh":"请在明天早上之前提交报告。"},
+    {"word":"프린터","phonetic":"peurinteo","meaning":"名词，打印机","example":"프린터가 고장나서 인쇄를 못 해요.","exampleZh":"打印机坏了，没法打印。"},
+    {"word":"이메일","phonetic":"imeil","meaning":"名词，电子邮件","example":"이메일 주소를 알려 주세요.","exampleZh":"请告诉我电子邮件地址。"}
+  ],
+  "article": {
+    "title":"사무실에서",
+    "titleZh":"在办公室里",
+    "paragraphs": [
+      {"en":"저는 매일 아침 컴퓨터를 켜고 일을 시작합니다.","phonetic":"Jeoneun maeil achim keompyuteoreul kyeogo ireul sijakhamnida.","zh":"我每天早上打开电脑然后开始工作。"},
+      {"en":"중요한 문서는 반드시 파일로 저장해야 합니다.","phonetic":"Jung-yohan munseoneun bandeusi pairo jeojanghaeya hamnida.","zh":"重要的文档一定要保存成文件。"},
+      {"en":"오후에는 동료들과 회의를 합니다.","phonetic":"Ohueneun dongnyodeulgwa hoeuireul hamnida.","zh":"下午和同事们开会。"},
+      {"en":"회의가 끝나면 보고서를 작성해서 메일로 보냅니다.","phonetic":"Hoegiga kkeutnamyeon bogoseoreul jakseonghaeseo meillo bonamnida.","zh":"会议结束后写好报告，然后用邮件发送。"}
+    ],
+    "phrases": [
+      {"phrase":"컴퓨터를 켜다","meaning":"打开电脑"},
+      {"phrase":"문서를 보내다","meaning":"发送文件"},
+      {"phrase":"회의를 하다","meaning":"开会"},
+      {"phrase":"보고서를 제출하다","meaning":"提交报告"}
+    ],
+    "grammar": [
+      {"point":"-야 하다","explain":"表示“必须”“应该”，意为“一定要……”。例：저장해야 합니다（一定要保存）。"},
+      {"point":"-고 나서","explain":"表示先做完前一件事再做后一件事，意为“……之后”。例：일이 끝나고 나서 쉬어요（做完工作之后休息）。"},
+      {"point":"-은/는 반드시","explain":"“반드시”表示“一定、必须”，加强语气。例：반드시 저장하세요（一定要保存）。"}
+    ],
+    "tips":[
+      "“저장하다”在电脑操作里是“保存”，口语里常说“저장해 주세요（请保存）”。",
+      "“보내다”既可指“发送邮件”，也可指“寄包裹”，词义很灵活。",
+      "开会常用“회의를 하다”，加班则说“야근하다”，注意区分。"
+    ],
+    "quiz": {
+      "choice": [
+        {"q":"“문서를 저장하다”的意思是什么？","options":["发送文档","打印文档","保存文档","删除文档"],"answer":2},
+        {"q":"下面哪一个表示“会议”？","options":["보고서","회의","이메일","프린터"],"answer":1}
+      ],
+      "fill": [{"q":"오후에 _이 있어서 조금 바빠요.（意思是“下午有会议，所以有点忙”）","answer":"회의"}],
+      "writing": {"prompt":"用韩语写一段话，描述你平时的上班或学习流程，至少三句，注意使用“컴퓨터”、“회의”、“보고서”等词汇，并尝试用“-고 나서”连接先后动作。"}
+    }
+  },
+  "scenarios": [
+    {
+      "scene":"사무실 부탁",
+      "situationZh":"在办公室里，请同事帮忙发送和打印文件。",
+      "roles":{"clerk":"同事","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"이 문서를 좀 봐 주시겠어요?","phonetic":"I munseoreul jom bwa jusigess-eoyo?","zh":"能帮我看看这份文档吗？"},
+        {"role":"user","ko":"네, 잠깐만요. 지금 파일을 열겠습니다.","phonetic":"Ne, jamkkanmanyo. Jigeum paireul yeolgessseumnida.","zh":"好的，稍等一下。我现在打开文件。"},
+        {"role":"clerk","ko":"그리고 이 보고서를 인쇄해 주세요.","phonetic":"Geurigo i bogoseoreul inwaehae juseyo.","zh":"还有，请打印这份报告。"},
+        {"role":"user","ko":"네, 몇 장 인쇄할까요?","phonetic":"Ne, myeot jang inwaehallkkayo?","zh":"好的，打印几份呢？"},
+        {"role":"clerk","ko":"두 장이면 됩니다.","phonetic":"Du jang-imyeon doemnida.","zh":"两份就够了。"},
+        {"role":"user","ko":"네, 알겠습니다. 확인 후에 드릴게요.","phonetic":"Ne, algessseumnida. Hwagin hu-e deurilgeyo.","zh":"好的，明白。确认后再给您。"}
+      ],
+      "tips":["“-시겠어요”比“-세요”更恭敬客气，适合请求同事帮忙。","“두 장이면 됩니다（两份就够了）”里“-면 되다”表示“只要……就行”。"]
+    },
+    {
+      "scene":"메일 문의",
+      "situationZh":"刚收到一封邮件，同事询问细节并请你确认。",
+      "roles":{"clerk":"同事","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"이메일을 확인하셨어요?","phonetic":"Imeil-eul hwaginhasyeosseoyo?","zh":"您确认过邮件了吗？"},
+        {"role":"user","ko":"아직 확인을 못 했어요.","phonetic":"Ajik hwagineul mot haesseoyo.","zh":"还没能确认。"},
+        {"role":"clerk","ko":"첨부 파일이 있으니 꼭 확인해 보세요.","phonetic":"Cheombu pail-i isseuni kkok hwaginhae boseyo.","zh":"有附件，请一定要看一下。"},
+        {"role":"user","ko":"네, 지금 저장하고 다시 보내 드릴게요.","phonetic":"Ne, jigeum jeojanghago dasi bonaedeurilgeyo.","zh":"好的，我现在保存好再发给您。"},
+        {"role":"clerk","ko":"감사합니다. 도와주셔서 고맙습니다.","phonetic":"Gamsahamnida. Dowajusyeoseo gomapseumnida.","zh":"谢谢，多亏您帮忙。"}
+      ],
+      "tips":["“첨부 파일”指电子邮件的附件，工作邮件中很常用。","“꼭”表示“一定、务必”，语气比“반드시”稍轻但更口语。"]
+    }
+  ]
+}

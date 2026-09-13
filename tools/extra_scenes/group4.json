@@ -1,0 +1,282 @@
+{
+  "day16": [
+    {
+      "scene": "预约理发",
+      "situationZh": "我打电话到美发厅预约今天的理发时间。",
+      "roles": {"clerk": "店员", "user": "我"},
+      "turns": [
+        {"role": "clerk", "ko": "여보세요, 헤어샵입니다.", "phonetic": "yeo-bo-se-yo, he-eo-syap-im-ni-da.", "zh": "喂，您好，这里是美发店。"},
+        {"role": "user", "ko": "안녕하세요, 커트 예약하고 싶어요.", "phonetic": "an-nyeong-ha-se-yo, keo-teu ye-yak-ha-go si-peo-yo.", "zh": "您好，我想预约剪发。"},
+        {"role": "clerk", "ko": "네, 몇 시에 오실 수 있으세요?", "phonetic": "ne, myeot si-e o-sil su i-sseu-se-yo?", "zh": "好的，您几点能来呢？"},
+        {"role": "user", "ko": "오후 두 시쯤 괜찮아요?", "phonetic": "o-hu du si-jjeum gwaen-cha-na-yo?", "zh": "下午两点左右可以吗？"},
+        {"role": "clerk", "ko": "네, 두 시에 예약해 드릴게요.", "phonetic": "ne, du si-e ye-yak-hae deu-ril-ge-yo.", "zh": "好，我帮您约在两点。"},
+        {"role": "user", "ko": "감사합니다, 그때 뵐게요.", "phonetic": "gam-sa-ham-ni-da, geu-ttae boel-ge-yo.", "zh": "谢谢，我们到时候见。"}
+      ],
+      "tips": [
+        "예약하다（预约）/ 예약（预约）是美发店常用词。",
+        "몇 시에（几点）用于询问具体时间。",
+        "뵈요 是 보다（见面）的敬语形式，正式场合很礼貌。"
+      ]
+    },
+    {
+      "scene": "烫发咨询",
+      "situationZh": "我在美发厅询问烫发的费用和所需时间。",
+      "roles": {"clerk": "店员", "user": "我"},
+      "turns": [
+        {"role": "user", "ko": "파마 하는 데 얼마나 걸려요?", "phonetic": "pa-ma ha-neun de eol-ma-na geol-lyeo-yo?", "zh": "烫发需要花多长时间？"},
+        {"role": "clerk", "ko": "보통 한 시간 반 정도 걸립니다.", "phonetic": "bo-tong han si-gan ban jeong-do geol-lim-ni-da.", "zh": "一般大概需要一个半小时。"},
+        {"role": "user", "ko": "가격은 어떻게 되나요?", "phonetic": "ga-gyeok-eun eo-tteo-ke doe-na-yo?", "zh": "价格是多少呢？"},
+        {"role": "clerk", "ko": "긴 머리는 팔만 원입니다.", "phonetic": "gin meo-ri-neun pal-man won-im-ni-da.", "zh": "长发是八万韩元。"},
+        {"role": "user", "ko": "좀 비싸네요, 다른 방법이 있을까요?", "phonetic": "jom bi-ssa-ne-yo, da-reun bang-beop-i i-sseul-kka-yo?", "zh": "有点贵呢，有没有别的办法？"},
+        {"role": "clerk", "ko": "그럼 부분 파마를 추천해 드려요.", "phonetic": "geu-reom bu-bun pa-ma-reul chu-cheon-hae deu-ryeo-yo.", "zh": "那我推荐您做局部烫发。"}
+      ],
+      "tips": [
+        "파마（烫发）是外来语，源自英语 perm。",
+        "얼마나 걸리다（需要多久）询问时间，가격（价格）询问价钱。",
+        "추천하다（推荐）在服务场合很常用。"
+      ]
+    },
+    {
+      "scene": "结账付款",
+      "situationZh": "理发结束后我在柜台结账，店员询问付款方式。",
+      "roles": {"clerk": "店员", "user": "我"},
+      "turns": [
+        {"role": "clerk", "ko": "이번에 하고 싶은 것이 다 끝났습니다.", "phonetic": "i-beon-e ha-go si-peun geo-si da kkeut-nat-seup-ni-da.", "zh": "这次您想做的项目都做完了。"},
+        {"role": "clerk", "ko": "결제는 어떻게 하시겠어요?", "phonetic": "gyeol-je-neun eo-tteo-ke ha-si-gess-eo-yo?", "zh": "您要怎么结账呢？"},
+        {"role": "user", "ko": "카드로 할게요.", "phonetic": "ka-deu-ro hal-ge-yo.", "zh": "我用卡结账。"},
+        {"role": "clerk", "ko": "네, 카드를 여기에 넣어 주세요.", "phonetic": "ne, ka-deu-reul yeo-gi-e neo-eo ju-se-yo.", "zh": "好的，请把卡放到这里。"},
+        {"role": "user", "ko": "영수증도 받을 수 있을까요?", "phonetic": "yeong-su-jeung-do ba-deul su i-sseul-kka-yo?", "zh": "我可以拿收据吗？"},
+        {"role": "clerk", "ko": "물론이죠, 여기 있습니다. 감사합니다.", "phonetic": "mul-lon-i-jyo, yeo-gi it-seum-ni-da. gam-sa-ham-ni-da.", "zh": "当然可以，给您。谢谢光临。"}
+      ],
+      "tips": [
+        "결제하다（结账），카드로 하다（用卡付款）都是购物常用语。",
+        "영수증（收据）在需要报销时常用。",
+        "영수증 받다（拿收据）中 받다 是“收到”的意思。"
+      ]
+    }
+  ],
+  "day17": [
+    {
+      "scene": "聊摄影爱好",
+      "situationZh": "我和朋友聊起自己的摄影爱好以及喜欢的拍摄题材。",
+      "roles": {"clerk": "朋友", "user": "我"},
+      "turns": [
+        {"role": "clerk", "ko": "너 취미가 뭐야?", "phonetic": "neo chwi-mi-ga mwo-ya?", "zh": "你的爱好是什么？"},
+        {"role": "user", "ko": "사진 찍는 걸 좋아해요.", "phonetic": "sa-jin jjing-neun geol jo-a-hae-yo.", "zh": "我喜欢拍照。"},
+        {"role": "clerk", "ko": "주로 뭘 찍어?", "phonetic": "ju-ro mwol jji-kkeo?", "zh": "你主要拍什么？"},
+        {"role": "user", "ko": "풍경이나 길거리 사진을 자주 찍어요.", "phonetic": "pung-gyeong-i-na gil-geo-ri sa-jin-eul ja-ju jji-kkeo-yo.", "zh": "我经常拍风景或街拍。"},
+        {"role": "clerk", "ko": "와, 멋지다! 카메라 뭐 써?", "phonetic": "wa, meot-ji-da! ka-me-ra mwo sseo?", "zh": "哇，真酷！你用的是什么相机？"},
+        {"role": "user", "ko": "미러리스 카메라를 쓰는데, 한번 같이 찍으러 갈래?", "phonetic": "mi-reo-ri-seu ka-me-ra-reul sseu-neun-de, han-beon ga-chi jji-kkeu-reo gal-lae?", "zh": "我用微单，要不要一起去拍一次？"}
+      ],
+      "tips": [
+        "취미（爱好）和 사진 찍다（拍照）是聊爱好时的核心词汇。",
+        "주로（主要）用于说明习惯。",
+        "-ㄹ래?（要不要…?）是亲近朋友间的提议语气。"
+      ]
+    },
+    {
+      "scene": "讨论网上课程",
+      "situationZh": "我和同事聊最近上网课学习乐器的计划。",
+      "roles": {"clerk": "同事", "user": "我"},
+      "turns": [
+        {"role": "user", "ko": "요즘 온라인 강의 듣고 있어요?", "phonetic": "yo-jeum on-la-in gang-ui deud-go i-sseo-yo?", "zh": "你最近在上线上课程吗？"},
+        {"role": "clerk", "ko": "네, 피아노 강의를 듣고 있어요.", "phonetic": "ne, pi-a-no gang-ui-reul deud-go i-sseo-yo.", "zh": "是的，我在上钢琴课。"},
+        {"role": "user", "ko": "처음부터 배우기 쉬워요?", "phonetic": "cheo-eum-bu-teo bae-u-gi swi-wo-yo?", "zh": "从头学起来容易吗？"},
+        {"role": "clerk", "ko": "네, 선생님이 아주 친절하게 가르쳐요.", "phonetic": "ne, seon-saeng-nim-i a-ju chin-jeol-ha-ge ga-reu-chyeo-yo.", "zh": "是的，老师教得非常耐心。"},
+        {"role": "user", "ko": "나도 취미로 하나 시작해 볼까?", "phonetic": "na-do chwi-mi-ro ha-na si-jak-hae bol-kka?", "zh": "我也要不要开始学一门当爱好呢？"},
+        {"role": "clerk", "ko": "꼭 해 봐, 재미있더라!", "phonetic": "kkok hae bwa, jae-mi-it-deo-ra!", "zh": "一定要试试，真的很有意思！"}
+      ],
+      "tips": [
+        "온라인 강의（线上课程）/ 강의를 듣다（上课，听课程）。",
+        "-고 있다（正在做某事）表示进行时。",
+        "친절하다（亲切，耐心）常用于形容老师或服务人员。"
+      ]
+    },
+    {
+      "scene": "乐器学习的梦想",
+      "situationZh": "我向老师请教想学的乐器，并了解难易程度。",
+      "roles": {"clerk": "老师", "user": "我"},
+      "turns": [
+        {"role": "user", "ko": "선생님, 기타를 배우고 싶어요.", "phonetic": "seon-saeng-nim, gi-ta-reul bae-u-go si-peo-yo.", "zh": "老师，我想学吉他。"},
+        {"role": "clerk", "ko": "좋아요, 처음이세요?", "phonetic": "jo-a-yo, cheo-eum-i-se-yo?", "zh": "好的，您是初学者吗？"},
+        {"role": "user", "ko": "네, 완전 초보예요.", "phonetic": "ne, wan-jeon cho-bo-ye-yo.", "zh": "是的，完全是新手。"},
+        {"role": "clerk", "ko": "괜찮아요, 기본부터 천천히 배우면 돼요.", "phonetic": "gwaen-cha-na-yo, gi-bon-bu-teo cheon-cheon-hi bae-u-myeon dwae-yo.", "zh": "没关系，从基础慢慢学就行。"},
+        {"role": "user", "ko": "한 달이면 어느 정도 쳐요?", "phonetic": "han dal-i-myeon eo-neu jeong-do chyeo-yo?", "zh": "一个月的话能达到什么程度？"},
+        {"role": "clerk", "ko": "기본 코드 몇 개는 칠 수 있게 돼요.", "phonetic": "gi-bon ko-deu myeot gae-neun chil su it-ge dwae-yo.", "zh": "差不多能弹几个基本和弦了。"}
+      ],
+      "tips": [
+        "초보（新手）vs 초보자（初学者），常用于兴趣学习。",
+        "기존부터（从基础开始）是学习建议常用语。",
+        "어느 정도（到什么程度）用于询问水平。"
+      ]
+    }
+  ],
+  "day18": [
+    {
+      "scene": "在餐厅点餐",
+      "situationZh": "在旅行途中我在餐厅点餐，服务员询问口味偏好。",
+      "roles": {"clerk": "服务员", "user": "我"},
+      "turns": [
+        {"role": "clerk", "ko": "뭘 드시겠어요?", "phonetic": "mwol deu-si-gess-eo-yo?", "zh": "您想吃点什么？"},
+        {"role": "user", "ko": "비빔밥 하나 주세요.", "phonetic": "bi-bim-bap ha-na ju-se-yo.", "zh": "请给我一份拌饭。"},
+        {"role": "clerk", "ko": "맵게 해 드릴까요?", "phonetic": "maep-ge hae deu-ril-kka-yo?", "zh": "要帮您做得辣一点吗？"},
+        {"role": "user", "ko": "네, 조금 맵게 해 주세요.", "phonetic": "ne, jo-geum maep-ge hae ju-se-yo.", "zh": "好，稍微做得辣一点。"},
+        {"role": "clerk", "ko": "음료는 뭘로 드릴까요?", "phonetic": "eum-nyo-neun mwol-lo deu-ril-kka-yo?", "zh": "饮料要给您上什么？"},
+        {"role": "user", "ko": "물 하나랑 산수유차 주세요.", "phonetic": "mul ha-na-rang san-su-yu-cha ju-se-yo.", "zh": "请上一杯水和一杯山茱萸茶。"}
+      ],
+      "tips": [
+        "드시다 是 먹다（吃）的敬语，点餐时用 드시겠어요。",
+        "맵게 하다（做得辣）表示调整辣度。",
+        "주세요（请给我）在点单时最常用。"
+      ]
+    },
+    {
+      "scene": "向路人问路",
+      "situationZh": "我在韩国旅游时向路人询问去地铁站的路线。",
+      "roles": {"clerk": "路人", "user": "我"},
+      "turns": [
+        {"role": "user", "ko": "실례합니다, 지하철역이 어디예요?", "phonetic": "sil-lye-ham-ni-da, ji-ha-cheol-yeog-i eo-di-ye-yo?", "zh": "打扰一下，地铁站在哪里？"},
+        {"role": "clerk", "ko": "이 길로 쭉 가면 돼요.", "phonetic": "i gil-lo jjuk ga-myeon dwae-yo.", "zh": "沿着这条路一直走就行。"},
+        {"role": "user", "ko": "멀어요?", "phonetic": "meo-reo-yo?", "zh": "远吗？"},
+        {"role": "clerk", "ko": "아니요, 오 분 정도 걸려요.", "phonetic": "a-ni-yo, o bun jeong-do geol-lyeo-yo.", "zh": "不远，大概五分钟就到了。"},
+        {"role": "user", "ko": "그 옆에 커피숍이 있나요?", "phonetic": "geu yeo-pe keo-pi-syob-i in-na-yo?", "zh": "那边附近有咖啡店吗？"},
+        {"role": "clerk", "ko": "네, 역 바로 앞에 있어요.", "phonetic": "ne, yeok ba-ro a-pe i-sseo-yo.", "zh": "有，就在地铁站正前面。"}
+      ],
+      "tips": [
+        "실례합니다（打扰了）是问路的礼貌开场。",
+        "쭉 가다（一直走）、오 분 정도（大约五分钟）是常见指路表达。",
+        "있나요? 是非正式问“有…吗？”的说法。"
+      ]
+    },
+    {
+      "scene": "购买纪念品",
+      "situationZh": "我在纪念品店想买礼物，询问价格并讲价。",
+      "roles": {"clerk": "店员", "user": "我"},
+      "turns": [
+        {"role": "user", "ko": "이 키링은 얼마예요?", "phonetic": "i ki-ring-eun eol-ma-ye-yo?", "zh": "这个钥匙扣多少钱？"},
+        {"role": "clerk", "ko": "만 원이에요.", "phonetic": "man won-i-e-yo.", "zh": "一万韩元。"},
+        {"role": "user", "ko": "두 개 사면 할인해 주세요.", "phonetic": "du gae sa-myeon hal-in-hae ju-se-yo.", "zh": "买两个的话请给我便宜一点。"},
+        {"role": "clerk", "ko": "그럼 만 오천 원에 드릴게요.", "phonetic": "geu-reom man o-cheon won-e deu-ril-ge-yo.", "zh": "那就一个一万五千韩元卖给您。"},
+        {"role": "user", "ko": "좋아요, 두 개 주세요.", "phonetic": "jo-a-yo, du gae ju-se-yo.", "zh": "好的，请给我两个。"},
+        {"role": "clerk", "ko": "선물용으로 포장해 드릴까요?", "phonetic": "seon-mul-yong-eu-ro po-jang-hae deu-ril-kka-yo?", "zh": "需要帮您按礼品包装吗？"}
+      ],
+      "tips": [
+        "얼마예요?（多少钱？）是购物最常用价格问句。",
+        "할인하다（打折）、사면（如果买）与讲价有关。",
+        "포장하다（包装）、선물용（送礼用）在购买礼物时常用。"
+      ]
+    }
+  ],
+  "day19": [
+    {
+      "scene": "在电影院订票",
+      "situationZh": "我去电影院买票，售票员确认场次和座位。",
+      "roles": {"clerk": "售票员", "user": "我"},
+      "turns": [
+        {"role": "user", "ko": "오늘 저녁 영화 두 장 주세요.", "phonetic": "o-neul jeo-nyeok yeong-hwa du jang ju-se-yo.", "zh": "请给我两张今晚的电影票。"},
+        {"role": "clerk", "ko": "어떤 영화 보실 거예요?", "phonetic": "eo-tteon yeong-hwa bo-sil geo-ye-yo?", "zh": "您要看哪部电影？"},
+        {"role": "user", "ko": "새로 나온 액션 영화요.", "phonetic": "sae-ro na-on aeg-syeon yeong-hwa-yo.", "zh": "刚上映的动作片。"},
+        {"role": "clerk", "ko": "일곱 시 상영이 남았어요.", "phonetic": "il-gop si sang-yeong-i nam-a-sseo-yo.", "zh": "七点的场次还有票。"},
+        {"role": "user", "ko": "그걸로 증간 자리로 부탁해요.", "phonetic": "geu-geol-lo jung-gan ja-ri-ro bu-tak-hae-yo.", "zh": "那就买那个，麻烦中间座位。"},
+        {"role": "clerk", "ko": "네, 오늘 저녁 일곱 시 액션 영화 두 장입니다.", "phonetic": "ne, o-neul jeo-nyeok il-gop si aeg-syeon yeong-hwa du jang-im-ni-da.", "zh": "好的，今晚七点的动作片两张。"}
+      ],
+      "tips": [
+        "표를 사다（买票）、두 장（两张）是电影院常用语。",
+        "상영（上映）、남다（剩余）指示场次和余票。",
+        "가운데/증간 자리（中间座位）是选座常见词。"
+      ]
+    },
+    {
+      "scene": "聊喜欢的演员",
+      "situationZh": "和朋友聊天时谈起自己最喜欢的演员和他的作品。",
+      "roles": {"clerk": "朋友", "user": "我"},
+      "turns": [
+        {"role": "clerk", "ko": "최근에 본 영화 중에 뭐가 제일 좋았어?", "phonetic": "choe-geun-e bon yeong-hwa jung-e mwo-ga je-il jo-at-a?", "zh": "最近看的电影里哪部最好？"},
+        {"role": "user", "ko": "이야기가 정말 재미있는 영화였어.", "phonetic": "i-ya-gi-ga jeong-mal jae-mi-it-neun yeong-hwa-yeot-eo.", "zh": "是一部故事很有意思的电影。"},
+        {"role": "clerk", "ko": "누가 나왔어?", "phonetic": "nu-ga na-wat-eo?", "zh": "都有谁出演？"},
+        {"role": "user", "ko": "내가 좋아하는 배우가 주연이야.", "phonetic": "nae-ga jo-a-ha-neun bae-u-ga ju-yeon-i-ya.", "zh": "是我喜欢的演员主演的。"},
+        {"role": "clerk", "ko": "그 배우 연기 정말 좋지!", "phonetic": "geu bae-u yeon-gi jeong-mal jo-chi!", "zh": "那个演员演技真不错！"},
+        {"role": "user", "ko": "그치? 나중에 꼭 같이 보자.", "phonetic": "geu-chi? na-jung-e kkok ga-chi bo-ja.", "zh": "对吧？下次一定一起看吧。"}
+      ],
+      "tips": [
+        "재미있다（有意思）vs 지루하다（无聊）是评价电影常用词。",
+        "주연／조연（主演／配角），배우（演员）。",
+        "-고 있어（正在…）和 -자（一起…吧）用于日常聊天。"
+      ]
+    },
+    {
+      "scene": "在家看电影提议",
+      "situationZh": "我向家人提议今晚在家一起看电影并选影片。",
+      "roles": {"clerk": "家人", "user": "我"},
+      "turns": [
+        {"role": "user", "ko": "오늘 밤에 영화 볼래?", "phonetic": "o-neul bam-e yeong-hwa bol-lae?", "zh": "今晚要不要看电影？"},
+        {"role": "clerk", "ko": "좋지, 뭐 볼까?", "phonetic": "jo-chi, mwo bol-kka?", "zh": "好啊，看什么？"},
+        {"role": "user", "ko": "로맨스 영화는 어때?", "phonetic": "ro-maen-seu yeong-hwa-neun eo-ttae?", "zh": "爱情片怎么样？"},
+        {"role": "clerk", "ko": "나는 코미디가 좋은데.", "phonetic": "na-neun ko-mi-di-ga jo-eun-de.", "zh": "我更喜欢喜剧。"},
+        {"role": "user", "ko": "그럼 의견을 맞추자. 코미디 보자!", "phonetic": "geu-reom ui-gyeon-eul ma-chu-ja. ko-mi-di bo-ja!", "zh": "那就听你的，看喜剧吧！"},
+        {"role": "clerk", "ko": "좋아, 나팡 가져올게.", "phonetic": "jo-a, na-ping ga-jyeo-ol-ge.", "zh": "好，我去拿爆米花。"}
+      ],
+      "tips": [
+        "-ㄹ래?（要不要？）和 -자（一起…吧）都用于亲近关系中的提议。",
+        "로맨스／코미디／액션 是外来语电影类型词。",
+        "팝corn/나팔（爆米花）在家看电影时常提到。"
+      ]
+    }
+  ],
+  "day20": [
+    {
+      "scene": "清晨跑步",
+      "situationZh": "早晨我在公园跑步，遇到邻居聊起跑步的好处。",
+      "roles": {"clerk": "邻居", "user": "我"},
+      "turns": [
+        {"role": "user", "ko": "아침마다 여기서 달리세요?", "phonetic": "a-chim-ma-da yeo-gi-seo dal-li-se-yo?", "zh": "您每天早上都在这里跑步吗？"},
+        {"role": "clerk", "ko": "네, 매일 아침 달리기 운동을 해요.", "phonetic": "ne, mae-il a-chim dal-li-gi un-dong-eul hae-yo.", "zh": "是的，我每天早上都跑步锻炼。"},
+        {"role": "user", "ko": "얼마나 오래 달리세요?", "phonetic": "eol-ma-na o-rae dal-li-se-yo?", "zh": "您跑多久？"},
+        {"role": "clerk", "ko": "보통 삼십 분 정도 달려요.", "phonetic": "bo-tong sam-sip bun jeong-do dal-lyeo-yo.", "zh": "一般跑大概三十分钟。"},
+        {"role": "user", "ko": "허리에 좋다고 들었어요.", "phonetic": "heo-ri-e jo-t-da-go deu-reot-eo-yo.", "zh": "我听说对腰很好。"},
+        {"role": "clerk", "ko": "맞아요, 같이 달리다 보면 정말 상쾌해요.", "phonetic": "ma-ja-yo, ga-chi dal-li-da bo-myeon jeong-mal sang-kwae-hae-yo.", "zh": "对，跑起来真的会神清气爽。"}
+      ],
+      "tips": [
+        "달리다／달리기（跑步），운동하다（运动）。",
+        "얼마나 오래（多久）询问时长。",
+        "좋다고 들다（听说好）用于转述听到的信息。"
+      ]
+    },
+    {
+      "scene": "上瑜伽课",
+      "situationZh": "我在健身房里上瑜伽课，请教老师课堂的安排。",
+      "roles": {"clerk": "老师", "user": "我"},
+      "turns": [
+        {"role": "user", "ko": "선생님, 요가 수업은 언제 있어요?", "phonetic": "seon-saeng-nim, yo-ga su-eop-eun eon-je i-sseo-yo?", "zh": "老师，瑜伽课什么时候有？"},
+        {"role": "clerk", "ko": "매주 화요일과 목요일 저녁이에요.", "phonetic": "mae-ju hwa-yo-il-gwa mok-yo-il jeo-nyeok-i-e-yo.", "zh": "每周二和周四晚上有。"},
+        {"role": "user", "ko": "한 시간짜리인가요?", "phonetic": "han si-gan-jja-ri-in-ga-yo?", "zh": "是一个小时的课吗？"},
+        {"role": "clerk", "ko": "네, 오십 분 동안 진행합니다.", "phonetic": "ne, o-sip bun dong-an jin-haeng-ham-ni-da.", "zh": "对，进行五十分钟。"},
+        {"role": "user", "ko": "초보자도 따라 할 수 있을까요?", "phonetic": "cho-bo-ja-do tta-ra hal su i-sseul-kka-yo?", "zh": "初学者也能跟得上吗？"},
+        {"role": "clerk", "ko": "물론이죠, 부담 없이 오세요.", "phonetic": "mul-lon-i-jyo, bu-dam eops-i o-se-yo.", "zh": "当然，请轻松地过来吧。"}
+      ],
+      "tips": [
+        "요가（瑜伽）、수업（课）、진행하다（进行）。",
+        "화요일／목요일（周二／周四）等星期表达。",
+        "초보자도 따라 하다（初学者也能跟上），부담 없다（无负担，轻松）。"
+      ]
+    },
+    {
+      "scene": "健康饮食建议",
+      "situationZh": "在健身房我和教练聊起运动和饮食搭配的建议。",
+      "roles": {"clerk": "教练", "user": "我"},
+      "turns": [
+        {"role": "user", "ko": "운동 후에 뭘 먹는 게 좋아요?", "phonetic": "un-dong hu-e mwol meok-neun ge jo-a-yo?", "zh": "运动后吃点什么好？"},
+        {"role": "clerk", "ko": "단백질을 충분히 섭취하는 게 좋아요.", "phonetic": "dan-baek-jil-eul chung-bun-hi seop-chwi-ha-neun ge jo-a-yo.", "zh": "要充分摄入蛋白质比较好。"},
+        {"role": "user", "ko": "물은 얼마나 마셔야 돼요?", "phonetic": "mul-eun eol-ma-na ma-syeo-ya dwae-yo?", "zh": "水要喝多少呢？"},
+        {"role": "clerk", "ko": "하루에 두 리터 정도 마시세요.", "phonetic": "ha-ru-e du ri-teo jeong-do ma-si-se-yo.", "zh": "一天大约喝两升。"},
+        {"role": "user", "ko": "야식은 피해야 하나요?", "phonetic": "ya-sik-eun pi-hae-ya ha-na-yo?", "zh": "夜宵要避免吗？"},
+        {"role": "clerk", "ko": "네, 과한 야식은 건강에 나빠요.", "phonetic": "ne, gwa-han ya-sik-eun geon-gang-e na-ppa-yo.", "zh": "是的，过多的夜宵对健康不好。"}
+      ],
+      "tips": [
+        "섭취하다（摄入）、단백질（蛋白质）、리터（升）。",
+        "어떤 게 좋다（什么好）、얼마나（多少）用于问建议。",
+        "피하다（避开）、건강에 나쁘다（对健康不好）。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "words": [
+    {"word":"전화하다","phonetic":"jeonhwahada","meaning":"打电话（动词）","example":"내일 전화할게요.","exampleZh":"明天我给你打电话。"},
+    {"word":"보내다","phonetic":"bonaeda","meaning":"发送；寄（动词）","example":"문자를 보내 주세요.","exampleZh":"请给我发条短信。"},
+    {"word":"받다","phonetic":"batda","meaning":"接收；接（电话）（动词）","example":"전화를 받지 못했어요.","exampleZh":"没接到电话。"},
+    {"word":"걸다","phonetic":"geolda","meaning":"打电话（拨号）（动词）","example":"지금 전화를 걸고 있어요.","exampleZh":"我现在正在打电话。"},
+    {"word":"연락하다","phonetic":"yeollakhada","meaning":"联系（动词）","example":"나중에 다시 연락할게요.","exampleZh":"稍后我再联系你。"},
+    {"word":"기다리다","phonetic":"gidarida","meaning":"等待（动词）","example":"잠시만 기다려 주세요.","exampleZh":"请稍等一下。"},
+    {"word":"들리다","phonetic":"deullida","meaning":"听见；听清（动词）","example":"잘 안 들려요.","exampleZh":"我听不太清楚。"},
+    {"word":"바쁘다","phonetic":"bappeuda","meaning":"忙（形容词）","example":"지금 좀 바빠요.","exampleZh":"我现在有点忙。"},
+    {"word":"메시지","phonetic":"mesiji","meaning":"留言；消息（名词）","example":"메시지를 남겨 주세요.","exampleZh":"请留言。"},
+    {"word":"잠시만","phonetic":"jamsiman","meaning":"稍等一会儿（副词）","example":"잠시만요, 금방 연락드릴게요.","exampleZh":"请稍等，我马上联系您。"}
+  ],
+  "article": {
+    "title":"전화 통화","titleZh":"打电话通话",
+    "paragraphs": [
+      {"en":"한국에서 전화를 받으면 먼저 '여보세요'라고 말합니다.","phonetic":"hangugeseo jeonhwareul badeumyeon meonjeo yeoboseyorago malhamnida","zh":"在韩国，接电话时先说要先说“여보세요(喂)”。"},
+      {"en":"전화를 걸 때는 '안녕하세요'라고 인사하고 용건을 말합니다.","phonetic":"jeonhwareul geol ttaeneun annyeonghaseyorago insahago yonggeoneul malhamnida","zh":"打电话时要先问候“안녕하세요”，然后说明来意。"},
+      {"en":"상대방이 없으면 메시지를 남길 수 있습니다.","phonetic":"sangdaebangi eopseumyeon mesijireul namgil su itseumnida","zh":"如果对方不在，可以留言。"},
+      {"en":"잘 안 들리면 예의 바르게 다시 말해 달라고 부탁합니다.","phonetic":"jar an deullimyeon yeui bareuge dasi malhae dallago butakhamnida","zh":"听不清时，会有礼貌地请对方再说一遍。"}
+    ],
+    "phrases": [
+      {"phrase":"여보세요","meaning":"喂（接电话用语）"},
+      {"phrase":"잠시만요","meaning":"请稍等"},
+      {"phrase":"나중에 다시 연락할게요","meaning":"稍后再联系你"},
+      {"phrase":"잘 안 들려요","meaning":"听不太清"},
+      {"phrase":"메시지를 남기다","meaning":"留言"}
+    ],
+    "grammar": [
+      {"point":"여보세요","explain":"韩语接电话时的专用“喂”，与普通问候不同。"},
+      {"point":"-(으)ㄹ게요","explain":"表示“我会……（将来承诺）”，예: 연락할게요.（我会联系。）"},
+      {"point":"달라고 하다","explain":"表示“请求、让某人做某事”，예: 다시 말해 달라고 부탁해요.（请对方再说一遍。）"},
+      {"point":"잘 안 + 动词","explain":"表示“不太……”，예: 잘 안 들려요.（听不太清。）"}
+    ],
+    "tips": [
+      "韩国接电话固定说 “여보세요(喂)”。",
+      "听不清就说 “잠시만요, 잘 안 들려요.” 请对方重复。"
+    ],
+    "quiz": {
+      "choice": [
+        {"q":"韩语接电话时一般先说什么？","options":["안녕","여보세요","반갑습니다","고마워요"],"answer":1},
+        {"q":"“잠시만 기다려 주세요”是什么意思？","options":["稍等一下","不要等","马上出发","等一下吃饭"],"answer":0}
+      ],
+      "fill": [
+        {"q":"请稍等一下：_ 기다려 주세요.","answer":"잠시만"}
+      ],
+      "writing": {"prompt":"用韩语写一段给朋友的电话内容，说明你明天几点打电话、为什么打电话，并用上“전화할게요、잠시만、여보세요”等表达。"}
+    }
+  },
+  "scenarios": [
+    {
+      "scene":"전화 예약","situationZh":"你打电话给餐厅，预订明晚6点两个人的座位。",
+      "roles":{"clerk":"餐厅店员","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"여보세요, ○○식당입니다.","phonetic":"yeoboseyo, ○○sikdangimnida.","zh":"喂，您好，这里是○○餐厅。"},
+        {"role":"user","ko":"내일 저녁 6시에 자리 예약하고 싶어요.","phonetic":"naeil jeonyeok yeoseotsie jari yeyakhago sipeoyo.","zh":"我想预订明晚6点的座位。"},
+        {"role":"clerk","ko":"몇 분이세요?","phonetic":"myeot buniseyo?","zh":"请问几位？"},
+        {"role":"user","ko":"두 명이요.","phonetic":"du myeong-iyo.","zh":"两位。"},
+        {"role":"clerk","ko":"네, 예약 완료입니다. 내일 뵙겠습니다.","phonetic":"ne, yeyak wanryoimnida. naeil boepgetseumnida.","zh":"好的，预订完成了。明天见。"}
+      ],
+      "tips":[
+        "“여보세요” 是接电话专用“喂”。",
+        "“몇 분이세요?” 用于礼貌询问就餐人数。"
+      ]
+    },
+    {
+      "scene":"메시지 남기기","situationZh":"你打电话给朋友没人接，于是留言告诉他你晚点到。",
+      "roles":{"clerk":"语音留言提示","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"지금 전화를 받을 수 없습니다.","phonetic":"jigeum jeonhwareul badeul su eopseumnida.","zh":"现在无法接听电话。"},
+        {"role":"user","ko":"안녕, 나 민수야.","phonetic":"annyeong, na minsuya.","zh":"嗨，我是民洙。"},
+        {"role":"clerk","ko":"메시지를 남겨 주세요.","phonetic":"mesijireul namgyeo juseyo.","zh":"请留言。"},
+        {"role":"user","ko":"조금 늦게 도착할 거야.","phonetic":"jogeum neutge dochak-al geoya.","zh":"我会晚一点到。"},
+        {"role":"user","ko":"나중에 다시 전화할게.","phonetic":"najunge dasi jeonhwahalgae.","zh":"我回头再打给你。"},
+        {"role":"user","ko":"그럼 안녕.","phonetic":"geureom annyeong.","zh":"那就再见吧。"}
+      ],
+      "tips":[
+        "给朋友留言可以用轻松随意的语气。",
+        "“나중에 (回头/稍后)” 用于表示之后再做某事。"
+      ]
+    }
+  ]
+}

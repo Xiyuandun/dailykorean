@@ -1,0 +1,77 @@
+{
+  "words": [
+    {"word":"예약하다","phonetic":"yeyakhada","meaning":"动词，预约","example":"레스토랑을 예약하고 싶어요.","exampleZh":"我想预约餐厅。"},
+    {"word":"주문하다","phonetic":"jumunhada","meaning":"动词，点餐、订购","example":"이 메뉴를 주문할게요.","exampleZh":"我要点这个菜单。"},
+    {"word":"배달하다","phonetic":"baedalhada","meaning":"动词，配送、送外卖","example":"음식을 집으로 배달해 주세요.","exampleZh":"请把食物送到家里。"},
+    {"word":"손님","phonetic":"sonnim","meaning":"名词，客人、顾客","example":"손님이 지금 도착했어요.","exampleZh":"客人现在已经到了。"},
+    {"word":"주말","phonetic":"jumal","meaning":"名词，周末","example":"주말에는 친구를 만나요.","exampleZh":"周末时和朋友见面。"},
+    {"word":"계획하다","phonetic":"gyehoekhada","meaning":"动词，计划","example":"여행 계획을 세우고 있어요.","exampleZh":"正在制定旅行计划。"},
+    {"word":"만나다","phonetic":"mannada","meaning":"动词，见面、遇到","example":"내일 몇 시에 만날까요?","exampleZh":"明天几点见面呢？"},
+    {"word":"연락하다","phonetic":"yeollakhada","meaning":"动词，联系","example":"나중에 다시 연락할게요.","exampleZh":"我稍后再联系你。"},
+    {"word":"도와주다","phonetic":"dowajuda","meaning":"动词，帮助","example":"문을 여는 것을 도와주세요.","exampleZh":"请帮我开门。"},
+    {"word":"편리하다","phonetic":"pyeollihada","meaning":"形容词，方便、便利","example":"지하철이 있어서 정말 편리해요.","exampleZh":"因为有地铁，真的很方便。"}
+  ],
+  "article": {
+    "title":"일상생활 총정리",
+    "titleZh":"日常生活大总结",
+    "paragraphs": [
+      {"en":"한 달 동안 한국어를 열심히 공부했습니다.","phonetic":"Han dal dong-an hangugeo-reul yeolsimhi gongbuhaetsseumnida.","zh":"这个月我努力学习韩语。"},
+      {"en":"이제 식당에서 주문하고, 사람들과 약속도 잡을 수 있습니다.","phonetic":"Ije sikdang-eseo jumunhago, saramdeulgwa yaksok-do jabeul su isseumnida.","zh":"现在我可以在餐厅点餐，也能和别人约见面了。"},
+      {"en":"사무실에서 메일을 보내고, 감정도 잘 표현할 수 있게 되었습니다.","phonetic":"Samusil-eseo meil-eul bonaego, gamjeong-do jal pyohyeonhal su itge doe-eotseumnida.","zh":"我能发办公邮件，也学会更好地表达情绪了。"},
+      {"en":"앞으로도 꾸준히 연습해서 더 편리한 생활을 만들어 봅시다.","phonetic":"Ap-eurodo kkujunhi yeonseuphaeseo deo pyeollihan saenghwar-eul mandeureo bopsida.","zh":"今后也要坚持练习，为生活带来更多便利吧。"}
+    ],
+    "phrases": [
+      {"phrase":"예약을 하다","meaning":"进行预约"},
+      {"phrase":"메뉴를 주문하다","meaning":"点菜"},
+      {"phrase":"약속을 잡다","meaning":"定下约定"},
+      {"phrase":"서로 도와주다","meaning":"互相帮助"}
+    ],
+    "grammar": [
+      {"point":"-ㅂ시다","explain":"敬语共动形，意为“我们一起……吧”。例：화이팅합시다（加油吧）。"},
+      {"point":"-을 수 있다","explain":"表示“能够……”，强调能力。例：주문할 수 있어요（我会点餐）。"},
+      {"point":"-(으)ㄹ게요","explain":"表示说话人的打算，意为“我会……”。例：연락할게요（我会联系你）。"}
+    ],
+    "tips":[
+      "把第26-29天学到的表达串起来：点餐、预约、发邮件、表达情绪，都是日常高频场景。",
+      "学会“-(으)ㅂ시다”就能在邀约时用“一起……吧”，非常实用。",
+      "每天多说几句完整句子，比机械背单词进步更快。"
+    ],
+    "quiz": {
+      "choice": [
+        {"q":"下面哪句最适合用来约朋友见面？","options":["내일 시간 있으면 만나요","오늘 날씨가 좋아요","저녁 먹고 싶어요","아침에 일어나요"],"answer":0},
+        {"q":"“주말”指的是哪天？","options":["星期一","星期三","星期六和星期日","星期五"],"answer":2}
+      ],
+      "fill": [{"q":"레스토랑을 _하고 싶어요.（意思是“我想预约餐厅”）","answer":"예약"}],
+      "writing": {"prompt":"用韩语写一篇短日记，回顾这一周你用所学韩语做的一件事（如点餐、发邮件、和朋友聊天），至少四句，尽量把不同场景的表达串起来。"}
+    }
+  },
+  "scenarios": [
+    {
+      "scene":"식당 예약",
+      "situationZh":"给餐厅打电话预订座位，并确认菜单和人数。",
+      "roles":{"clerk":"店员","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"안녕하세요. 무엇을 도와드릴까요?","phonetic":"Annyeonghaseyo. Mueoseul dowadeurilkkayo?","zh":"您好，有什么可以帮您？"},
+        {"role":"user","ko":"오늘 저녁 두 명으로 예약하고 싶어요.","phonetic":"Oneul jeonyeok du myeong-euro yeyakhago sipeoyo.","zh":"我想预约今晚两个人的座位。"},
+        {"role":"clerk","ko":"몇 시에 오실 건가요?","phonetic":"Myeot sie osil geongayo?","zh":"您几点来呢？"},
+        {"role":"user","ko":"일곱 시에 갈게요.","phonetic":"Ilgop sie galgeyo.","zh":"我七点到。"},
+        {"role":"clerk","ko":"네, 예약 완료했습니다.","phonetic":"Ne, yeyak wanryohamyeosseumnida.","zh":"好的，预约已完成。"}
+      ],
+      "tips":["预约座位说“예약하고 싶어요”，要注意报上人数和时间。","“두 명”指两个人，“네 명”是四个人，注意量词“명”。"]
+    },
+    {
+      "scene":"즐거운 주말",
+      "situationZh":"和朋友在周末见面，一起商量行程并互相帮忙。",
+      "roles":{"clerk":"朋友","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"이번 주말에 시간 있어요?","phonetic":"Ibeon jumale sigan isseoyo?","zh":"这个周末有空吗？"},
+        {"role":"user","ko":"토요일 오후에 비어요.","phonetic":"Toyoil ohu-e bieoyo.","zh":"周六下午我有空。"},
+        {"role":"clerk","ko":"같이 시내에 놀러 갈까요?","phonetic":"Gachi sinae-e nolleo galkkayo?","zh":"要不要一起去市区玩？"},
+        {"role":"user","ko":"좋아요. 만나서 쇼핑하고 싶어요.","phonetic":"Joayo. Mannaseo syopinghago sipeoyo.","zh":"好啊，见面后我想去购物。"},
+        {"role":"clerk","ko":"그럼 저녁은 같이 먹어요.","phonetic":"Geureom jeonyeok-eun gachi meogeoyo.","zh":"那晚餐我们一起吃吧。"},
+        {"role":"user","ko":"네, 기대돼요. 주말에 만나요!","phonetic":"Ne, gidaedoeyo. Jumale mannayo!","zh":"好耶，很期待。周末见！"}
+      ],
+      "tips":["约人可问“시간 있어요?（有时间吗？）”，很自然。","表示期待可用“기대돼요”，用来结束邀约很有气氛。"]
+    }
+  ]
+}

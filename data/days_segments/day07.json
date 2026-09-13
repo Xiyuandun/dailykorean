@@ -1,0 +1,82 @@
+{
+  "words": [
+    {"word":"길","phonetic":"gil","meaning":"路；道路（名词）","example":"이 길로 쭉 가세요.","exampleZh":"沿着这条路一直走。"},
+    {"word":"방향","phonetic":"banghyang","meaning":"方向（名词）","example":"이 방향이 맞아요?","exampleZh":"这个方向对吗？"},
+    {"word":"왼쪽","phonetic":"oenjjok","meaning":"左边（名词）","example":"여기서 왼쪽으로 가세요.","exampleZh":"请从这里向左走。"},
+    {"word":"오른쪽","phonetic":"oreunjjok","meaning":"右边（名词）","example":"오른쪽에 은행이 있어요.","exampleZh":"银行在右边。"},
+    {"word":"앞","phonetic":"ap","meaning":"前面（名词）","example":"건물 앞에서 만나요.","exampleZh":"我们在楼前见面。"},
+    {"word":"뒤","phonetic":"dwi","meaning":"后面（名词）","example":"화장실은 건물 뒤에 있어요.","exampleZh":"洗手间在大楼后面。"},
+    {"word":"건너편","phonetic":"geonneopyeon","meaning":"对面（名词）","example":"약국은 건너편에 있어요.","exampleZh":"药房在对面。"},
+    {"word":"근처","phonetic":"geuncheo","meaning":"附近（名词）","example":"주변에 편의점이 있어요?","exampleZh":"附近有便利店吗？"},
+    {"word":"찾다","phonetic":"chatda","meaning":"寻找（动词）","example":"길을 찾고 있어요.","exampleZh":"我正在找路。"},
+    {"word":"모르다","phonetic":"moreuda","meaning":"不知道（动词）","example":"저는 이 길을 잘 몰라요.","exampleZh":"我对这条路不太熟悉。"}
+  ],
+  "article": {
+    "title":"길을 물어볼 때","titleZh":"问路的时候",
+    "paragraphs": [
+      {"en":"모르는 길에서는 지나가는 사람에게 물어보는 게 좋습니다.","phonetic":"moreuneun gireseoneun jinaganeun saramege mureoboneun ge joseumnida","zh":"不认识路时，最好向路过的人问一问。"},
+      {"en":"먼저 '실례합니다'라고 인사하고 길을 묻습니다.","phonetic":"meonjeo silyehamnidarago insahago gireul mutseumnida","zh":"先打声招呼“打扰一下”，然后问路。"},
+      {"en":"대부분의 사람들은 친절하게 길을 가르쳐 줍니다.","phonetic":"daebubunui saramdeureun chinjeolhage gireul gareuchyeo jumnida","zh":"大部分人会亲切地为你指路。"},
+      {"en":"필요하면 지도 앱으로 다시 확인할 수 있습니다.","phonetic":"piryohamyeon jido aebeuro dasi hwaginh-al su itseumnida","zh":"如果需要，还可以用地图应用再确认一遍。"}
+    ],
+    "phrases": [
+      {"phrase":"실례합니다","meaning":"打扰一下；失礼了"},
+      {"phrase":"길을 묻다","meaning":"问路"},
+      {"phrase":"길을 가르쳐 주다","meaning":"给……指路"},
+      {"phrase":"쭉 가다","meaning":"一直走"},
+      {"phrase":"~쪽으로 돌다","meaning":"朝……方向转"}
+    ],
+    "grammar": [
+      {"point":"-(으)로","explain":"表示“往、朝某个方向”，예: 왼쪽으로 가세요.（往左走。）"},
+      {"point":"~쪽","explain":"表示“方向、侧”，如 왼쪽(左边)、오른쪽(右边)。"},
+      {"point":"잘 모르다","explain":"表示“不熟悉、不太清楚”，如 저는 잘 몰라요.（我不太清楚。）"},
+      {"point":"-ㄹ 수 있다","explain":"表示“可以、能够”，예: 확인할 수 있어요.（可以确认。）"}
+    ],
+    "tips": [
+      "问路先礼貌说 “실례합니다(打扰一下)”。",
+      "用钢笔指着地图说 “여기(这里)” 会更有效。"
+    ],
+    "quiz": {
+      "choice": [
+        {"q":"“왼쪽”是什么意思？","options":["右边","前面","左边","对面"],"answer":2},
+        {"q":"问路时先说什么？","options":["실례합니다","잘 가요","안 먹어요","천천히요"],"answer":0}
+      ],
+      "fill": [
+        {"q":"请从这里往左走：여기서 _으로 가세요.","answer":"왼쪽"}
+      ],
+      "writing": {"prompt":"用韩语写一段文字，说明从你学校到附近的便利店怎么走路，要用到“왼쪽/오른쪽/쭉 가다”等指路表达。"}
+    }
+  },
+  "scenarios": [
+    {
+      "scene":"길 묻기","situationZh":"你在街上迷路了，向路人询问附近地铁站的位置。",
+      "roles":{"clerk":"路人","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"무엇을 도와드릴까요?","phonetic":"mueoseul dowadeurilkkayo?","zh":"需要帮您什么忙吗？"},
+        {"role":"user","ko":"실례합니다, 지하철역이 어디예요?","phonetic":"silyehamnida, jihacheollyeogi eodiyeyo?","zh":"打扰一下，地铁站在哪里？"},
+        {"role":"clerk","ko":"저쪽으로 쭉 가세요.","phonetic":"jeojjogeuro jjuk gaseyo.","zh":"往那边一直走。"},
+        {"role":"user","ko":"왼쪽인가요, 오른쪽인가요?","phonetic":"oenjjogingayo, oreunjjogingayo?","zh":"是左边还是右边？"},
+        {"role":"clerk","ko":"계속 가다가 건물 뒤에서 왼쪽으로 도세요.","phonetic":"gyesok gadaga geonmul dwieseo oenjjogeuro doseyo.","zh":"一直走，到楼后面往左转。"}
+      ],
+      "tips":[
+        "“실례합니다” 是问路时最常用的礼貌开场。",
+        "“쭉 가세요(一直走)” 常配合方向使用。"
+      ]
+    },
+    {
+      "scene":"편의점 찾기","situationZh":"你在寻找附近的便利店，向店员确认方向。",
+      "roles":{"clerk":"路人/店员","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"네, 뭐 찾고 계세요?","phonetic":"ne, mwo chatgo gyeseyo?","zh":"您好，您在找什么吗？"},
+        {"role":"user","ko":"근처에 편의점이 있어요?","phonetic":"geuncheoe pyeonuijeomi isseoyo?","zh":"附近有便利店吗？"},
+        {"role":"clerk","ko":"네, 바로 오른쪽에 있어요.","phonetic":"ne, baro oreunjjoge isseoyo.","zh":"有，就在右边。"},
+        {"role":"user","ko":"가까워요?","phonetic":"gakkawoyo?","zh":"近吗？"},
+        {"role":"clerk","ko":"네, 여기서 2분이면 돼요.","phonetic":"ne, yeogiseo ibuni-myeon dwaeyo.","zh":"是的，从这里走2分钟就到了。"}
+      ],
+      "tips":[
+        "“바로(就在、 바로)” 用来强调距离很近。",
+        "“~분이면 돼요” 表示“……分钟就能到”。"
+      ]
+    }
+  ]
+}

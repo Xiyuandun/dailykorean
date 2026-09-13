@@ -1,0 +1,222 @@
+{
+  "day11": [
+    {
+      "scene": "운동장에서",
+      "situationZh": "开学典礼在操场举行，老师整队并安排各班位置。",
+      "roles": {"clerk": "老师", "user": "我"},
+      "turns": [
+        {"role": "clerk", "ko": "운동장에 모여 주세요. 오늘은 입학식이 있어요.", "phonetic": "undongjang-e-moyeo-juseyo. oneureun-iphaksigi-isseoyo.", "zh": "请到操场集合，今天要举行开学典礼。"},
+        {"role": "user", "ko": "선생님, 우리 반은 어디에 서요?", "phonetic": "seonsaengnim, uri-baneun-eodie-seoyo?", "zh": "老师，我们班站哪里？"},
+        {"role": "clerk", "ko": "이쪽이에요. 선생님 뒤로 와 주세요.", "phonetic": "ijjogi-eyo. seonsaengnim-dwiro-wa-juseyo.", "zh": "在这边，请到老师后面来。"},
+        {"role": "user", "ko": "네, 모두 모였어요.", "phonetic": "ne, modu-moyeosseoyo.", "zh": "好的，都到齐了。"},
+        {"role": "clerk", "ko": "반갑습니다. 같이 열심히 다닙시다.", "phonetic": "bangapseumnida. gati-yeolsimhi-danipsida.", "zh": "很高兴认识大家，让我们一同努力上学吧。"},
+        {"role": "user", "ko": "네, 잘 부탁드려요!", "phonetic": "ne, jal-butakdeuryeoyo!", "zh": "好的，请多多关照！"}
+      ],
+      "tips": ["整队集合时说“여기 모여 주세요”（请到这里集合）很常用。", "晨会/开学典礼的“입학식（入学式）”是开学季高频词。"]
+    },
+    {
+      "scene": "급식실에서",
+      "situationZh": "午饭时间在食堂排队打饭，向阿姨询问今天的菜色。",
+      "roles": {"clerk": "食堂阿姨", "user": "我"},
+      "turns": [
+        {"role": "clerk", "ko": "어서 오세요. 오늘 메뉴는 불고기예요.", "phonetic": "eoseo-oseyo. oneul-menyuneun-bulgogiyeyo.", "zh": "欢迎光临，今天的菜单是烤牛肉。"},
+        {"role": "user", "ko": "맛있겠어요. 한 그릇 주세요.", "phonetic": "masitgettseoyo. han-geureut-juseyo.", "zh": "看起来很好吃，请给我一份。"},
+        {"role": "clerk", "ko": "그래요. 국도 드시겠어요?", "phonetic": "geuraeyo. gukdo-deusigesseoyo?", "zh": "好的，汤也要来一份吗？"},
+        {"role": "user", "ko": "네, 주세요. 감사합니다.", "phonetic": "ne, juseyo. gamsahamnida.", "zh": "好的，请给我，谢谢。"},
+        {"role": "clerk", "ko": "많이 드세요. 맛있게 먹을 거예요.", "phonetic": "mani-deuseyo. masitge-meogeul-geoyeyo.", "zh": "请多吃点，希望你会觉得好吃。"},
+        {"role": "user", "ko": "네, 잘 먹겠습니다!", "phonetic": "ne, jal-meokgesseumnida!", "zh": "好的，我开动了！"}
+      ],
+      "tips": ["食前说“잘 먹겠습니다”（我开动了），食后说“잘 먹었습니다”（我吃好了）。", "打饭的量词用“그릇（碗）”，比如“한 그릇”（一碗）。"]
+    },
+    {
+      "scene": "동아리 방에서",
+      "situationZh": "在社团活动室想加入音乐社团，请教负责的学长学姐。",
+      "roles": {"clerk": "学长/学姐", "user": "我"},
+      "turns": [
+        {"role": "clerk", "ko": "동아리 방에 온 걸 환영해요.", "phonetic": "dongari-bange-on-geol-hwanyeonghaeyo.", "zh": "欢迎来到社团活动室。"},
+        {"role": "user", "ko": "우리 동아리는 어떤 걸 해요?", "phonetic": "uri-dongarineun-eotteon-geol-haeyo?", "zh": "我们社团平时做什么？"},
+        {"role": "clerk", "ko": "음악 동아리예요. 매주 금요일에 연습해요.", "phonetic": "eumak-dongariyeyo. maeju-geumyoire-yeonseubhaeyo.", "zh": "是音乐社团，每周五练习。"},
+        {"role": "user", "ko": "재미있겠네요. 가입할 수 있어요?", "phonetic": "jaemiitgettneyo. gaiphal-su-isseoyo?", "zh": "好像很有意思，我能加入吗？"},
+        {"role": "clerk", "ko": "네, 신청서만 쓰면 돼요.", "phonetic": "ne, sincheongseoman-sseumyeon-dwaeyo.", "zh": "可以，只要填好申请表就行。"},
+        {"role": "user", "ko": "좋아요. 저도 신청할게요!", "phonetic": "joayo. jeodo-sincheonghalgeyo!", "zh": "太好了，我也要报名！"}
+      ],
+      "tips": ["“동아리”指社团，大学里“동아리에 가입하다”表示加入社团。", "询问做法时用“어떻게 해요?”或“무엇을 해요?”，很口语化。"]
+    }
+  ],
+  "day12": [
+    {
+      "scene": "출근 시간",
+      "situationZh": "早晨上班刷卡进门，在门口和同事互相问候。",
+      "roles": {"clerk": "同事", "user": "我"},
+      "turns": [
+        {"role": "clerk", "ko": "어서 오세요. 오늘도 힘내요!", "phonetic": "eoseo-oseyo. oneuldo-himnaeyo!", "zh": "你来啦，今天也加油！"},
+        {"role": "user", "ko": "네, 잘 부탁드려요. 오늘 일정이 많아요?", "phonetic": "ne, jal-butakdeuryeoyo. oneul-iljeongi-manayo?", "zh": "好的，请多关照。今天日程多吗？"},
+        {"role": "clerk", "ko": "오전에 회의가 두 개 있어요.", "phonetic": "ojeone-hoeui-ga-du-gae-isseoyo.", "zh": "上午有两个会议。"},
+        {"role": "user", "ko": "그래요? 그럼 같이 점심 먹어요.", "phonetic": "geuraeyo? geureom-gati-jeomsim-meogeoyo.", "zh": "是吗？那我们一起吃午饭吧。"},
+        {"role": "clerk", "ko": "좋아요. 점심에 봬요.", "phonetic": "joayo. jeomsime-bwaeyo.", "zh": "好啊，午饭时见。"},
+        {"role": "user", "ko": "네, 그럼 먼저 들어갈게요.", "phonetic": "ne, geureom-meonjeo-deureogalgeyo.", "zh": "好的，那我先进去了。"}
+      ],
+      "tips": ["上班问候常说“힘내요”（加油），“출근（上班）”与“퇴근（下班）”是一对常用词。", "约时间见面用“-에 봬요”（……时候见），如“점심에 봬요”。"]
+    },
+    {
+      "scene": "점심 시간",
+      "situationZh": "和同事在公司附近餐厅边吃边聊准备点什么。",
+      "roles": {"clerk": "同事", "user": "我"},
+      "turns": [
+        {"role": "clerk", "ko": "오늘 점심은 뭐 먹을까요?", "phonetic": "oneul-jeomsimeun-mwo-meogeulkkayo?", "zh": "今天午饭吃什么？"},
+        {"role": "user", "ko": "김치찌개 어때요? 얼큰하고 좋아요.", "phonetic": "gimchijjigae-eottaeyo? eolkeunhago-joayo.", "zh": "泡菜汤怎么样？辣辣的很好。"},
+        {"role": "clerk", "ko": "저는 냉면이 먹고 싶은데요.", "phonetic": "jeoneun-naengmyeoni-meokgo-sipeundeoyo.", "zh": "我想吃冷面。"},
+        {"role": "user", "ko": "그럼 각자 시킬까요?", "phonetic": "geureom-gakja-sikilkkayo?", "zh": "那我们就各点各的吧。"},
+        {"role": "clerk", "ko": "네, 여기 식당은 정말 맛있어요.", "phonetic": "ne, yeogi-sikdangeun-jeongmal-masisseoyo.", "zh": "好的，这家店真的很好吃。"},
+        {"role": "user", "ko": "좋아요. 빨리 먹고 일하러 가요.", "phonetic": "joayo. ppalli-meokgo-ilhareo-gayo.", "zh": "好啊，赶紧吃完去工作吧。"}
+      ],
+      "tips": ["推荐食物时用“-어때요?”（……怎么样？），如“김치찌개 어때요?”。", "表达想吃某物用“먹고 싶어요”，是搭伴吃饭的常用句型。"]
+    },
+    {
+      "scene": "상사에게 보고",
+      "situationZh": "到上司办公室汇报项目进展并说明截止日期较紧。",
+      "roles": {"clerk": "部长", "user": "我"},
+      "turns": [
+        {"role": "clerk", "ko": "네, 들어오세요. 오늘 보고할 게 있어요?", "phonetic": "ne, deureooseyo. oneul-bogohal-ge-isseoyo?", "zh": "嗯，请进。今天有什么要汇报的吗？"},
+        {"role": "user", "ko": "네, 부장님. 프로젝트가 일정대로 진행 중이에요.", "phonetic": "ne, bujangnim. peurojekteuga-iljeongdaero-jinhaeng-jungieyo.", "zh": "是的，部长。项目正按计划进行中。"},
+        {"role": "clerk", "ko": "잘 하고 있네요. 문제는 없어요?", "phonetic": "jal-hago-inneyo. munjeneun-eopseoyo?", "zh": "做得不错，没什么问题吧？"},
+        {"role": "user", "ko": "마감일이 조금 빠듯하지만 잘 해내겠어요.", "phonetic": "magamiri-jogeum-ppadeuthajiman-jal-haenaegesseoyo.", "zh": "截止日期有点紧，但我会做好的。"},
+        {"role": "clerk", "ko": "그럼 수고했어요. 필요하면 도와줄게요.", "phonetic": "geureom-sugohaesseoyo. piryohamyeon-dowajulgeyo.", "zh": "那辛苦你了，需要的话我会帮你。"},
+        {"role": "user", "ko": "감사합니다, 부장님!", "phonetic": "gamsahamnida, bujangnim!", "zh": "谢谢您，部长！"}
+      ],
+      "tips": ["对上级要用敬语，汇报工作时常用“보고드리다”。", "“수고했어요”（辛苦了）是道谢对方付出时的惯用语。"]
+    }
+  ],
+  "day13": [
+    {
+      "scene": "접수처에서",
+      "situationZh": "在医院挂号处办理初次就诊挂号并询问费用。",
+      "roles": {"clerk": "挂号员", "user": "我"},
+      "turns": [
+        {"role": "clerk", "ko": "안녕하세요. 어디가 아프세요?", "phonetic": "annyeonghaseyo. eodiga-apeuseyo?", "zh": "您好，哪里不舒服？"},
+        {"role": "user", "ko": "배가 아파서 왔어요. 진료를 받고 싶어요.", "phonetic": "baega-apaseo-wasseoyo. jillyoreul-batgo-sipeoyo.", "zh": "我肚子疼来看病，想挂号就诊。"},
+        {"role": "clerk", "ko": "처음 오셨으니 여기서 접수하시면 돼요.", "phonetic": "cheoeum-oseyeosseuni-yeogiseo-jeopsuhasimyeon-dwaeyo.", "zh": "您是第一次来，在这里挂号就行。"},
+        {"role": "user", "ko": "접수비는 얼마예요?", "phonetic": "jeopsubineun-eolmayeyo?", "zh": "挂号费是多少？"},
+        {"role": "clerk", "ko": "오천 원이에요. 여기에 건강보험증 있으세요?", "phonetic": "ocheon-wonieyo. yeogie-gyeonggangboheomjeung-isseuseyo?", "zh": "五千韩元，您带医保卡了吗？"},
+        {"role": "user", "ko": "네, 여기 있어요. 감사합니다.", "phonetic": "ne, yeogi-isseoyo. gamsahamnida.", "zh": "带了，在这里，谢谢您。"}
+      ],
+      "tips": ["挂号叫“접수”，首次就诊要填表并出示医保卡（건강보험증）。", "描述身体不适时用“어디가 아파요?”（哪里疼？）。"]
+    },
+    {
+      "scene": "검사실에서",
+      "situationZh": "医生安排检查，在检查室配合护士量血压并抽血。",
+      "roles": {"clerk": "护士", "user": "我"},
+      "turns": [
+        {"role": "clerk", "ko": "혈압을 재볼게요. 소매를 걷어 주세요.", "phonetic": "hyeorabeul-jaebolgeyo. somaereul-geodeo-juseyo.", "zh": "我来量血压，请把袖子卷起来。"},
+        {"role": "user", "ko": "네, 이렇게 하면 되나요?", "phonetic": "ne, ireoke-hamyeon-doeynayo?", "zh": "好的，这样可以吗？"},
+        {"role": "clerk", "ko": "네, 좋아요. 오늘 아침은 드셨어요?", "phonetic": "ne, joayo. oneul-achimeun-deusyeosseoyo?", "zh": "可以，很好。今天早上吃东西了吗？"},
+        {"role": "user", "ko": "아니요, 아직 안 먹었어요.", "phonetic": "aniyo, ajik-an-meogeosseoyo.", "zh": "没有，还没吃。"},
+        {"role": "clerk", "ko": "그럼 피 검사가 필요해요. 잠시 기다리세요.", "phonetic": "geureom-pi-geomsaga-piryohaeyo. jamsi-gidariseyo.", "zh": "那就需要做血液检查，请稍等一下。"},
+        {"role": "user", "ko": "네, 알겠습니다.", "phonetic": "ne, algesseumnida.", "zh": "好的，明白了。"}
+      ],
+      "tips": ["“혈압을 재다”是量血压，“피 검사”是抽血检查。", "是否吃过饭的问法“밥을 먹다/안 먹었다”在检查前很常被问。"]
+    },
+    {
+      "scene": "주사실에서",
+      "situationZh": "在注射室准备打针前有些害怕，与护士沟通。",
+      "roles": {"clerk": "护士", "user": "我"},
+      "turns": [
+        {"role": "clerk", "ko": "주사 맞을 준비하세요. 살짝 아파요.", "phonetic": "jusa-majeul-junbihaseyo. saljjak-apayo.", "zh": "请准备打针，会稍微有点疼。"},
+        {"role": "user", "ko": "저는 주사가 무서워요. 많이 아파요?", "phonetic": "jeoneun-jusaga-museowoyo. mani-apayo?", "zh": "我怕打针，会很疼吗？"},
+        {"role": "clerk", "ko": "괜찮아요. 금방 끝나요. 조금만 참으세요.", "phonetic": "gwaenchanayo. geumbang-kkeutnayo. jogeumman-chameuseyo.", "zh": "没关系，很快就结束，忍一下就好。"},
+        {"role": "user", "ko": "네, 그럼 부탁드려요.", "phonetic": "ne, geureom-butakdeuryeoyo.", "zh": "好的，那拜托您了。"},
+        {"role": "clerk", "ko": "다 됐어요. 잘 참으셨어요.", "phonetic": "da-dwaesseoyo. jal-chameusyeosseoyo.", "zh": "打完了，您忍得很好。"},
+        {"role": "user", "ko": "아, 고마워요. 이제 괜찮아요.", "phonetic": "a, gomawoyo. ije-gwaenchanayo.", "zh": "啊，谢谢您，现在好多了。"}
+      ],
+      "tips": ["打针说“주사를 맞다”，怕针说“주사가 무섭다”。", "安慰别人用“괜찮아요”（没关系）和“조금만 참으세요”（忍一下）。"]
+    }
+  ],
+  "day14": [
+    {
+      "scene": "ATM기기에서",
+      "situationZh": "在自动取款机前取款，接受大堂经理的指导。",
+      "roles": {"clerk": "大堂经理", "user": "我"},
+      "turns": [
+        {"role": "clerk", "ko": "ATM을 처음 쓰시면 안내해 드릴게요.", "phonetic": "aetem-eul-cheoeum-sseusimyeon-annaehae-deurilgeyo.", "zh": "如果是第一次用自动取款机，我为您介绍一下。"},
+        {"role": "user", "ko": "현금을 인출하고 싶어요. 어떻게 해요?", "phonetic": "hyeongeumeul-inchulhago-sipeoyo. eotteoke-haeyo?", "zh": "我想取现金，怎么操作？"},
+        {"role": "clerk", "ko": "카드를 넣고 비밀번호를 눌러 주세요.", "phonetic": "kadeureul-neotgo-bimilbeonhoreul-nulleo-juseyo.", "zh": "插入银行卡并输入密码即可。"},
+        {"role": "user", "ko": "한 번에 얼마나 인출할 수 있어요?", "phonetic": "han-beone-eolmana-inchulhal-su-isseoyo?", "zh": "一次最多能取多少？"},
+        {"role": "clerk", "ko": "한 번에 백만 원까지 가능해요.", "phonetic": "han-beone-baengman-wonkkaji-ganeunghaeyo.", "zh": "一次最多可取一百万韩元。"},
+        {"role": "user", "ko": "네, 잘 알았어요. 감사합니다.", "phonetic": "ne, jal-arasseoyo. gamsahamnida.", "zh": "好的，明白了，谢谢您。"}
+      ],
+      "tips": ["取款用“인출하다”，存款用“입금하다”，是银行常用动词。", "提醒密码时用“비밀번호를 누르다”（输入密码）。"]
+    },
+    {
+      "scene": "계좌 개설",
+      "situationZh": "在银行柜台申请开一个新账户。",
+      "roles": {"clerk": "银行柜员", "user": "我"},
+      "turns": [
+        {"role": "clerk", "ko": "안녕하세요. 무엇을 도와드릴까요?", "phonetic": "annyeonghaseyo. mueoseul-dowadeurilkkayo?", "zh": "您好，需要办理什么业务？"},
+        {"role": "user", "ko": "새 계좌를 만들고 싶어요.", "phonetic": "sae-gyejwareul-mandeulgo-sipeoyo.", "zh": "我想开一个新账户。"},
+        {"role": "clerk", "ko": "신분증이 필요해요. 가져오셨어요?", "phonetic": "sinbunjeungi-piryohaeyo. gajyeooseyeosseoyo?", "zh": "需要身份证，您带来了吗？"},
+        {"role": "user", "ko": "네, 여기 있어요. 이 카드는 뭔가요?", "phonetic": "ne, yeogi-isseoyo. i-kadeuneun-mwongayo?", "zh": "带了，在这里。这张卡是什么？"},
+        {"role": "clerk", "ko": "체크카드예요. 현금처럼 쓸 수 있어요.", "phonetic": "chekeukadeuyeyo. hyeongeumcheoreom-sseul-su-isseoyo.", "zh": "是借记卡，可以像现金一样使用。"},
+        {"role": "user", "ko": "좋아요. 그걸로 만들어 주세요.", "phonetic": "joayo. geugeollo-mandeureo-juseyo.", "zh": "好啊，那就办这个吧。"}
+      ],
+      "tips": ["“계좌를 개설하다”（开户）是银行常见表达。", "借记卡叫“체크카드”，信用卡叫“신용카드”。"]
+    },
+    {
+      "scene": "송금하기",
+      "situationZh": "在柜台向房东转账支付房租。",
+      "roles": {"clerk": "银行柜员", "user": "我"},
+      "turns": [
+        {"role": "clerk", "ko": "어떤 걸 도와드릴까요?", "phonetic": "eotteon-geol-dowadeurilkkayo?", "zh": "需要什么帮助？"},
+        {"role": "user", "ko": "집주인에게 돈을 송금하고 싶어요.", "phonetic": "jipjuinege-doneul-songgeumhago-sipeoyo.", "zh": "我想转账给房东。"},
+        {"role": "clerk", "ko": "받는 분의 계좌번호를 알려 주세요.", "phonetic": "batneun-bunui-gyejwa-beonhoreul-allyeo-juseyo.", "zh": "请把收款人的账号告诉我。"},
+        {"role": "user", "ko": "여기에 적어 왔어요.", "phonetic": "yeogie-jeogeo-wasseoyo.", "zh": "我写在纸上带来了。"},
+        {"role": "clerk", "ko": "이쪽 창구에서 하시면 편해요.", "phonetic": "ijjok-changgu-eseo-hasimyeon-pyeonhaeyo.", "zh": "在对面这个柜台办理会更方便。"},
+        {"role": "user", "ko": "그럼 그쪽에서 할게요. 감사합니다.", "phonetic": "geureom-geujjogeseo-halgeyo. gamsahamnida.", "zh": "那就在那边办吧，谢谢您。"}
+      ],
+      "tips": ["转账说“송금하다”，收款方说“받는 사람/받는 분”。", "柜台叫“창구”，指引换窗口时常用“이쪽/저쪽 창구”。"]
+    }
+  ],
+  "day15": [
+    {
+      "scene": "룸서비스 주문",
+      "situationZh": "在客房打电话向客房送餐服务点餐。",
+      "roles": {"clerk": "客房送餐服务员", "user": "我"},
+      "turns": [
+        {"role": "clerk", "ko": "안녕하세요. 룸서비스입니다.", "phonetic": "annyeonghaseyo. rumsseobiseuimnida.", "zh": "您好，这里是客房送餐服务。"},
+        {"role": "user", "ko": "오늘 정식이 먹고 싶어요.", "phonetic": "oneul-jeongsigi-meokgo-sipeoyo.", "zh": "我想吃今天的套餐。"},
+        {"role": "clerk", "ko": "정식은 오후 두 시까지만 가능해요.", "phonetic": "jeongsigeun-ohu-du-sikkajiman-ganeunghaeyo.", "zh": "套餐只在下午两点前提供。"},
+        {"role": "user", "ko": "그럼 김밥과 콜라 주세요.", "phonetic": "geureom-gimbap-gwa-kolla-juseyo.", "zh": "那就来紫菜包饭和可乐吧。"},
+        {"role": "clerk", "ko": "네, 15분 후에 방으로 가져다 드릴게요.", "phonetic": "ne, sibobun-hue-bangeuro-gajeoda-deurilgeyo.", "zh": "好的，15分钟后送到房间。"},
+        {"role": "user", "ko": "네, 기다릴게요. 고마워요.", "phonetic": "ne, gidarilgeyo. gomawoyo.", "zh": "好的，我等您，谢谢。"}
+      ],
+      "tips": ["客房送餐叫“룸서비스”，点“식사”或“정식（套餐）”很常见。", "送餐到房用“가져다 드리다”（送来为您），是酒店常用敬语。"]
+    },
+    {
+      "scene": "조식 뷔페에서",
+      "situationZh": "早餐时间在自助餐厅向服务员询问取餐位置。",
+      "roles": {"clerk": "服务员", "user": "我"},
+      "turns": [
+        {"role": "clerk", "ko": "조식 시간은 오전 7시부터 10시까지예요.", "phonetic": "josik-siganeun-ojeon-ilsibuteo-yeolsikkaji-yeyo.", "zh": "早餐时间是早上7点到10点。"},
+        {"role": "user", "ko": "커피는 어디에 있어요?", "phonetic": "keopineun-eodie-isseoyo?", "zh": "咖啡在哪里？"},
+        {"role": "clerk", "ko": "저쪽 음료 코너에 있어요.", "phonetic": "jeojjok-eumnyo-koneoe-isseoyo.", "zh": "在那边的饮料区。"},
+        {"role": "user", "ko": "토스트도 있나요?", "phonetic": "toseuteudo-inayo?", "zh": "有吐司吗？"},
+        {"role": "clerk", "ko": "네, 빵 코너에 매일 준비돼 있어요.", "phonetic": "ne, ppang-koneoe-maeil-junbidoe-isseoyo.", "zh": "有的，面包区每天都有准备。"},
+        {"role": "user", "ko": "네, 잘 알겠어요. 감사합니다.", "phonetic": "ne, jal-algesseoyo. gamsahamnida.", "zh": "好的，明白了，谢谢您。"}
+      ],
+      "tips": ["早餐叫“조식”，取餐自助区叫“뷔페”。", "酒店的取餐区常用“코너”（区域），如“빵 코너”“음료 코너”。"]
+    },
+    {
+      "scene": "체크아웃할 때",
+      "situationZh": "退房时结算房费，并向前台询问寄存行李事宜。",
+      "roles": {"clerk": "前台服务员", "user": "我"},
+      "turns": [
+        {"role": "clerk", "ko": "체크아웃을 도와드릴까요?", "phonetic": "chekeuaut-eul-dowadeurilkkayo?", "zh": "需要帮您办理退房吗？"},
+        {"role": "user", "ko": "네, 열두 시에 비행기예요. 짐을 먼저 맡길 수 있어요?", "phonetic": "ne, yeoldusi-e-bihaenggiyeyo. jimeul-meonjeo-matgil-su-isseoyo?", "zh": "是的，我12点的飞机，能先寄存一下行李吗？"},
+        {"role": "clerk", "ko": "네, 가능해요. 프런트에 맡기시면 돼요.", "phonetic": "ne, ganeunghaeyo. peureunte-e-matgisimyeon-dwaeyo.", "zh": "可以的，寄存在前台就行。"},
+        {"role": "user", "ko": "추가 요금이 있어요?", "phonetic": "chuga-yogeumi-isseoyo?", "zh": "有额外费用吗？"},
+        {"role": "clerk", "ko": "아니요, 짐 보관은 무료예요.", "phonetic": "aniyo, jim-bogwaneun-muryoyeyo.", "zh": "没有，行李寄存是免费的。"},
+        {"role": "user", "ko": "좋아요. 그렇게 할게요. 감사합니다!", "phonetic": "joayo. geureoke-halgeyo. gamsahamnida!", "zh": "太好了，那就这样办，谢谢您！"}
+      ],
+      "tips": ["入住叫“체크인”，退房叫“체크아웃”。", "寄存行李说“짐을 맡기다”，问是否收费说“요금이 있나요?/무료예요?”。"]
+    }
+  ]
+}

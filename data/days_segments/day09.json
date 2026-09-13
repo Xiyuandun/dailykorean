@@ -1,0 +1,80 @@
+{
+  "words": [
+    {"word":"날짜","phonetic":"naljja","meaning":"日期（名词）","example":"오늘 날짜가 며칠이에요?","exampleZh":"今天是几号？"},
+    {"word":"요일","phonetic":"yoil","meaning":"星期（名词）","example":"오늘은 무슨 요일이에요?","exampleZh":"今天是星期几？"},
+    {"word":"월요일","phonetic":"woryoil","meaning":"星期一（名词）","example":"월요일에 회의가 있어요.","exampleZh":"星期一有会议。"},
+    {"word":"주말","phonetic":"jumal","meaning":"周末（名词）","example":"주말에 뭐 할 거예요?","exampleZh":"周末打算做什么？"},
+    {"word":"생일","phonetic":"saengil","meaning":"生日（名词）","example":"내일은 내 생일이에요.","exampleZh":"明天是我的生日。"},
+    {"word":"주","phonetic":"ju","meaning":"周；星期（名词）","example":"다음 주에 만나요.","exampleZh":"我们下周见。"},
+    {"word":"오늘","phonetic":"oneul","meaning":"今天（名词）","example":"오늘 날씨가 좋아요.","exampleZh":"今天天气很好。"},
+    {"word":"내일","phonetic":"naeil","meaning":"明天（名词）","example":"내일 다시 연락할게요.","exampleZh":"明天再联系你。"},
+    {"word":"어제","phonetic":"eoje","meaning":"昨天（名词）","example":"어제 친구를 만났어요.","exampleZh":"昨天见了朋友。"},
+    {"word":"며칠","phonetic":"myeochil","meaning":"几号（名词）","example":"오늘이 며칠이에요?","exampleZh":"今天是几号？"}
+  ],
+  "article": {
+    "title":"날짜와 요일","titleZh":"日期与星期",
+    "paragraphs": [
+      {"en":"한국어에서는 날짜와 요일을 함께 말할 때가 많습니다.","phonetic":"hangugeoneseoneun naljja-wa yoireul hamkke malhal ttaega manseumnida","zh":"在韩语中，常会一起说到日期与星期。"},
+      {"en":"예를 들어 '오늘은 9월 13일 토요일입니다'라고 합니다.","phonetic":"yereul deureo oneureun guwol sipssamiril toyoirimnidarago hamnida","zh":"例如会说“今天是9月13日星期六”。"},
+      {"en":"날짜는 숫자에 '일'을 붙여서 읽습니다.","phonetic":"naljjaneun sutsae ir-eul butyeoseo ilgseumnida","zh":"日期是在数字后加上“日”来读。"},
+      {"en":"'며칠'은 보통 몇 날짜인지 물을 때 사용합니다.","phonetic":"myeochireun botong myeot naljjainji mureul ttai sayonghamnida","zh":"“며칠(几号)” 一般用来询问是哪一天。"}
+    ],
+    "phrases": [
+      {"phrase":"며칠이에요?","meaning":"是几号？"},
+      {"phrase":"무슨 요일이에요?","meaning":"是星期几？"},
+      {"phrase":"다음 주","meaning":"下周"},
+      {"phrase":"주말에","meaning":"在周末"}
+    ],
+    "grammar": [
+      {"point":"-(이)에요","explain":"表示“是……”的敬语卑称，用于结尾，예: 오늘이 며칠이에요?（今天是几号？）"},
+      {"point":"무슨 + 名词","explain":"表示“什么样的、哪个”，예: 무슨 요일이에요?（星期几？）"},
+      {"point":"-을/를 붙이다","explain":"表示“加上、贴上”，예: 숫자에 '일'을 붙여서 읽어요.（在数字后加“日”来读。）"}
+    ],
+    "tips": [
+      "星期表达：월요일(一)~일요일(日)。",
+      "问日期用 “며칠”, 问星期用 “무슨 요일”。"
+    ],
+    "quiz": {
+      "choice": [
+        {"q":"“무슨 요일이에요?” 是在问什么？","options":["几号","几月","星期几","几点"],"answer":2},
+        {"q":"“주말” 指的是哪几天？","options":["周一","周六和周日","周三","周五"],"answer":1}
+      ],
+      "fill": [
+        {"q":"今天是几号：오늘 _이에요?","answer":"며칠"}
+      ],
+      "writing": {"prompt":"用韩语写一句话，介绍今天或你生日当天的完整日期和星期，例如“今天是2026年9月13日星期六”。"}
+    }
+  },
+  "scenarios": [
+    {
+      "scene":"약속 날짜 정하기","situationZh":"你和朋友商量约好哪天见面。",
+      "roles":{"clerk":"朋友","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"우리 언제 만날까요?","phonetic":"uri eonje mannalkkayo?","zh":"我们什么时候见面呢？"},
+        {"role":"user","ko":"다음 주 수요일 어때요?","phonetic":"daeum ju suyoil eottaeyo?","zh":"下周三怎么样？"},
+        {"role":"clerk","ko":"죄송한데 수요일은 좀 바빠요.","phonetic":"joesonghande suyoir-eun jom bappayo.","zh":"抱歉，周三我有点忙。"},
+        {"role":"user","ko":"그럼 목요일은 어때요?","phonetic":"geureom mogyoir-eun eottaeyo?","zh":"那周四呢？"},
+        {"role":"clerk","ko":"좋아요! 목요일 몇 시에요?","phonetic":"joayo! mogyoil myeot sieyo?","zh":"好啊！周四几点？"}
+      ],
+      "tips":[
+        "“언제 만날까요?” 用来提议约见时间。",
+        "“-는 어때요?” 用于征求意见“……怎么样？”。"
+      ]
+    },
+    {
+      "scene":"생일 축하","situationZh":"朋友告诉你生日快到了，你询问是哪一天并表示祝贺。",
+      "roles":{"clerk":"朋友","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"내 생일이 다음 주 화요일이야.","phonetic":"nae saengiri daeum ju hwayoir-iya.","zh":"我生日是下周二。"},
+        {"role":"user","ko":"오, 다음 주 화요일이 몇 일이야?","phonetic":"o, daeum ju hwayoir-i myeochir-iya?","zh":"哦，下周二几号呀？"},
+        {"role":"clerk","ko":"9월 17일이야.","phonetic":"guwol sipechir-iya.","zh":"是9月17日。"},
+        {"role":"user","ko":"생일 축하해!","phonetic":"saengil chukhahae!","zh":"生日快乐！"},
+        {"role":"clerk","ko":"고마워! 같이 밥 먹자.","phonetic":"gomawo! gati bap meokja.","zh":"谢谢！咱们一起吃饭吧。"}
+      ],
+      "tips":[
+        "“생일 축하해(요/합니다)” 用于祝贺生日。",
+        "和朋友说话可用非正式语气，如 “~이야”。"
+      ]
+    }
+  ]
+}

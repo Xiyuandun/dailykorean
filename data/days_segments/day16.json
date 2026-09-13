@@ -1,0 +1,77 @@
+{
+  "words": [
+    {"word":"머리","phonetic":"meori","meaning":"名词(头) 头发","example":"머리가 길어요.","exampleZh":"我的头发很长。"},
+    {"word":"미용실","phonetic":"miyongsil","meaning":"名词 美发厅、理发店","example":"미용실에 갔어요.","exampleZh":"我去了美发厅。"},
+    {"word":"파마","phonetic":"pama","meaning":"名词 烫发","example":"파마를 하고 싶어요.","exampleZh":"我想烫头发。"},
+    {"word":"염색","phonetic":"yeomsaek","meaning":"名词 染发","example":"검은색으로 염색했어요.","exampleZh":"我把头发染成黑色了。"},
+    {"word":"이발","phonetic":"ibal","meaning":"名词 理发(剪发)","example":"이발을 하러 갔어요.","exampleZh":"我去理发了。"},
+    {"word":"앞머리","phonetic":"apmeori","meaning":"名词 刘海","example":"앞머리를 잘라 주세요.","exampleZh":"请帮我剪一下刘海。"},
+    {"word":"미용사","phonetic":"miyongsa","meaning":"名词 美容师、理发师","example":"미용사가 머리를 감겨 줬어요.","exampleZh":"理发师给我洗了头。"},
+    {"word":"예약","phonetic":"yeyak","meaning":"名词 预约","example":"예약을 하고 싶어요.","exampleZh":"我想预约。"},
+    {"word":"숱","phonetic":"sut","meaning":"名词 (头发等)量的多寡、厚薄","example":"숱을 좀 줄여 주세요.","exampleZh":"请帮我打薄一点。"},
+    {"word":"편리하다","phonetic":"pyeollihada","meaning":"形容词 方便的","example":"미용실 예약이 편리해요.","exampleZh":"预约美发厅很方便。"}
+  ],
+  "article": {
+    "title":"미용실에서","titleZh":"在美发厅",
+    "paragraphs": [
+      {"en":"저는 이번 주말에 미용실에 가요.","phonetic":"jeoneun ibeon jumare miyongsire gayo","zh":"我这个周末要去美发厅。"},
+      {"en":"미용사에게 앞머리와 숱을 조금 잘라 달라고 했어요.","phonetic":"miyongsa-ege apmeoriwa sureul jogeum jjalla dallago haesseoyo","zh":"我请理发师帮我稍微剪一下刘海并打薄头发。"},
+      {"en":"저는 검은색으로 머리를 염색하고 싶어요.","phonetic":"jeoneun geomeunsaekeuro meorireul yeomsaekago sipeoyo","zh":"我想把头发染成黑色。"},
+      {"en":"파마는 시간이 오래 걸리지만 예약하면 편리해요.","phonetic":"pamaneun sigani orae geollijiman yeyakamyeon pyeollihaeyo","zh":"烫发很花时间，但如果预约的话就方便了。"}
+    ],
+    "phrases": [
+      {"phrase":"머리를 깎다","meaning":"剪头发、理头发"},
+      {"phrase":"염색을 하다","meaning":"染发"},
+      {"phrase":"예약을 하다","meaning":"预约"},
+      {"phrase":"길이를 짧게 하다","meaning":"把头发剪短"},
+      {"phrase":"고객","meaning":"顾客"}
+    ],
+    "grammar": [
+      {"point":"~고 싶다","explain":"表示“想……”的愿望，接在动词词干后。如：하고 싶어요(想做)。"},
+      {"point":"~아/어 주세요","explain":"表示“请为我做……”，礼貌地请求对方为说话人做某事。如：잘라 주세요(请帮我剪)。"},
+      {"point":"~지만","explain":"连接两个句子，表示“虽然……但是……”。如：오래 걸리지만(虽然很花时间，但是)。"},
+      {"point":"~면","explain":"表示假设条件“如果……”。如：예약하면(如果预约的话)。"}
+    ],
+    "tips": [
+      "在韩国美发厅，可以先预约(예약)，周末人多如果不预约可能等很久。",
+      "“깎다”用于剪(剪短)，而“자르다”更强调剪掉、裁切，两者都可礼貌地搭配주세요使用。",
+      "说出你想要的效果时，可以配上长度词，如짧게(短一点)、길게(长一点)、많이(多一点)、조금(一点点)。"
+    ],
+    "quiz": {
+      "choice": [
+        {"q":"“我想预约”用韩语怎么说？","options":["예약하고 싶어요.","예약해서요.","예약할게요 없어요.","예약은 아니에요."],"answer":0},
+        {"q":"“请帮我打薄头发”中的“打薄”对应哪个词？","options":["염색","파마","숱을 줄이다","이발"],"answer":2}
+      ],
+      "fill": [{"q":"머리를 염색_고 싶어요.","answer":"하"}],
+      "writing": {"prompt":"用韩语写一段话：你今天去美发厅理发，说明你想烫发、染发，并描写理发师给你洗头和剪发的过程（至少5句）。"}
+    }
+  },
+  "scenarios": [
+    {
+      "scene":"미용실에서","situationZh":"在美发厅，顾客向理发师提出烫发、染发的需求",
+      "roles":{"clerk":"미용사(理发师)","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"안녕하세요. 무엇을 도와드릴까요?","phonetic":"annyeonghaseyo. mueoseul dowadeurilkkayo?","zh":"你好，有什么可以帮您？"},
+        {"role":"user","ko":"저는 파마를 하고 싶어요. 미리 예약했어요.","phonetic":"jeoneun pamareul hago sipeoyo. miri yeyakhaesseoyo","zh":"我想烫头发，已经提前预约了。"},
+        {"role":"clerk","ko":"네, 그럼 머리 길이는 어떻게 할까요?","phonetic":"ne, geureom meori girieun eotteoke hallkkayo?","zh":"好的，那头发长度要怎么处理呢？"},
+        {"role":"user","ko":"앞머리를 조금 자르고 숱도 줄여 주세요.","phonetic":"apmeorireul jogeum jareugo sutdo juryeo juseyo","zh":"请帮我稍微剪一下刘海，顺便打薄一点头发。"},
+        {"role":"clerk","ko":"알겠습니다. 그럼 먼저 머리를 감고 파마를 시작할게요.","phonetic":"algesseumnida. geureom meonjeo meorireul gamgo pamareul sijakalgeyo","zh":"好的，那我先帮您洗头，然后开始烫发。"},
+        {"role":"user","ko":"감사합니다. 시간이 얼마나 걸려요?","phonetic":"gamsahamnida. sigani eolmana geollyeoyo?","zh":"谢谢。需要多长时间呢？"}
+      ],
+      "tips":["可以先说예약했어요确认已预约，让对方知悉时间安排。","每提出一个明确需求(如자르고、줄여 주세요)后用주세요征得对方帮忙。","用얼마나 걸려요询问所需时间，是日常高频表达。"]
+    },
+    {
+      "scene":"염색 상담","situationZh":"在美发厅咨询染发颜色和价格",
+      "roles":{"clerk":"미용사(理发师)","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"어떤 색으로 염색하시겠어요?","phonetic":"eotteon saekeuro yeomsakhasigesseoyo?","zh":"您想染成什么颜色呢？"},
+        {"role":"user","ko":"갈색으로 하고 싶어요. 그래도 너무 밝지 않게 해 주세요.","phonetic":"galsaekeuro hago sipeoyo. geuraedo neomu bakji ane ke hae juseyo","zh":"我想染成棕色，不过请别弄得太亮。"},
+        {"role":"clerk","ko":"이 색이 잘 어울릴 것 같아요. 가격은 얼마예요?","phonetic":"i saegi jal eoullil geot gatayo. gageogeun eolmayeyo?","zh":"这个颜色应该会很适合。价格是多少呢？"},
+        {"role":"user","ko":"가격이 좀 비싸네요. 조금 깎아 주실 수 있어요?","phonetic":"gageogi jom bissaneyo. jogeum kkakka jusil su isseoyo?","zh":"价格有点贵呢，能稍微便宜一点吗？"},
+        {"role":"clerk","ko":"네, 오늘은 이벤트로 10퍼센트 할인해 드릴게요.","phonetic":"ne, oneureun ibeonteuro 10 peosenteu halinhae deurilgeyo","zh":"好的，今天是活动价，给您打九折。"},
+        {"role":"user","ko":"좋아요. 그럼 부탁드릴게요.","phonetic":"joayo. geureom butakdeurilgeyo","zh":"太好了，那就拜托您了。"}
+      ],
+      "tips":["用어떤 색으로询问颜色，是商量染发时的常用句。","表达“太亮”可用너무 밝게，并加上지 않게(别……)来表示克制程度。","砍价可说조금 깎아 주실 수 있어요，礼貌又自然。"]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "words": [
+    {"word":"학교","phonetic":"hakgyo","meaning":"学校（名词）","example":"저는 학교에 갑니다.","exampleZh":"我去学校。"},
+    {"word":"선생님","phonetic":"seonsaengnim","meaning":"老师（名词）","example":"선생님이 질문하셨어요.","exampleZh":"老师提问了。"},
+    {"word":"학생","phonetic":"haksaeng","meaning":"学生（名词）","example":"학생이 많아요.","exampleZh":"学生很多。"},
+    {"word":"공부하다","phonetic":"gongbuhada","meaning":"学习（动词）","example":"매일 한국어를 공부해요.","exampleZh":"我每天学习韩语。"},
+    {"word":"교실","phonetic":"gyosil","meaning":"教室（名词）","example":"교실이 아주 넓어요.","exampleZh":"教室很宽敞。"},
+    {"word":"수업","phonetic":"sueop","meaning":"课、授课（名词）","example":"수업이 오전 9시에 시작해요.","exampleZh":"课在上午九点开始。"},
+    {"word":"책","phonetic":"chaek","meaning":"书（名词）","example":"이 책은 재미있어요.","exampleZh":"这本书很有趣。"},
+    {"word":"도서관","phonetic":"doseogwan","meaning":"图书馆（名词）","example":"도서관에서 공부해요.","exampleZh":"我在图书馆学习。"},
+    {"word":"숙제","phonetic":"sukje","meaning":"作业（名词）","example":"숙제를 다 끝냈어요.","exampleZh":"我做完了全部作业。"},
+    {"word":"시험","phonetic":"siheom","meaning":"考试（名词）","example":"내일 한국어 시험이 있어요.","exampleZh":"明天有韩语考试。"}
+  ],
+  "article": {
+    "title":"학교 첫날",
+    "titleZh":"开学第一天",
+    "paragraphs": [
+      {"en":"오늘은 학교에 가는 첫날이에요. 아침 일찍 일어나서 가방을 챙겼어요.","phonetic":"oneureun hakgyo-e ganeun cheonnaliyeyo. achim iljjik ireonaseo gabangeul chaenggyeosseoyo.","zh":"今天是去学校的第一天。早上很早就起床整理了书包。"},
+      {"en":"교실에 들어가니 친구들이 많았어요. 선생님이 친절하게 인사해 주셨어요.","phonetic":"gyosil-e deureogani chingudeuri manasseoyo. seonsaengnimi chinjeolhage insahae jusyeosseoyo.","zh":"一进教室，朋友很多。老师亲切地和我打了招呼。"},
+      {"en":"첫 수업은 한국어였어요. 나는 열심히 듣고 노트에 적었어요.","phonetic":"cheot sueobeun hangugeoyeosseoyo. naneun yeolsimhi deutgo noteue jeogeosseoyo.","zh":"第一堂课是韩语课。我认真听讲并记了笔记。"},
+      {"en":"점심에는 도서관에 가서 책을 빌렸어요. 내일 수업이 또 기대돼요.","phonetic":"jeomsimeneun doseogwan-e gaseo chaegeul billyeosseoyo. naeil sueobi tto gidaedwaeyo.","zh":"午休时去图书馆借了书。我很期待明天的课。"}
+    ],
+    "phrases": [
+      {"phrase":"학교에 가다","meaning":"去学校"},
+      {"phrase":"공부를 열심히 하다","meaning":"努力学习"},
+      {"phrase":"숙제를 내다","meaning":"交作业"},
+      {"phrase":"시험을 보다","meaning":"参加考试"}
+    ],
+    "grammar": [
+      {"point":"-에 가다","explain":"表示“去某处”。助词 -에 跟在场所名词后面，加动词 가다，意思是“去……”。例：학교에 가요（去学校）。"},
+      {"point":"-부터 -까지","explain":"表示“从……到……”的时间或范围。例：오전 9시부터 오후 3시까지 수업이 있어요（从上午9点到下午3点有课）。"},
+      {"point":"-하고 싶어요","explain":"用在动词词干后，表示“想……”。例：책을 읽고 싶어요（我想读书）。"}
+    ],
+    "tips":[
+      "助词 -에 常用于表示去向或所在地点，是韩语最常用的助词之一。",
+      "韩语动词放在句末，主谓宾顺序与中文不同，要多练习语序。",
+      "숙제(作业)、시험(考试)一类的学习词汇在日常对话中出现频率很高，建议反复记忆。"
+    ],
+    "quiz": {
+      "choice": [
+        {"q":"“去学校”用韩语怎么说？","options":["학교에서 오다","학교에 가다","학교를 보다","학교부터 듣다"],"answer":1},
+        {"q":"“我努力学习”用韩语怎么说？","options":["저는 열심히 공부해요","저는 천천히 공부해요","저는 쉬면서 공부해요","저는 잠만 자요"],"answer":0}
+      ],
+      "fill": [
+        {"q":"나는 도서관____ 책을 빌렸어요.（在图书馆借了书）","answer":"에서"}
+      ],
+      "writing": {"prompt":"用韩语写一段话，介绍你喜欢的学习场所，例如图书馆或教室，并说明为什么喜欢、平时在那里做什么。"}
+    }
+  },
+  "scenarios": [
+    {
+      "scene":"교실에서",
+      "situationZh":"开学第一天，新同学向大家作自我介绍，老师欢迎并询问情况。",
+      "roles":{"clerk":"老师","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"안녕하세요. 오늘은 새 친구가 왔어요.","phonetic":"annyeonghaseyo. oneureun sae chinguga wasseoyo.","zh":"大家好。今天来了一位新朋友。"},
+        {"role":"user","ko":"안녕하세요. 저는 김민수라고 해요.","phonetic":"annyeonghaseyo. jeoneun gimminsuragohaeyo.","zh":"大家好。我叫金敏秀。"},
+        {"role":"clerk","ko":"반갑습니다. 어디에서 왔어요?","phonetic":"bangapseumnida. eodieseo wasseoyo?","zh":"很高兴认识你。你是从哪儿来的？"},
+        {"role":"user","ko":"저는 중국에서 왔어요. 한국어를 배우고 있어요.","phonetic":"jeoneun junggukeseo wasseoyo. hangugeoreul baeugo isseoyo.","zh":"我从中国来，正在学韩语。"},
+        {"role":"clerk","ko":"잘 배웠네요. 열심히 공부합시다.","phonetic":"jal baewonneyo. yeolsimhi gongbuhapsida.","zh":"你学得不错呢。让我们一起努力学习吧。"},
+        {"role":"user","ko":"네, 선생님. 감사합니다.","phonetic":"ne, seonsaengnim. gamsahamnida.","zh":"好的，老师。谢谢您。"}
+      ],
+      "tips":["自我介绍常用“저는 ……라고 해요”（我叫……）。","对老师要用敬语“합니다体”，显得更礼貌。"]
+    },
+    {
+      "scene":"도서관에서",
+      "situationZh":"在图书馆里向图书管理员借韩语学习的书籍。",
+      "roles":{"clerk":"图书管理员","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"안녕하세요. 무엇을 도와드릴까요?","phonetic":"annyeonghaseyo. mueoseul dowadeurilkkayo?","zh":"您好。有什么可以帮您的吗？"},
+        {"role":"user","ko":"한국어 책을 찾고 싶어요.","phonetic":"hangugeo chaegeul chatgo sipeoyo.","zh":"我想找韩语书。"},
+        {"role":"clerk","ko":"이쪽에 있어요. 따라오세요.","phonetic":"ijjoge isseoyo. ttaraoseyo.","zh":"在这边，请跟我来。"},
+        {"role":"user","ko":"감사합니다. 이 책 한 권 빌릴 수 있어요?","phonetic":"gamsahamnida. i chaek han gwon billil su isseoyo?","zh":"谢谢。这本书我能借一本吗？"},
+        {"role":"clerk","ko":"네, 가능해요. 학생증이 필요해요.","phonetic":"ne, ganeunghaeyo. haksaengjeungi piryohaeyo.","zh":"可以，需要学生证。"},
+        {"role":"user","ko":"네, 여기 있어요. 고마워요.","phonetic":"ne, yeogi isseoyo. gomawoyo.","zh":"好的，在这里。谢谢您。"}
+      ],
+      "tips":["借书时“한 권（一本）”这类量词要记好，指示卷数的量词用“권”。","“따라오세요”（请跟我来）在问路、带路时很常用。"]
+    }
+  ]
+}

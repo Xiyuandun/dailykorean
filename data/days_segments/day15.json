@@ -1,0 +1,82 @@
+{
+  "words": [
+    {"word":"호텔","phonetic":"hotel","meaning":"酒店（名词）","example":"서울에 있는 호텔을 예약했어요.","exampleZh":"我预约了首尔的一家酒店。"},
+    {"word":"예약","phonetic":"yeyak","meaning":"预约、预订（名词）","example":"이 호텔에 방을 예약하고 싶어요.","exampleZh":"我想在这家酒店订一个房间。"},
+    {"word":"객실","phonetic":"gaeksil","meaning":"客房（名词）","example":"객실이 아주 깨끗해요.","exampleZh":"客房非常干净。"},
+    {"word":"체크인","phonetic":"chekeuin","meaning":"办理入住（名词）","example":"오후 3시부터 체크인이 가능해요.","exampleZh":"从下午3点起可以办理入住。"},
+    {"word":"체크아웃","phonetic":"chekeuaut","meaning":"退房（名词）","example":"체크아웃은 11시까지예요.","exampleZh":"退房时间是11点之前。"},
+    {"word":"프런트","phonetic":"peureonteu","meaning":"前台（名词）","example":"프런트에 문의해 보세요.","exampleZh":"请到前台咨询。"},
+    {"word":"창문","phonetic":"changmun","meaning":"窗户（名词）","example":"방 안에 창문이 있어요.","exampleZh":"房间里有一扇窗户。"},
+    {"word":"침대","phonetic":"chimdae","meaning":"床（名词）","example":"침대가 부드럽고 편해요.","exampleZh":"床又软又舒服。"},
+    {"word":"수건","phonetic":"sugeon","meaning":"毛巾（名词）","example":"수건을 하나 더 주세요.","exampleZh":"请再给我一条毛巾。"},
+    {"word":"와이파이","phonetic":"waipai","meaning":"无线网络 Wi-Fi（名词）","example":"와이파이 비밀번호가 뭐예요?","exampleZh":"Wi-Fi密码是多少？"}
+  ],
+  "article": {
+    "title":"호텔에서의 하루",
+    "titleZh":"在酒店的一天",
+    "paragraphs": [
+      {"en":"서울 여행 중에 좋은 호텔을 예약했어요. 오후에 도착해서 체크인을 했어요.","phonetic":"seoul yeohaeng jung-e joheun hoteureul yeyakhaesseoyo. ohu-e dochakaeseo chekeuin-eul haesseoyo.","zh":"首尔旅行期间预约了一家很好的酒店。下午到达后办理了入住。"},
+      {"en":"프런트에서 직원이 친절하게 안내해 주셨어요. 방으로 가서 짐을 풀었어요.","phonetic":"peureonteu-eseo jigwoni chinjeolhage annaehae jusyeosseoyo. bang-euro gaseo jimeul pureosseoyo.","zh":"前台工作人员热情地给我指路。我回到房间放下行李。"},
+      {"en":"새침하고 깨끗한 객실이 정말 좋았어요. 창문 밖으로 도시가 보였어요.","phonetic":"saechimhago kkaekkeuthan gaeksiri jeongmal joasseoyo. changmun bakk-euro dosiga boyeosseoyo.","zh":"崭新整洁的客房真的很棒。窗外可以看到城市。"},
+      {"en":"아침에는 호텔 식당에서 맛있는 식사를 했어요. 체크아웃은 11시까지라서 여유가 있었어요.","phonetic":"achimeneun hotel sikdang-eseo masinneun siksareul haesseoyo. chekeuaut-eun yeolhan si kkajiraseo yeoyuga isseosseoyo.","zh":"早上在酒店餐厅享用了美味的早餐。退房是11点前，所以时间很充裕。"}
+    ],
+    "phrases": [
+      {"phrase":"방을 예약하다","meaning":"订房间"},
+      {"phrase":"체크인을 하다","meaning":"办理入住"},
+      {"phrase":"체크아웃을 하다","meaning":"退房"},
+      {"phrase":"방을 바꾸다","meaning":"换房间"}
+    ],
+    "grammar": [
+      {"point":"-부터 …까지","explain":"表示“从……到……”的时间范围。例：오후 3시부터 체크인이 가능해요（从下午3点起可以入住）。"},
+      {"point":"-(으)ㄹ 수 있어요","explain":"表示“能够……、可以……”。例：창문 밖으로 도시를 볼 수 있어요（透过窗外可以看到城市）。"},
+      {"point":"밖으로","explain":"表示方向“向外面”。“밖”是“外面”，“-으로”表朝向。例：창문 밖으로 도시가 보여요（窗外可以看到城市）。"}
+    ],
+    "tips":[
+      "韩国酒店的入住时间一般在下午3点，退房在上午11点。",
+      "要求换房间、加毛巾等都可以到前台(프런트)沟通。",
+      "预订房间用“방을 예약하다”，入住用“체크인”，退房用“체크아웃”。"
+    ],
+    "quiz": {
+      "choice": [
+        {"q":"“我想订一个房间”用韩语怎么说？","options":["방을 바꾸고 싶어요","방을 예약하고 싶어요","방을 청소할래요","방을 나가고 싶어요"],"answer":1},
+        {"q":"“退房时间是11点”用韩语怎么说？","options":["체크인은 11시예요","체크아웃은 9시예요","체크아웃은 11시까지예요","체크인은 11시까지예요"],"answer":2}
+      ],
+      "fill": [
+        {"q":"오후 3시____ 체크인이 가능해요.（从下午3点起可以办理入住）","answer":"부터"}
+      ],
+      "writing": {"prompt":"用韩语写一段话，描述你在酒店办理入住时的情景，包括预订的房间、入住时间以及你对房间的初步印象。"}
+    }
+  },
+  "scenarios": [
+    {
+      "scene":"호텔 프런트에서",
+      "situationZh":"在酒店前台办理入住手续。",
+      "roles":{"clerk":"前台工作人员","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"안녕하세요. 예약하셨나요?","phonetic":"annyeonghaseyo. yeyakhassyeonayo?","zh":"您好。您预订过了吗？"},
+        {"role":"user","ko":"네, 김민수 예약을 했어요.","phonetic":"ne, gimminsu yeyageul haesseoyo.","zh":"是的，我以金敏秀的名字预订了。"},
+        {"role":"clerk","ko":"확인해 볼게요. 여권을 보여 주시겠어요?","phonetic":"hwaginhaebolgeyo. yeogwoneul boyeo jusigesseoyo?","zh":"我核实一下。请出示护照好吗？"},
+        {"role":"user","ko":"여기 있어요. 이틀 묵을 거예요.","phonetic":"yeogi isseoyo. iteul mugeul geoyeyo.","zh":"在这里。我打算住两天。"},
+        {"role":"clerk","ko":"확인됐어요. 3층 301호입니다. 카드까지 여기 있습니다.","phonetic":"hwagin-dwaesseoyo. sam cheung sambaegi-ho imnida. kadeukkaji yeogi itseumnida.","zh":"已确认。是301号房间。房卡也在这里。"},
+        {"role":"user","ko":"고맙습니다. 아침은 어디에서 먹어요?","phonetic":"gomapseumnida. achimeun eodieseo meogeoyo?","zh":"谢谢。早餐在哪里吃？"},
+        {"role":"clerk","ko":"1층 식당에서 7시부터 9시까지예요.","phonetic":"il cheung sikdang-eseo ilgop si-buteo ahop si kkajiyeyo.","zh":"在一楼餐厅，从7点到9点。"}
+      ],
+      "tips":["办理入住时说“체크인 부탁드립니다”(麻烦办一下入住)。","确认预订会说“예약을 확인하다”(确认预订)。"]
+    },
+    {
+      "scene":"객실 안에서",
+      "situationZh":"入住后在房间内遇到问题，打电话向前台求助。",
+      "roles":{"clerk":"前台工作人员","user":"我"},
+      "turns":[
+        {"role":"user","ko":"여보세요? 프런트인가요?","phonetic":"yeoboseyo? peureonteuingayo?","zh":"喂？是前台吗？"},
+        {"role":"clerk","ko":"네, 프런트입니다. 어떻게 도와드릴까요?","phonetic":"ne, peureonteuimnida. eotteoke dowadeurilkkayo?","zh":"是的，这里是前台。有什么可以帮您？"},
+        {"role":"user","ko":"방에 수건이 부족해요. 하나 더 보내 주시겠어요?","phonetic":"bang-e sugeoni bujokhaeyo. hana deo bonae jusigesseoyo?","zh":"房间里毛巾不够，能再送一条来吗？"},
+        {"role":"clerk","ko":"네, 곧 보내 드릴게요. 또 필요한 게 있으세요?","phonetic":"ne, got bonae deurilgeyo. tto piryohan ge isseuseyo?","zh":"好的，马上给您送去。还需要别的吗？"},
+        {"role":"user","ko":"와이파이 비밀번호도 알려 주세요.","phonetic":"waipai bimilbeonhodo allyeo juseyo.","zh":"也请告诉我Wi-Fi密码。"},
+        {"role":"clerk","ko":"와이파이는 방 번호 뒤에 1234예요.","phonetic":"waipaineun bang beonho dwie ilsamsa yeoyo.","zh":"Wi-Fi密码是房间号加1234。"},
+        {"role":"user","ko":"네, 알겠습니다. 감사합니다.","phonetic":"ne, algetseumnida. gamsahamnida.","zh":"好的，我明白了。谢谢您。"}
+      ],
+      "tips":["打电话接听常说“여보세요?”(喂?)。","“보내 주세요”(请送来)、“비밀번호”(密码)是酒店常用表达。"]
+    }
+  ]
+}

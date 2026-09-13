@@ -1,0 +1,75 @@
+{
+  "words": [
+    {"word":"제목","phonetic":"jemok","meaning":"名词，标题","example":"메일 제목을 간단하게 써 주세요.","exampleZh":"请把邮件标题写得简单一点。"},
+    {"word":"본문","phonetic":"bonmun","meaning":"名词，正文","example":"본문에 자세한 내용을 적어요.","exampleZh":"在正文里写详细的内容。"},
+    {"word":"첨부","phonetic":"cheombu","meaning":"名词，附件","example":"첨부 파일을 확인해 주세요.","exampleZh":"请确认附件。"},
+    {"word":"인사말","phonetic":"insamal","meaning":"名词，问候语","example":"편지의 인사말을 쓰는 연습을 해요.","exampleZh":"练习写书信的问候语。"},
+    {"word":"작성하다","phonetic":"jakseonghada","meaning":"动词，撰写、编写","example":"내일까지 신청서를 작성해야 해요.","exampleZh":"要在明天之前填写申请表。"},
+    {"word":"확인하다","phonetic":"hwaginhada","meaning":"动词，确认","example":"답장을 확인하고 다시 연락드립니다.","exampleZh":"确认回复后再次联系您。"},
+    {"word":"답장","phonetic":"dapjang","meaning":"名词，回信、回复","example":"답장을 기다리고 있습니다.","exampleZh":"一直在等待您的回复。"},
+    {"word":"감사합니다","phonetic":"gamsahamnida","meaning":"惯用语，感谢、谢谢","example":"도와주셔서 정말 감사합니다.","exampleZh":"非常感谢您的帮助。"},
+    {"word":"양식","phonetic":"yangsik","meaning":"名词，格式、表格","example":"신청 양식을 알려 주세요.","exampleZh":"请告诉我申请表格的格式。"},
+    {"word":"끝맺다","phonetic":"kkeutmajda","meaning":"动词，结尾、收尾","example":"마지막 인사로 편지를 끝맺어요.","exampleZh":"用最后的问候语来给信件收尾。"}
+  ],
+  "article": {
+    "title":"간단한 이메일 쓰기",
+    "titleZh":"写简单的电子邮件",
+    "paragraphs": [
+      {"en":"이메일을 쓸 때는 먼저 제목을 분명하게 정합니다.","phonetic":"Imeil-eul sseul ttaeneun meonjeo jemokeul bunmyeonghage jeonghamnida.","zh":"写邮件时，首先要明确地定好标题。"},
+      {"en":"본문은 짧고 명확하게, 그리고 인사말로 시작합니다.","phonetic":"Bonmuneun jjakko myeonghwakhage, geurigo insamallo sijakhamnida.","zh":"正文要简短明确，并以问候语开头。"},
+      {"en":"중요한 내용은 첨부 파일로 보내고 꼭 확인을 부탁합니다.","phonetic":"Jung-yohan naeyong-eun cheombu pail-lo bonaego kkok hwagineul butakhamnida.","zh":"重要内容可以附上附件，并务必请求对方确认。"},
+      {"en":"마지막에는 “감사합니다”로 끝맺고 이름을 적습니다.","phonetic":"Majimak-eneun gamsahamnida-ro kkeutmajgo ireumeul jeoksseumnida.","zh":"结尾时用“感谢”收尾并写上自己的名字。"}
+    ],
+    "phrases": [
+      {"phrase":"안녕하세요","meaning":"您好（邮件开头问候）"},
+      {"phrase":"잘 부탁드립니다","meaning":"请多关照"},
+      {"phrase":"이메일을 보내다","meaning":"发送电子邮件"},
+      {"phrase":"첨부 파일을 열다","meaning":"打开附件"}
+    ],
+    "grammar": [
+      {"point":"-도록","explain":"表示目标或程度，意为“以便、使……”。例：확인하도록 부탁합니다（写邮件时常用，意为‘请审阅’）。"},
+      {"point":"-(으)ㄹ게요","explain":"表示说话人的决心或计划，意为“我会……”。例：답장을 보낼게요（我会回信）。"},
+      {"point":"-기 바라다","explain":"表达期望，意为“希望……”，正式邮件很常用。例：이해해 주시기 바랍니다（请您谅解）。"}
+    ],
+    "tips":[
+      "正式中文或邮件开头常用“안녕하세요”，结尾写“감사합니다”并署上姓名。",
+      "请求对方做某事时，“-도록 부탁드립니다”比“-세요”更正式。",
+      "写邮件时“제목（标题）”要简短清楚，方便对方一眼看懂重点。"
+    ],
+    "quiz": {
+      "choice": [
+        {"q":"邮件的“附件”用韩语怎么说？","options":["제목","본문","첨부 파일","인사말"],"answer":2},
+        {"q":"写商务邮件结尾时，最合适的一句话是？","options":["오늘 날씨가 좋아요","감사합니다","컴퓨터가 필요해요","저는 학생이에요"],"answer":1}
+      ],
+      "fill": [{"q":"메일 제목을 _있게 쓰면 좋아요.（意思是“邮件标题写得清楚些比较好”）","answer":"분명"}],
+      "writing": {"prompt":"用韩语写一封简短邮件：先问候，再说明你本周五想请假一天，结尾请求对方确认并表示感谢，注意标题、问候语和称呼。"}
+    }
+  },
+  "scenarios": [
+    {
+      "scene":"메일 보내기",
+      "situationZh":"给老师发一封邮件，说明交作业的时间并请求确认。",
+      "roles":{"clerk":"老师","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"안녕하세요, 교수님.","phonetic":"Annyeonghaseyo, gyosunim.","zh":"教授您好。"},
+        {"role":"user","ko":"안녕하세요, 교수님. 과제를 보냅니다.","phonetic":"Annyeonghaseyo, gyosunim. Gwajereul bonamnida.","zh":"教授您好，我把作业发送给您。"},
+        {"role":"clerk","ko":"과제 제목이 무엇인가요?","phonetic":"Gwaje jemogi mueosingayo?","zh":"作业的标题是什么？"},
+        {"role":"user","ko":"“한국어 작문” 과제입니다.","phonetic":"Hangugeo jakmun gwaje-imnida.","zh":"是“韩语作文”作业。"},
+        {"role":"clerk","ko":"잘 받았습니다. 검토해 보겠습니다.","phonetic":"Jal badatsseumnida. Geomtohae bogetsseumnida.","zh":"收到了，我会审阅的。"},
+        {"role":"user","ko":"감사합니다. 답장 기다리겠습니다.","phonetic":"Gamsahamnida. Dapjang gidarigetsseumnida.","zh":"谢谢您，恭候您的回信。"}
+      ],
+      "tips":["对教授或长辈要用“침니다/입니다”结尾的正式敬语，避免口语。","邮件开头先说问候“안녕하세요”，再说来意，最后致谢署名。" ]
+    },
+    {
+      "scene":"직장 답장",
+      "situationZh":"收到同事的邮件，礼貌地回复并告知已确认内容。",
+      "roles":{"clerk":"同事","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"답장을 드립니다. 잘 확인했습니다.","phonetic":"Dapjangeul deurimnida. Jal hwaginhaesseumnida.","zh":"给您回信，我已经确认过了。"},{"role":"user","ko":"네, 첨부 파일도 확인해 주세요.","phonetic":"Ne, cheombu pail-do hwaginhae juseyo.","zh":"好的，也请查看一下附件。"},{"role":"clerk","ko":"첨부 파일까지 열어 봤습니다.","phonetic":"Cheombu pailkkaji yeoreo bwatsseumnida.","zh":"附件我也打开了。"},
+        {"role":"user","ko":"고생하셨습니다. 확인해 주셔서 감사합니다.","phonetic":"Gosaenghasyeotseumnida. Hwaginhae jusyeoseo gamsahamnida.","zh":"辛苦了，谢谢您的确认。"},
+        {"role":"clerk","ko":"네, 다음에 또 연락 드리겠습니다.","phonetic":"Ne, daeume tto yeollak deurigetsseumnida.","zh":"好的，下次再联系您。"}
+      ],
+      "tips":["“고생하셨습니다”是感谢对方辛劳的敬语，职场很常用。","回复邮件可用“답장을 드립니다”，比“답장이에요”更正式。"]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "words": [
+    {"word":"여행","phonetic":"yeohaeng","meaning":"名词 旅行、旅游","example":"방학 때 한국에 여행을 가요.","exampleZh":"放假时我去韩国旅行。"},
+    {"word":"관광","phonetic":"gwan-gwang","meaning":"名词 观光、游览","example":"제주도를 관광하고 싶어요.","exampleZh":"我想去济州岛观光。"},
+    {"word":"호텔","phonetic":"hotel","meaning":"名词 酒店、旅馆","example":"호텔을 미리 예약했어요.","exampleZh":"我提前订好了酒店。"},
+    {"word":"지도","phonetic":"jido","meaning":"名词 地图","example":"지도를 보고 길을 찾았어요.","exampleZh":"我看着地图找到了路。"},
+    {"word":"관광지","phonetic":"gwanggwangji","meaning":"名词 旅游景点","example":"이곳은 유명한 관광지예요.","exampleZh":"这里是有名的旅游景点。"},
+    {"word":"지하철","phonetic":"jihacheol","meaning":"名词 地铁","example":"지하철을 타고 시내로 갔어요.","exampleZh":"我坐地铁去了市中心。"},
+    {"word":"예매","phonetic":"yemae","meaning":"名词 购票、订票","example":"기차표를 온라인으로 예매했어요.","exampleZh":"我在网上订了火车票。"},
+    {"word":"명소","phonetic":"myeongso","meaning":"名词 名胜、著名场所","example":"서울의 명소를 구경했어요.","exampleZh":"我游览了首尔的名胜。"},
+    {"word":"적다","phonetic":"jeokda","meaning":"动词 少、(数量)少","example":"관광객이 많지 않아서 사람이 적어요.","exampleZh":"游客不多，所以人很少。"},
+    {"word":"아름답다","phonetic":"areumdapda","meaning":"形容词 美丽的","example":"남산의 야경이 정말 아름다워요.","exampleZh":"南山夜景真的很美。"}
+  ],
+  "article": {
+    "title":"한국 여행","titleZh":"韩国旅行",
+    "paragraphs": [
+      {"en":"저는 지난주에 친구와 함께 한국에 여행을 갔어요.","phonetic":"jeoneun jinjujue chingugwa hamkke hanguge yeohaengeul gasseoyo","zh":"上周我和朋友一起去韩国旅行了。"},
+      {"en":"서울에 도착해서 지하철을 타고 시내의 명소들을 구경했어요.","phonetic":"seoure dochakaeseo jihacheoreul tago sina-ui myeongso-deureul gugyeonghaesseoyo","zh":"到达首尔后，我坐地铁游览了市内的名胜。"},
+      {"en":"저녁에는 남산에 올라가 도시의 아름다운 야경을 보았어요.","phonetic":"jeonyeog-eun namsane olleogaga dosi-ui areumdaun yagyeong-eul boasseoyo","zh":"晚上我登上南山，欣赏了城市美丽的夜景。"},
+      {"en":"다음에는 제주도로 가서 관광하고 싶습니다.","phonetic":"daeum-eneun jejudo-ro gaseo gwanggwangago sipseumnida","zh":"下次我想去济州岛观光旅行。"}
+    ],
+    "phrases": [
+      {"phrase":"여행을 가다","meaning":"去旅行"},
+      {"phrase":"관광을 하다","meaning":"观光、游览"},
+      {"phrase":"호텔을 예약하다","meaning":"预订酒店"},
+      {"phrase":"지하철을 타다","meaning":"乘坐地铁"},
+      {"phrase":"야경을 보다","meaning":"欣赏夜景"}
+    ],
+    "grammar": [
+      {"point":"~(으)러 가다","explain":"表示“去(做某事)”。如：여행을 가다(去旅行)、구경하러 가다(去看/逛)。"},
+      {"point":"~아서/어서","explain":"表示先后顺序或原因。如：도착해서(到达之后)、타고(乘坐并)。"},
+      {"point":"~았/었어요","explain":"过去式，“……了”，用于描述过去的经历。如：갔어요(去了)、보았어요(看了)。"},
+      {"point":"~(으)ㄹ 겁니다/입니다","explain":"表示将来的打算、计划，“将要/打算”。如：관광하고 싶습니다(想去观光)。"}
+    ],
+    "tips": [
+      "在韩国自由行，下载地铁路线图지도很方便，用지하철换乘比打车省时省钱。",
+      "온라인 예매(在线订票)通常比现场购票方便，早订还常有优惠。",
+      "问路或确认地点常用얼마나 걸려요、어디에 있어요，礼貌得体。"
+    ],
+    "quiz": {
+      "choice": [
+        {"q":"“我坐地铁去了市中心”用韩语怎么说？","options":["지하철을 타고 시내로 갔어요.","버스를 타고 멀리 갔어요.","걸어서 집에 갔어요.","비행기를 타고 여행했어요."],"answer":0},
+        {"q":"“预订酒店”对应的韩语短语是？","options":["관광을 하다","호텔을 예약하다","지도를 보다","명소를 구경하다"],"answer":1}
+      ],
+      "fill": [{"q":"지하철을 타고 시내로 갔어요. 지하철을 타_ 나는 서울에 도착했어요.","answer":"고"}],
+      "writing": {"prompt":"用韩语写一段话描述你的旅行经历：介绍一下你去过的地方、乘坐的交通工具以及看到的景色（至少5句）。"}
+    }
+  },
+  "scenarios": [
+    {
+      "scene":"호텔 체크인","situationZh":"在酒店前台办理入住登记",
+      "roles":{"clerk":"호텔 직원(酒店前台)","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"안녕하세요. 예약하셨나요?","phonetic":"annyeonghaseyo. yeyakhassyeonayo?","zh":"您好，请问有预订吗？"},
+        {"role":"user","ko":"네, 김민수라는 이름으로 예약했어요.","phonetic":"ne, gimminsu-raneun ireumeuro yeyakhaesseoyo","zh":"有的，我用金敏秀的名字订的。"},
+        {"role":"clerk","ko":"확인했습니다. 여권을 좀 보여 주시겠어요?","phonetic":"hwaginhae-ssumnida. yeogwoneul jom boyeo jusigesseoyo?","zh":"已确认。请出示一下护照好吗？"},
+        {"role":"user","ko":"여기 있습니다. 아침 식사는 몇 시부터예요?","phonetic":"yeogi itsseumnida. achim sikssaneun myeot sibuteoyeyo?","zh":"给你。早餐几点开始呢？"},
+        {"role":"clerk","ko":"아침 식사는 7시부터 9시까지입니다. 여기 열쇠와 가이드북을 드릴게요.","phonetic":"achim siksaneun 7si-buteo 9si-kkajiimnida. yeogi yeolsoewa gaideubukeul deurilgeyo","zh":"早餐从7点到9点。给您房卡和旅行指南。"},
+        {"role":"user","ko":"감사합니다. 잘 묵겠습니다.","phonetic":"gamsahamnida. jal mukgesseumnida","zh":"谢谢，我会好好住下(投宿)的。"}
+      ],
+      "tips":["用예약하셨나요确认预订情况，入住需出示여권(护照)。","问时段用몇 시부터예요，如早餐时间。","정중한表达잘 묵겠습니다(好好住下)。"]
+    },
+    {
+      "scene":"관광지에서","situationZh":"在旅游咨询处询问景点和交通路线",
+      "roles":{"clerk":"안내원(咨询员)","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"무엇을 도와드릴까요?","phonetic":"mueoseul dowadeurilkkayo?","zh":"有什么可以帮您的吗？"},
+        {"role":"user","ko":"이 근처에 유명한 관광지가 어디 있나요?","phonetic":"i geuncheoe yumyeonghan gwanggwangjiga eodi issnayo?","zh":"这附近有什么有名的景点呢？"},
+        {"role":"clerk","ko":"경복궁이 추천할 만해요. 지하철 3호선을 타고 가면 됩니다.","phonetic":"gyeongbokgungi chucheonhal manhaeyo. jihacheol samhoseoneul tago gamyeon doemnida","zh":"我推荐景福宫，坐地铁3号线就能到。"},
+        {"role":"user","ko":"거기까지 얼마나 걸려요? 표는 어떻게 예매하나요?","phonetic":"geogikkaji eolmana geollyeoyo? pyoneun eotteoke yemaehanayo?","zh":"到那里要多久？门票怎么买呢？"},
+        {"role":"clerk","ko":"삼십 분쯤 걸려요. 입장료는 온라인으로 예매하시면 할인이 돼요.","phonetic":"samsib punjjeum geollyeoyo. ipjangnyoneun onrain-euro yemaehasimyeon halini dwae-yo","zh":"大约30分钟。门票在网上预订的话有优惠。"},
+        {"role":"user","ko":"정말 도움이 됐어요. 감사합니다.","phonetic":"jeongmal doumi dwaesseoyo. gamsahamnida","zh":"真的很有帮助，谢谢。"}
+      ],
+      "tips":["推荐某地可用…이 추천할 만해요(……值得推荐)。","问交通时间用얼마나 걸려요，问怎么去用어떻게 가나요。","网上预约可享优惠，可说온라인 예매하면 할인돼요。"]
+    }
+  ]
+}

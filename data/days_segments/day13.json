@@ -1,0 +1,80 @@
+{
+  "words": [
+    {"word":"병원","phonetic":"byeongwon","meaning":"医院（名词）","example":"배가 아파서 병원에 갔어요.","exampleZh":"因为肚子疼，去了医院。"},
+    {"word":"아프다","phonetic":"apeuda","meaning":"疼痛、生病（形容词/动词）","example":"머리가 아파요.","exampleZh":"我头疼。"},
+    {"word":"아픔","phonetic":"apeum","meaning":"疼痛（名词）","example":"아픔이 점점 심해져요.","exampleZh":"疼痛越来越严重。"},
+    {"word":"열이 나다","phonetic":"yeori nada","meaning":"发烧（惯用语）","example":"어제부터 열이 나고 있어요.","exampleZh":"从昨天开始一直发烧。"},
+    {"word":"기침하다","phonetic":"gichimhada","meaning":"咳嗽（动词）","example":"기침이 오래 쉬지 않아요.","exampleZh":"咳嗽一直不停。"},
+    {"word":"약","phonetic":"yak","meaning":"药（名词）","example":"식사 후에 약을 먹으세요.","exampleZh":"饭后请吃药。"},
+    {"word":"의사","phonetic":"uisa","meaning":"医生（名词）","example":"의사 선생님이 처방을 내주셨어요.","exampleZh":"医生给我开了处方。"},
+    {"word":"진찰","phonetic":"jinchal","meaning":"诊断、检查（名词）","example":"진찰을 받고 바로 돌아왔어요.","exampleZh":"做了检查就马上回来了。"},
+    {"word":"주사","phonetic":"jusa","meaning":"打针、注射（名词）","example":"한 번 주사를 맞았어요.","exampleZh":"打了一针。"},
+    {"word":"다치다","phonetic":"dachida","meaning":"受伤（动词）","example":"운동하다가 다리를 다쳤어요.","exampleZh":"运动的时候伤了腿。"}
+  ],
+  "article": {
+    "title":"병원에 가다",
+    "titleZh":"去医院",
+    "paragraphs": [
+      {"en":"어제 밤부터 열이 나고 기침도 했어요. 아침에 몸이 너무 아파서 병원에 갔어요.","phonetic":"eoje bam-buteo yeori nago gichimdo haesseoyo. achime momi neomu apaseo byeongwon-e gasseoyo.","zh":"昨晚开始发烧，还一直咳嗽。早上身体太难受，所以就去了医院。"},
+      {"en":"병원에서 접수를 하고 진료를 기다렸어요. 사람이 많아서 조금 걸렸어요.","phonetic":"byeongwon-eseo jeopsureul hago jinryoreul gidaryeosseoyo. sarami manaseo jogeum geollesseoyo.","zh":"在医院挂号后等待就诊。因为人多，等了很久。"},
+      {"en":"의사 선생님이 저의 증상을 잘 들으시고 약을 처방해 주셨어요.","phonetic":"uisa seonsaengnimi jeoui jeungsangeul jal deureusigo yageul cheobanghae jusyeosseoyo.","zh":"医生仔细听取了我的症状，并给我开了药。"},
+      {"en":"약국에서 약을 사서 집에 왔어요. 약을 잘 먹으면 곧 나을 거예요.","phonetic":"yaguk-eseo yageul saseo jibe wasseoyo. yageul jal meogeumyeon got naeul geoyeyo.","zh":"在药房买完药回到家。好好吃药很快就会好起来。"}
+    ],
+    "phrases": [
+      {"phrase":"병원에 가다","meaning":"去医院"},
+      {"phrase":"약을 먹다","meaning":"吃药"},
+      {"phrase":"열이 나다","meaning":"发烧"}
+    ],
+    "grammar": [
+      {"point":"-고 있다","explain":"表示动作正在进行中，“正在……”。例：기침을 하고 있어요（正在咳嗽）。"},
+      {"point":"-아서/어서","explain":"表示“因为……所以……”。例：몸이 아파서 병원에 갔어요（因为身体难受所以去了医院）。"},
+      {"point":"-(으)ㄹ 거예요","explain":"表示对未来的推测或打算，“将会……”。例：곧 나을 거예요（很快就会好起来）。"}
+    ],
+    "tips":[
+      "韩国医院一般先“접수(挂号)”再“진료(就诊)”，最后到“약국(药房)”取药。",
+      "描述症状时常用“……가 아파요”(……疼)的句型，如“머리가 아파요”(头疼)。",
+      "向医生说明发烧用“열이 나요”，咳嗽用“기침을 해요”。"
+    ],
+    "quiz": {
+      "choice": [
+        {"q":"“我头疼”用韩语怎么说？","options":["배가 아파요","머리가 아파요","다리가 다쳤어요","목이 말라요"],"answer":1},
+        {"q":"“昨天开始发烧”用韩语怎么说？","options":["어제부터 열이 났어요","어제부터 기침했어요","어제부터 약을 먹었어요","어제부터 병원에 갔어요"],"answer":0}
+      ],
+      "fill": [
+        {"q":"몸이 아파서 병원에 ____（因为身体难受所以去了医院，空格填“去”的过去时）","answer":"갔어요"}
+      ],
+      "writing": {"prompt":"用韩语写一段话，描述你或别人生病去看医生的情景，包括症状、就诊过程和医生给的服用建议。"}
+    }
+  },
+  "scenarios": [
+    {
+      "scene":"진료실에서",
+      "situationZh":"在诊室里向医生描述自己的病情。",
+      "roles":{"clerk":"医生","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"어디가 불편하세요?","phonetic":"eodiga bulpyeonhaseyo?","zh":"哪里不舒服？"},
+        {"role":"user","ko":"어제부터 열이 나고 기침이 나요.","phonetic":"eoje-buteo yeori nago gichimi nayo.","zh":"从昨天开始发烧还咳嗽。"},
+        {"role":"clerk","ko":"목도 안 좋아요? 열이 있는지 재볼게요.","phonetic":"mongdo an joayo? yeori itneunji jaebolgeyo.","zh":"喉咙也不舒服吗？我给您量一下体温。"},
+        {"role":"user","ko":"네, 목이 좀 아파요.","phonetic":"ne, mogi jom apayo.","zh":"是的，喉咙有点疼。"},
+        {"role":"clerk","ko":"감기네요. 약을 며칠 동안 드세요.","phonetic":"gamgineyo. yageul myeochil dongan deuseyo.","zh":"是感冒。请吃几天药。"},
+        {"role":"user","ko":"고맙습니다. 얼마나 먹어야 해요?","phonetic":"gomapseumnida. eolmana meogeoya haeyo?","zh":"谢谢您。要吃多久呢？"},
+        {"role":"clerk","ko":"하루에 세 번, 식사 후에 먹으면 돼요.","phonetic":"harue se boen, sisa hue meogeumyeon dwaeyo.","zh":"一天三次，饭后吃就可以了。"}
+      ],
+      "tips":["描述病情常用“……가 아파요”，如“목이 아파요”(喉咙疼)。","问病程可以说“언제부터 아팠어요?”(从什么时候开始疼的)。"]
+    },
+    {
+      "scene":"약국에서",
+      "situationZh":"在药房取药，询问服药方法。",
+      "roles":{"clerk":"药剂师","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"안녕하세요. 처방전을 보여 주세요.","phonetic":"annyeonghaseyo. cheobangjeoneul boyeo juseyo.","zh":"您好。请给我看一下处方。"},
+        {"role":"user","ko":"네, 여기 있어요. 이 약은 어떻게 먹어요?","phonetic":"ne, yeogi isseoyo. i yageun eotteoke meogeoyo?","zh":"好的，在这里。这个药怎么吃？"},
+        {"role":"clerk","ko":"아침과 저녁, 식사 전에 한 번씩 먹으세요.","phonetic":"achimgwa jeonyeok, sisa jeone han beonssik meogeuseyo.","zh":"早饭和晚饭前各吃一次。"},
+        {"role":"user","ko":"물로 먹으면 돼요?","phonetic":"mullo meogeumyeon dwaeyo?","zh":"用水送服就可以吗？"},
+        {"role":"clerk","ko":"네, 미지근한 물로 드세요. 드시는 동안 운전은 조심하세요.","phonetic":"ne, mijigeunhan mullo deuseyo. deusineun dongan unjeoneun josimhaseyo.","zh":"是的，用温水送服。吃药期间驾车要注意安全。"},
+        {"role":"user","ko":"네, 알겠습니다. 고맙습니다.","phonetic":"ne, algetseumnida. gomapseumnida.","zh":"好的，我明白了。谢谢您。"}
+      ],
+      "tips":["询问用法说“어떻게 먹어요?”(怎么吃？)。","“식사 전에”(饭前)、“식사 후에”(饭后)是重要的服药时间表达。"]
+    }
+  ]
+}

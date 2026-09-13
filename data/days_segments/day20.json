@@ -1,0 +1,77 @@
+{
+  "words": [
+    {"word":"운동","phonetic":"undong","meaning":"名词 运动、锻炼","example":"매일 아침에 운동을 해요.","exampleZh":"我每天早上锻炼。"},
+    {"word":"헬스","phonetic":"helseu","meaning":"名词 (健身房)健身","example":"주말마다 헬스장에 가요.","exampleZh":"我每个周末都去健身房。"},
+    {"word":"조깅","phonetic":"joging","meaning":"名词 慢跑","example":"공원에서 조깅을 해요.","exampleZh":"我在公园里慢跑。"},
+    {"word":"튼튼하다","phonetic":"teunteunhada","meaning":"形容词 结实的、强健的(身体)","example":"운동을 하면 몸이 튼튼해져요.","exampleZh":"运动能让身体变得强壮。"},
+    {"word":"건강","phonetic":"geongang","meaning":"名词 健康","example":"건강을 위해 걷기를 해요.","exampleZh":"为了健康我去散步。"},
+    {"word":"줄넘기","phonetic":"julleomgi","meaning":"名词 跳绳","example":"아이들이 줄넘기를 좋아해요.","exampleZh":"孩子们喜欢跳绳。"},
+    {"word":"스트레칭","phonetic":"seuteureching","meaning":"名词 伸展、拉伸","example":"운동 전에 스트레칭을 해요.","exampleZh":"运动前我会先做拉伸。"},
+    {"word":"자세","phonetic":"jase","meaning":"名词 姿势","example":"올바른 자세로 운동해야 해요.","exampleZh":"要用正确的姿势运动。"},
+    {"word":"규칙적","phonetic":"gyuchikjeok","meaning":"冠形词/名词 有规律的、定期的","example":"규칙적으로 운동하는 게 중요해요.","exampleZh":"有规律地运动很重要。"},
+    {"word":"쉬다","phonetic":"swida","meaning":"动词 休息","example":"운동 후에는 꼭 쉬어야 해요.","exampleZh":"运动后一定要休息。"}
+  ],
+  "article": {
+    "title":"건강을 위한 운동","titleZh":"为了健康的运动",
+    "paragraphs": [
+      {"en":"저는 건강을 위해 매일 조깅과 스트레칭을 해요.","phonetic":"jeoneun geongangeul wihae maeil joginggwa seuteureching-eul haeyo","zh":"为了健康，我每天进行慢跑和拉伸。"},
+      {"en":"주말에는 친구와 함께 공원에서 배드민턴을 치거나 등산을 해요.","phonetic":"jumare-neun chingugwa hamkke gongwon-eseo baedemin-teoneul chigeona deungsan-eul haeyo","zh":"周末我和朋友在公园打羽毛球或去登山。"},
+      {"en":"운동할 때는 올바른 자세가 정말 중요해요.","phonetic":"undonghal ttaeneun olbareun jasega jeongmal jung-yohae-yo","zh":"运动时正确的姿势非常重要。"},
+      {"en":"규칙적으로 운동하면 몸이 튼튼해지고 스트레스도 풀려요.","phonetic":"gyuchikjeogeuro undonghamyeon momi teunteunhaeji-go seuteureseudo pullyeoyo","zh":"有规律地运动会让我身体强壮，压力也能得到缓解。"}
+    ],
+    "phrases": [
+      {"phrase":"운동을 하다","meaning":"做运动、锻炼"},
+      {"phrase":"헬스장에 가다","meaning":"去健身房"},
+      {"phrase":"조깅을 하다","meaning":"慢跑"},
+      {"phrase":"몸이 튼튼해지다","meaning":"身体变强壮"},
+      {"phrase":"스트레칭을 하다","meaning":"做拉伸"}
+    ],
+    "grammar": [
+      {"point":"~기 위해","explain":"表示“为了……”。如：건강을 위해(为了健康)。"},
+      {"point":"~(으)거나","explain":"表示两者之间的选择，“或”。如：배드민턴을 치거나 등산을 해요(打羽毛球或登山)。"},
+      {"point":"~아/어지다","explain":"表示状态变化，“变得……”。如：튼튼해지고(变得强壮)。"},
+      {"point":"~면 그렇다/~니까/규칙적","explain":"本课强调条件与规律性，如규칙적으로 운동하면(如果规律地运动)。"}
+    ],
+    "tips": [
+      "开始运动前做스트레칭(拉伸)能减少受伤风险。",
+      "描述“变得”可用…아/어져요，如몸이 튼튼해져요(身体变强壮)。",
+      "建议他人运动常说규칙적으로 운동하세요(请有规律地运动)。"
+    ],
+    "quiz": {
+      "choice": [
+        {"q":"“为了健康我去散步”用韩语怎么说？","options":["건강을 위해 걷기를 해요.","건강해서 걷지 않아요.","걷기 위해 쉬어요.","건강을 잃고 걸어요."],"answer":0},
+        {"q":"“正确的姿势”对应的韩语是？","options":["규칙적 자세","올바른 자세","위험한 자세","늦은 자세"],"answer":1}
+      ],
+      "fill": [{"q":"운동을 하지 않으면 몸이 약해져요. → “正确的姿势”的韩语是：___ 자세","answer":"올바른"}],
+      "writing": {"prompt":"用韩语写一段话介绍你的运动习惯：说明你每天或每周做什么运动、为什么这样做，以及运动带来的好处（至少5句）。"}
+    }
+  },
+  "scenarios": [
+    {
+      "scene":"헬스장에서","situationZh":"在健身房向前台咨询会员办理和教练课",
+      "roles":{"clerk":"프런트 직원(前台工作人员)","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"안녕하세요. 헬스장을 처음 오셨나요?","phonetic":"annyeonghaseyo. helseujangeul cheoeum osyeotnayo?","zh":"您好，您是第一次来这家健身房吗？"},
+        {"role":"user","ko":"네, 멤버십을 등록하고 싶어요. 가격이 어떻게 돼요?","phonetic":"ne, membeosipeul deungnokago sipeoyo. gageogi eotteoke dwaeyo?","zh":"是的，我想办会员。价格是怎样的呢？"},
+        {"role":"clerk","ko":"한 달에 8만 원이고, 개인 트레이너 수업은 따로 있어요.","phonetic":"han dare 8man wonigo, gaein teureineo sueobeun ttaro isseoyo","zh":"一个月8万韩元，私教课是另收费的。"},
+        {"role":"user","ko":"첫 수업은 무료 체험을 할 수 있어요? 이용 시간은 언제까지예요?","phonetic":"cheot sueobeun muryo cheheomeul hal su isseoyo? iyong siganeun eonjekkaji-yeyo?","zh":"第一节可以免费体验吗？营业到几点呢？"},
+        {"role":"clerk","ko":"네, 일주일에 무료 체험을 한 번 할 수 있어요. 오전 6시부터 밤 11시까지 운영해요.","phonetic":"ne, ilju-il-e muryo cheheomeul han beon hal su isseoyo. ojeon 6si-buteo bam 11si-kkaji unyeonghaeyo","zh":"可以，每周能免费体验一次。我们营业到早上6点到晚上11点。"},
+        {"role":"user","ko":"좋아요. 그럼 이번 주말에 체험을 한 번 해 볼게요.","phonetic":"joayo. geureom ibeon jumare cheheomeul han beon hae bolgeyo","zh":"好的，那我这周末来体验一次。"}
+      ],
+      "tips":["问价格用가격이 어떻게 돼요，问营业时间用언제까지예요。","免费体验说무료 체험，可以先试课再决定。","办理时可说멤버십을 등록하고 싶어요。"]
+    },
+    {
+      "scene":"공원에서 만나","situationZh":"和朋友约好一起在公园慢跑并交流运动心得",
+      "roles":{"clerk":"친구(朋友)","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"오늘 같이 조깅하자. 날씨가 운동하기 좋아.","phonetic":"oneul gachi joginghaja. nalssiga undonghagi joa","zh":"今天一起慢跑吧，天气很适合运动。"},
+        {"role":"user","ko":"좋아! 하지만 먼저 스트레칭을 하고 시작하자.","phonetic":"joa! hajiman meonjeo seuteureching-eul hago sijakaja","zh":"好呀！不过我们先做拉伸再开始吧。"},
+        {"role":"clerk","ko":"그래, 준비 운동이 중요하니까. 이번 주에 얼마나 운동했어?","phonetic":"geurae, junbi undongi jung-yohanikka. ibeon jue eolmana undonghaesseo?","zh":"对，因为热身很重要。这周你运动了多少呀？"},
+        {"role":"user","ko":"매일 아침에 공원에서 30분쯤 조깅했어. 너는 어때?","phonetic":"maeil achim-e gongwon-eseo samsib punjjeum joginghaesseo. neoneun eottae?","zh":"我每天早上在公园慢跑30分钟左右。你呢？"},
+        {"role":"clerk","ko":"나는 헬스장에서 근력 운동을 했어. 몸이 훨씬 좋아졌어.","phonetic":"naneun helseujang-eseo geullyeok undong-eul haesseo. momi hwolssin joajyeosseo","zh":"我在健身房做力量训练，身体好多了。"},
+        {"role":"user","ko":"정말 좋은 일이네! 계속 같이 운동하자.","phonetic":"jeongmal joeun ir-ine! gyesok gachi undonghaja","zh":"真好呀！我们继续一起运动吧。"}
+      ],
+      "tips":["热身准备可说준비 운동 또는 스트레칭을 하고 시작하자。","约一起做某事用같이 ~하자/~하자고，是朋友间的自然说法。","表达身体状况改善用몸이 좋아졌어(身体变好了)。"]
+    }
+  ]
+}

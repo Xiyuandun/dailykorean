@@ -1,0 +1,78 @@
+{
+  "words": [
+    {"word":"취미","phonetic":"chwimi","meaning":"名词 兴趣、爱好","example":"제 취미는 독서예요.","exampleZh":"我的爱好是读书。"},
+    {"word":"노래","phonetic":"norae","meaning":"名词 歌曲、唱歌","example":"저는 노래를 잘 부르지 못해요.","exampleZh":"我唱歌唱得不太好。"},
+    {"word":"사진","phonetic":"sajin","meaning":"名词 照片、摄影","example":"사진을 찍는 것을 좋아해요.","exampleZh":"我喜欢拍照。"},
+    {"word":"음악","phonetic":"eumak","meaning":"名词 音乐","example":"클래식 음악을 자주 들어요.","exampleZh":"我经常听古典音乐。"},
+    {"word":"요리","phonetic":"yori","meaning":"名词 料理、烹饪","example":"주말마다 한국 요리를 만들어요.","exampleZh":"每个周末我都做韩国料理。"},
+    {"word":"영화","phonetic":"yeonghwa","meaning":"名词 电影","example":"주말에 영화를 봐요.","exampleZh":"我周末看电影。"},
+    {"word":"그림","phonetic":"geurim","meaning":"名词 画、绘画","example":"어렸을 때 그림을 그리기를 좋아했어요.","exampleZh":"小时候我喜欢画画。"},
+    {"word":"여행","phonetic":"yeohaeng","meaning":"名词 旅行","example":"한국 여행을 계획하고 있어요.","exampleZh":"我正在计划韩国旅行。"},
+    {"word":"시간","phonetic":"sigan","meaning":"名词 时间","example":"취미를 위한 시간이 없어요.","exampleZh":"我没有用来发展兴趣爱好的时间。"},
+    {"word":"즐기다","phonetic":"jeulgida","meaning":"动词 享受、欣赏","example":"나는 피아노 연주를 즐겨요.","exampleZh":"我喜欢(享受)弹钢琴。"}
+  ],
+  "article": {
+    "title":"제 취미","titleZh":"我的爱好",
+    "paragraphs": [
+      {"en":"제 취미는 노래 부르기와 사진 찍기예요.","phonetic":"je chwimineun norae bureugiwa sajin jjikgiyeyo","zh":"我的爱好是唱歌和拍照。"},
+      {"en":"주말에는 친구와 함께 노래방에 가서 노래를 부르고, 산에 올라가 사진을 찍어요.","phonetic":"jumareneun chingugwa hamkke noraebang-e gaseo noraeleul bureugo, sane olleogaga sajineul jjigeoyo","zh":"周末我和朋友一起去卡拉OK唱歌，还上山去拍照。"},
+      {"en":"요리도 좋아해서 유튜브를 보면서 새로운 요리를 배워요.","phonetic":"yorido joahaeseo yutyubeureul bomyeonseo saeroun yorireul baewoyo","zh":"我也喜欢烹饪，一边看YouTube一边学做新菜。"},
+      {"en":"취미를 즐기면 스트레스가 줄고 기분이 좋아져요.","phonetic":"chwimireul jeulgimyeon seuteureseu-ga julgode gibuni joajyeoyo","zh":"享受兴趣爱好能减轻压力、让心情变好。"}
+    ],
+    "phrases": [
+      {"phrase":"취미를 가지다","meaning":"拥有兴趣爱好"},
+      {"phrase":"노래를 부르다","meaning":"唱歌"},
+      {"phrase":"사진을 찍다","meaning":"拍照、摄影"},
+      {"phrase":"요리를 하다","meaning":"做菜、烹饪"},
+      {"phrase":"스트레스가 풀리다","meaning":"缓解压力"}
+    ],
+    "grammar": [
+      {"point":"~기도 하다","explain":"表示“也……”，强调兼有或多种情况。如：요리도 좋아해서(也喜欢烹饪)。"},
+      {"point":"~(으)면서","explain":"表示两个动作同时进行，“一边……一边……”。如：유튜브를 보면서(一边看YouTube一边)。"},
+      {"point":"~(으)려고/A/V아/어요","explain":"此处用-서表示原因，“因为……所以”。如：좋아해서(因为喜欢所以)。"},
+      {"point":"~(으)면","explain":"表示假设条件“如果……”。如：즐기면(如果享受的话)。"}
+    ],
+    "tips": [
+      "노래방(卡拉OK)是韩国很流行的聚会场所，和朋友去唱歌很普遍。",
+      "表达“没有”时用없어요，例如：시간이 없어요(没有时间)。",
+      "动词词干+n是常把动作名词化的方式，如노래 부르기(唱歌这件事)、사진 찍기(拍照)。"
+    ],
+    "quiz": {
+      "choice": [
+        {"q":"“我的爱好是唱歌”用韩语怎么说？","options":["제 취미는 노래 부르기예요.","저는 만화예요.","제 취미가 없어요.","노래는 좋아하지 않아요."],"answer":0},
+        {"q":"“一边看YouTube一边学做菜”中的“一边……一边……”对应哪个语法？","options":["~(으)면서","~(으)면","~지만","~아서"],"answer":0}
+      ],
+
+      "fill": [{"q":"사진을 찍_ 것을 좋아해요.","answer":"는"}],
+      "writing": {"prompt":"用韩语写一段话介绍你的兴趣爱好：说明你日常喜欢做什么（如听音乐、拍照、做料理），并解释为什么喜欢它（至少5句）。"}
+    }
+  },
+  "scenarios": [
+    {
+      "scene":"취미 이야기","situationZh":"和朋友聊天，聊各自的兴趣爱好",
+      "roles":{"clerk":"친구(朋友)","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"너는 취미가 뭐야?","phonetic":"neoneun chwimiga mwoya?","zh":"你有什么爱好呀？"},
+        {"role":"user","ko":"나는 노래 부르기와 사진 찍기를 좋아해. 네 취미는 뭐야?","phonetic":"naneun norae bureugiwa sajin jjikgireul joahae. ne chwimineun mwoya?","zh":"我喜欢唱歌和拍照。你的爱好是什么呢？"},
+        {"role":"clerk","ko":"나는 요리하는 걸 좋아해. 주말마다 새로운 요리를 만들어 봐.","phonetic":"naneun yorihaneun geol joahae. jumalmada saeroun yorireul mandeureo bwa","zh":"我喜欢做菜，每个周末都会试着做新菜。"},
+        {"role":"user","ko":"우와, 대단하다! 나도 다음에 같이 요리해 볼래?","phonetic":"uwa, daedanhada! nado daeume gachi yorihae bollae?","zh":"哇，真厉害！下次要不要我们一起做菜？"},
+        {"role":"clerk","ko":"좋아, 그럼 다음 주말에 우리 집에서 같이 만들자.","phonetic":"joa, geureom daeum jumare uri jibeseo gachi mandeulja","zh":"好啊，那下周末到我家一起做吧。"},
+        {"role":"user","ko":"그래, 약속해! 그때 필요한 재료는 내가 준비할게.","phonetic":"geurae, yaksokhae! geuttae piryohan jaeryoneun naega junbihalge","zh":"好，说定了！到时候需要的材料我来准备。"}
+      ],
+      "tips":["朋友间用半语(해체)，如뭐야、만들자，正式场合要用해요体。","介绍自己喜欢做什么可加걸 좋아해요/좋아해(喜欢……这件事)。","邀請一起做事用같이 ~할래?(要不要一起……)很自然。"]
+    },
+    {
+      "scene":"취미 수업 신청","situationZh":"在文化中心咨询并报名绘画课程",
+      "roles":{"clerk":"직원(工作人员)","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"안녕하세요. 어떤 수업을 찾으세요?","phonetic":"annyeonghaseyo. eotteon sueobeul chajeuseyo?","zh":"您好，您想找什么样的课程呢？"},
+        {"role":"user","ko":"그림 그리기 수업을 듣고 싶어요. 언제 열려요?","phonetic":"geurim geurigi sueobeul deudgo sipeoyo. eonje yeollyeoyo?","zh":"我想上绘画课。它什么时候开课呢？"},
+        {"role":"clerk","ko":"매주 수요일 저녁에 열려요. 한 달에 4시간씩이에요.","phonetic":"maeju suyoil jeonyeoge yeollyeoyo. han dare 4 siganjjigiyeyo","zh":"每周三晚上开课，一个月上4次。"},
+        {"role":"user","ko":"수강료는 얼마예요? 신청은 어떻게 하면 돼요?","phonetic":"sugangnyoneun eolmayeyo? sincheongeun eotteoke hamyeon dwaeyo?","zh":"学费是多少呢？该怎么报名？"},
+        {"role":"clerk","ko":"한 달에 5만 원이에요. 홈페이지에서 온라인으로 신청하시면 됩니다.","phonetic":"han dare omang wonieyo. hompeijieseo onrain-euro sincheonghasimyeon doemnida","zh":"一个月五万韩元，在网上申请就可以了。"},
+        {"role":"user","ko":"알겠습니다. 그럼 온라인으로 신청할게요. 감사합니다.","phonetic":"algesseumnida. geureom onrain-euro sincheonghalgeyo. gamsahamnida","zh":"我知道了，那我就在网上报名。谢谢。"}
+      ],
+      "tips":["询问时间/次数用언제、며칠、몇 번这样的疑问词更清楚。","问价格用얼마예요，问申请方式用어떻게 하면 돼요。","“就可以”用하면 됩니다，是常用的许可表达。"]
+    }
+  ]
+}

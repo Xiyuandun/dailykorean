@@ -1,0 +1,73 @@
+{
+  "words": [
+    {"word":"만나다","phonetic":"mannada","meaning":"动词：见面，相见","example":"주말에 친구를 만나요.","exampleZh":"周末跟朋友见面。"},
+    {"word":"약속","phonetic":"yaksok","meaning":"名词：约定，约会","example":"우리 약속이 있어요.","exampleZh":"我们有一个约定。"},
+    {"word":"시간","phonetic":"sigan","meaning":"名词：时间","example":"시간이 있으면 같이 커피 마실까요?","exampleZh":"如果有时间，要一起喝杯咖啡吗？"},
+    {"word":"장소","phonetic":"jangso","meaning":"名词：场所，地点","example":"만날 장소는 어디예요?","exampleZh":"见面的地点是哪？"},
+    {"word":"좋아요","phonetic":"joayo","meaning":"形容词/感叹：好，好的","example":"그 약속 좋아요.","exampleZh":"那个约定挺好的。"},
+    {"word":"바쁘다","phonetic":"bappeuda","meaning":"形容词：忙","example":"이번 주는 좀 바빠요.","exampleZh":"这周有点忙。"},
+    {"word":"빠지다","phonetic":"ppajida","meaning":"动词：缺席；错过","example":"모임에 빠지지 마세요.","exampleZh":"不要错过聚会。"},
+    {"word":"전화하다","phonetic":"jeonhwahada","meaning":"动词：打电话","example":"나중에 전화할게요.","exampleZh":"我待会打电话给你。"},
+    {"word":"함께","phonetic":"hamkke","meaning":"副词：一起","example":"우리 함께 저녁을 먹어요.","exampleZh":"我们一起吃晚饭吧。"},
+    {"word":"쉬다","phonetic":"swida","meaning":"动词：休息","example":"주말에 푹 쉬고 싶어요.","exampleZh":"周末想好好休息。"}
+  ],
+  "article": {
+    "title":"주말에 친구와 만나기","titleZh":"周末和朋友见面",
+    "paragraphs": [
+      {"en":"주말에 친구와 만나기로 약속했어요.","phonetic":"jumare chinguwa mannagiro yaksokaesseoyo.","zh":"我约好了周末和朋友见面。"},
+      {"en":"친구는 바빠서 오후에 시간이 있어요.","phonetic":"chinguneun bappaseo ohue sigani isseoyo.","zh":"朋友很忙，下午才有时间。"},
+      {"en":"우리는 카페에서 만나서 같이 커피를 마실 거예요.","phonetic":"urineun kapeseo mannaseo gachi keopireul masil geoyeyo.","zh":"我们要在咖啡店见面，一起喝咖啡。"},
+      {"en":"약속한 시간과 장소를 꼭 확인하고 가세요.","phonetic":"yaksokhan sigangwa jangsoreul kkok hwaginhago gaseyo.","zh":"一定要确认好约定的时间和地点再出发。"}
+    ],
+    "phrases": [
+      {"phrase":"약속을 잡다","meaning":"定约定，约时间"},
+      {"phrase":"장소를 정하다","meaning":"定地点"},
+      {"phrase":"시간이 맞다","meaning":"时间合适"}
+    ],
+    "grammar": [
+      {"point":"-기로 하다","explain":"表示决定做某事，常用于约定、计划。如 '만나기로 했어요'（决定见面）。"},
+      {"point":"-고 싶다","explain":"表示愿望'想…'，如 '쉬고 싶어요'（想休息）。"},
+      {"point":"을/를 예요? (의문)","explain":"疑问句尾，口语中常用 '인가요/예요' 表确认，如 '장소는 어디예요?'"}
+    ],
+    "tips": ["韩国人约会常用 '몇 시에? 어디에서?' 直接确认时间地点，显得干脆利落。","迟到时要说 '죄송합니다. 늦었어요!' 表示道歉。","聚会结束时常说 '다음에 또 만나요'（下次再见）。"],
+    "quiz": {
+      "choice": [
+        {"q":"'주말에 친구를 만나요' 的中文意思是？","options":["周末去上班","周末见朋友","周末做饭","周末学习"],"answer":1},
+        {"q":"'장소' 的意思是？","options":["时间","地点","朋友","咖啡"],"answer":1}
+      ],
+      "fill": [
+        {"q":"我们约好了周末见面。 __________. (만나기로 했어요)","answer":"주말에 만나기로 했어요"},
+        {"q":"想一起喝杯咖啡吗？ __________________? (마실까요)","answer":"같이 커피 마실까요"}
+      ],
+      "writing": {"prompt":"写一段韩语对话，内容是和朋友约好周末见面，确定时间、地点，并互相告别。"}
+    }
+  },
+  "scenarios": [
+    {
+      "scene":"약속 정하기","situationZh":"和朋友打电话，商量周末见面的时间和地点",
+      "roles":{"clerk":"朋友 미나","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"이번 주말에 시간 있어?","phonetic":"ibeon jumal-e sigani isseo?","zh":"这周末你有时间吗？"},
+        {"role":"user","ko":"응, 토요일 오후에는 괜찮아.","phonetic":"eung, toyoil ohu-oneun gwaenchana.","zh":"嗯，周六下午没问题。"},
+        {"role":"clerk","ko":"그럼 어디에서 만날까?","phonetic":"geureom eodieseo mannalkka?","zh":"那么我们去哪儿见面？"},
+        {"role":"user","ko":"학교 근처 카페는 어때?","phonetic":"hakgyo geuncheo khapeneun eottae?","zh":"学校附近的咖啡店怎么样？"},
+        {"role":"clerk","ko":"좋아! 세 시에 만나자.","phonetic":"joa! se sie mannaja.","zh":"好啊！三点见吧。"},
+        {"role":"user","ko":"그래, 그럼 거기서 보자.","phonetic":"geurae, geureom geogiseo boja.","zh":"好，那就在那里见。"}
+      ],
+      "tips":["口语中常用 '있어?'(有吗)、'어때?'(怎么样) 等亲切用语。","'만나자' 是敬语的 '만나요' 的亲密体，朋友间使用。"]
+    },
+    {
+      "scene":"약속 바꾸기","situationZh":"因为临时有事，跟朋友改约见面时间",
+      "roles":{"clerk":"朋友 재민","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"내일 저녁에 시간 될까?","phonetic":"nae-il jeonyeog-e sigan doelkka?","zh":"明晚有空吗？"},
+        {"role":"user","ko":"미안, 내일은 좀 바빠.","phonetic":"mian, nae-ir-eun jom bappa.","zh":"抱歉，明天有点忙。"},
+        {"role":"clerk","ko":"그럼 언제가 괜찮아?","phonetic":"geureom eonjega gwaenchana?","zh":"那什么时候方便？"},
+        {"role":"user","ko":"주말이 더 좋을 것 같아.","phonetic":"jumal-i deo jo-eul geot gata.","zh":"周末可能更好。"},
+        {"role":"clerk","ko":"알겠어. 그러면 토요일로 하자.","phonetic":"algetseo. geureomyeon toyoil-lo haja.","zh":"明白了。那就定周六吧。"},
+        {"role":"user","ko":"응, 그때 꼭 보자!","phonetic":"eung, geuttae kkok boja!","zh":"嗯，到时候一定要见！"}
+      ],
+      "tips":["改约时说 '미안'（抱歉）先表达歉意很自然。","'로 하자' 表示'就定在…吧'，用于确定时间。"]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "words": [
+    {"word":"가족","phonetic":"gajok","meaning":"家庭；家人（名词）","example":"우리 가족은 네 명이에요.","exampleZh":"我们家有四位成员。"},
+    {"word":"아버지","phonetic":"abeoji","meaning":"父亲（名词）","example":"아버지는 선생님이세요.","exampleZh":"我爸爸是老师。"},
+    {"word":"어머니","phonetic":"eomeoni","meaning":"母亲（名词）","example":"어머니는 회사에 다니세요.","exampleZh":"妈妈在公司上班。"},
+    {"word":"아빠","phonetic":"appa","meaning":"爸爸（名词·口语）","example":"아빠, 뭐 하세요?","exampleZh":"爸爸，您在做什么？"},
+    {"word":"엄마","phonetic":"eomma","meaning":"妈妈（名词·口语）","example":"엄마가 집밥을 해 주세요.","exampleZh":"妈妈给我做家常饭。"},
+    {"word":"형","phonetic":"hyeong","meaning":"哥哥（男性称呼年长男性）（名词）","example":"형이 저를 많이 도와줘요.","exampleZh":"哥哥经常帮我。"},
+    {"word":"누나","phonetic":"nuna","meaning":"姐姐（男性称呼年长女性）（名词）","example":"누나가 맛있는 걸 사 줬어요.","exampleZh":"姐姐给我买了好吃的。"},
+    {"word":"여동생","phonetic":"yeodongsaeng","meaning":"妹妹（名词）","example":"여동생은 대학생이에요.","exampleZh":"我妹妹是大学生。"},
+    {"word":"남동생","phonetic":"namdongsaeng","meaning":"弟弟（名词）","example":"남동생이 축구를 좋아해요.","exampleZh":"我弟弟喜欢踢足球。"},
+    {"word":"할머니","phonetic":"halmeoni","meaning":"奶奶；祖母（名词）","example":"할머니 댁에 자주 가요.","exampleZh":"我常去奶奶家。"}
+  ],
+  "article": {
+    "title":"우리 가족","titleZh":"我的家人",
+    "paragraphs": [
+      {"en":"우리 가족은 모두 다섯 명입니다.","phonetic":"uri gajogeun modu daseot myeongimnida","zh":"我们家一共有五口人。"},
+      {"en":"아버지와 어머니, 형, 여동생 그리고 제가 함께 삽니다.","phonetic":"abeojiwa eomeoni, hyeong, yeodongsaeng geurigo jegah hamkke samnida","zh":"爸爸、妈妈、哥哥、妹妹和我住在一起。"},
+      {"en":"아버지는 은행에서 일하시고 어머니는 병원에서 일하십니다.","phonetic":"abeojineun eunhaeng-eseo irhasigo eomeonineun byeongwon-eseo irhasimnida","zh":"爸爸在银行工作，妈妈在医院工作。"},
+      {"en":"저는 가족과 함께 있는 시간이 가장 좋습니다.","phonetic":"jeoneun gajokgwa hamkke itneun sigani gajang joseumnida","zh":"和家人在一起的时光是我最喜欢的。"}
+    ],
+    "phrases": [
+      {"phrase":"가족과 함께","meaning":"和家人一起"},
+      {"phrase":"일하시다","meaning":"（敬语）工作"},
+      {"phrase":"~명","meaning":"……位（人数单位）"},
+      {"phrase":"가장 좋다","meaning":"最喜欢；最好"}
+    ],
+    "grammar": [
+      {"point":"-(이)세요","explain":"表示“是……”的敬语疑问句，예: 아버지가 되세요?（您父亲是老师吗？）"},
+      {"point":"-시-","explain":"尊称主体的敬语词缀，放在动词谓词后，如 일하시다(工作-敬语)、주무시다(睡觉-敬语)。"},
+      {"point":"~명","explain":"人数单位“……位、……个人”，예: 네 명(四人)。"},
+      {"point":"가장","explain":"副词“最”，예: 가장 좋아해요.（最喜欢。）"}
+    ],
+    "tips": [
+      "称呼长辈要用敬语，如 “아버지/−세요”。",
+      "“아버지/어머니” 是正式，口语用 “아빠/엄마”。"
+    ],
+    "quiz": {
+      "choice": [
+        {"q":"“어머니” 指的是谁？","options":["爸爸","妈妈","哥哥","奶奶"],"answer":1},
+        {"q":"“우리 가족은 네 명이에요” 说的是几人？","options":["三人","四人","五人","六人"],"answer":1}
+      ],
+      "fill": [
+        {"q":"我们家有五口人：우리 가족은 다섯 _입니다.","answer":"명"}
+      ],
+      "writing": {"prompt":"用韩语写一段简单的介绍，说说你的家人都有谁、在哪里工作或上学，并用上“아버지、어머니、형、여동생”等家庭词汇。"}
+    }
+  },
+  "scenarios": [
+    {
+      "scene":"가족 소개","situationZh":"你向新朋友介绍自己家人的情况。",
+      "roles":{"clerk":"朋友","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"가족이 몇 명이 있어요?","phonetic":"gajogi myeot myeong-i isseoyo?","zh":"你家有几口人呢？"},
+        {"role":"user","ko":"우리 가족은 네 명이에요.","phonetic":"uri gajogeun ne myeong-ieyo.","zh":"我们家有四口人。"},
+        {"role":"clerk","ko":"누가 누가 있니?","phonetic":"nuga nuga inne?","zh":"家里都有谁呀？"},
+        {"role":"user","ko":"아버지, 어머니, 여동생 그리고 저예요.","phonetic":"abeoji, eomeoni, yeodongsaeng geurigo jeoyeyo.","zh":"爸爸、妈妈、妹妹和我。"},
+        {"role":"clerk","ko":"여동생이 몇 살이야?","phonetic":"yeodongsaeng-i myeot sar-iya?","zh":"你妹妹几岁呀？"}
+      ],
+      "tips":[
+        "“몇 살” 用来问年龄。",
+        "口语中 “-이야/-니” 用于亲密的朋友之间。"
+      ]
+    },
+    {
+      "scene":"집에서 대화","situationZh":"你放学回家后，和妈妈在厨房里的一段对话。",
+      "roles":{"clerk":"妈妈","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"학교에서 잘 다녀왔니?","phonetic":"hakgyo-eseo jar danyeowanni?","zh":"从学校顺利回来了吗？"},
+        {"role":"user","ko":"네, 엄마 오늘 뭐 해 줄 거예요?","phonetic":"ne, eomma oneul mwo hae jul geoyeyo?","zh":"嗯，妈妈今天要给我做什么？"},
+        {"role":"clerk","ko":"좋아하는 김치찌개를 끓였어.","phonetic":"joahaneun kimchijjigaereul kkeuryeosseo.","zh":"做了你喜欢吃的泡菜汤。"},
+        {"role":"user","ko":"와, 엄마 최고예요!","phonetic":"wa, eomma choegoyeyo!","zh":"哇，妈妈太棒了！"},
+        {"role":"clerk","ko":"빨리 씻고 밥 먹자.","phonetic":"ppalli siskko bap meokja.","zh":"快去洗漱，然后吃饭吧。"}
+      ],
+      "tips":[
+        "和家人说 “다녀왔니?” 表示“回来了吗？”。",
+        "“-자” 用于提议“一起做……吧”。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "words": [
+    {"word":"지하철","phonetic":"jihacheol","meaning":"地铁（名词）","example":"지하철을 타고 학교에 가요.","exampleZh":"我坐地铁去学校。"},
+    {"word":"버스","phonetic":"beoseu","meaning":"公交车（名词）","example":"버스가 언제 와요?","exampleZh":"公交车什么时候来？"},
+    {"word":"택시","phonetic":"taeksi","meaning":"出租车（名词）","example":"택시를 불러 주세요.","exampleZh":"请帮我叫一辆出租车。"},
+    {"word":"역","phonetic":"yeok","meaning":"车站（名词）","example":"이 역에서 내려요.","exampleZh":"在这个站下车。"},
+    {"word":"정류장","phonetic":"jeongnyujang","meaning":"（公交/车站）站台；停靠站（名词）","example":"버스 정류장이 어디예요?","exampleZh":"公交车站在哪里？"},
+    {"word":"타다","phonetic":"tada","meaning":"乘坐（动词）","example":"오늘 지하철을 탔어요.","exampleZh":"今天我坐了地铁。"},
+    {"word":"내리다","phonetic":"naerida","meaning":"下车；下来（动词）","example":"두 정거장 뒤에 내리세요.","exampleZh":"请在两站之后下车。"},
+    {"word":"환승하다","phonetic":"hwanseunghada","meaning":"换乘（动词）","example":"시청역에서 2호선으로 환승해요.","exampleZh":"在市厅站换乘2号线。"},
+    {"word":"표","phonetic":"pyo","meaning":"票（名词）","example":"교통카드로 표를 살 수 있어요.","exampleZh":"可以用交通卡买票。"},
+    {"word":"얼마나 걸리다","phonetic":"eolmana geollida","meaning":"花多少（时间）（动词短语）","example":"지하철로 얼마나 걸려요?","exampleZh":"坐地铁要花多长时间？"}
+  ],
+  "article": {
+    "title":"한국 교통 이용하기","titleZh":"使用韩国公共交通",
+    "paragraphs": [
+      {"en":"한국에서는 지하철과 버스가 가장 편리한 교통수단입니다.","phonetic":"hangugeseoneun jihacheolgwa beoseuga gajang pyeollihan gyotongsudanimnida","zh":"在韩国，地铁和公交是最方便的交通工具。"},
+      {"en":"먼저 지하철을 타려면 교통카드를 준비해야 합니다.","phonetic":"meonjeo jihacheoreul taryeomyeon gyotongkadeureul junbihaeya hamnida","zh":"坐地铁之前，要先准备好交通卡。"},
+      {"en":"역 안에 있는 자판기에서 표를 살 수 있습니다.","phonetic":"yeok ane itneun japangieseo pyoreul sal su itseumnida","zh":"可以在车站里的自动售票机上买票。"},
+      {"en":"다음 역에서 내릴 때는 '내릴 준비'라고 말하며 출입문 근처에 서 있어야 합니다.","phonetic":"daeum yeogeseo naeril ttaeneun naeril junbirago malhamyeo churimmun geuncheoe seo isseoya hamnida","zh":"要在下一站下车时，应站到车门附近，并说“我要下车”。"}
+    ],
+    "phrases": [
+      {"phrase":"지하철을 타다","meaning":"坐地铁"},
+      {"phrase":"버스 정류장","meaning":"公交车站"},
+      {"phrase":"내릴 준비","meaning":"准备下车"},
+      {"phrase":"환승을 하다","meaning":"换乘"}
+    ],
+    "grammar": [
+      {"point":"-(으)려면","explain":"表示“要想……的话”，用于表达做某事的前提条件，如 타려면（想要乘坐的话）。"},
+      {"point":"-에서 -로 환승하다","explain":"表示“在……站换乘到……线路”，예: 시청역에서 2호선으로 환승해요。"},
+      {"point":"-(으)ㄹ 수 있다","explain":"表示“能够、可以”，예: 표를 살 수 있어요.（可以买票。）"}
+    ],
+    "tips": [
+      "坐地铁/公交时，韩国常用 “교통카드(交通卡)” 刷卡更方便。",
+      "下车前用 “내릴 준비” 或按车门上的按钮提示司机。"
+    ],
+    "quiz": {
+      "choice": [
+        {"q":"‘지하철을 타다’是什么意思？","options":["坐地铁","坐公交","坐出租车","坐火车"],"answer":0},
+        {"q":"换乘韩语怎么说？","options":["내리다","환승하다","타다","걸리다"],"answer":1}
+      ],
+      "fill": [
+        {"q":"从市厅站换乘到2号线：시청역에서 2_선으로 환승해요.","answer":"호"}
+      ],
+      "writing": {"prompt":"用韩语写一段话，描述你今天是怎么坐地铁或公交去某个地方的，包括在哪里上车、在哪一站下车、花了多长时间。"}
+    }
+  },
+  "scenarios": [
+    {
+      "scene":"지하철 안내","situationZh":"你在首尔地铁站内向车站工作人员咨询坐车路线。",
+      "roles":{"clerk":"车站工作人员","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"안녕하세요, 어디로 가세요?","phonetic":"annyeonghaseyo, eodiro gaseyo?","zh":"您好，您要去哪里？"},
+        {"role":"user","ko":"서울역에 가고 싶은데, 어떻게 가요?","phonetic":"seouryeoge gago sipeunde, eotteoke gayo?","zh":"我想去首尔站，该怎么走？"},
+        {"role":"clerk","ko":"4호선을 타고 두 정거장 가면 돼요.","phonetic":"sahoseoneul tago du jeonggeojang gamyeon dwaeyo.","zh":"坐4号线，坐两站就到了。"},
+        {"role":"user","ko":"어디에서 환승해야 해요?","phonetic":"eodieseo hwanseunghaeya haeyo?","zh":"我需要在哪儿换乘？"},
+        {"role":"clerk","ko":"환승은 필요 없어요. 그대로 타면 돼요.","phonetic":"hwanseung-eun piryo eopseoyo. geudaero tamyeon dwaeyo.","zh":"不需要换乘，直接坐就行。"}
+      ],
+      "tips":[
+        "4호선 = 4号线，호(线)表示地铁线路号。",
+        "“얼마나 걸려요?” 可用于询问所需时间。"
+      ]
+    },
+    {
+      "scene":"버스 안에서","situationZh":"你在公交车上，下车前向附近的乘客确认站名。",
+      "roles":{"clerk":"乘客","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"다음 정류장은 시청입니다.","phonetic":"daeum jeongnyujang-eun sicheongimnida.","zh":"下一站是市厅。"},
+        {"role":"user","ko":"여기서 내리면 되는 거예요?","phonetic":"yeogiseo naerimyeon doeneun geoyeyo?","zh":"我在这里下车就可以了吗？"},
+        {"role":"clerk","ko":"아니요, 두 정거장 더 가야 해요.","phonetic":"aniyo, du jeonggeojang deo gaya haeyo.","zh":"不，还要再坐两站。"},
+        {"role":"user","ko":"그럼 언제 내려야 해요?","phonetic":"geureom eonje naeryeoya haeyo?","zh":"那我应该什么时候下车？"},
+        {"role":"clerk","ko":"시청역 다음 정류장에서 내리세요.","phonetic":"sicheongyeok daeum jeongnyujang-eseo naeriseyo.","zh":"在市厅站的下一站下车。"},
+        {"role":"user","ko":"네, 고맙습니다.","phonetic":"ne, gomapseumnida.","zh":"好的，谢谢。"}
+      ],
+      "tips":[
+        "“다음 정류장(下一站)” 在公交上常听到。",
+        "“몇 정거장(几站)” 用于询问坐几站路。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "day6": [
+    {
+      "scene": "地铁票购买",
+      "situationZh": "在地铁站的售票机前，我向站务员询问买票方法并购票付款。",
+      "roles": { "clerk": "站务员", "user": "我" },
+      "turns": [
+        { "role": "user", "ko": "실례지만, 표는 여기서 끊어요?", "phonetic": "shil-lye-ji-man, pyo-neun yeo-gi-seo kkeun-eo-yo?", "zh": "请问，票是在这里买吗？" },
+        { "role": "clerk", "ko": "네, 저쪽에 있는 자동 발매기에서 끊으시면 돼요.", "phonetic": "ne, jeo-jjok-e it-neun ja-dong bal-mae-gi-e-seo kkeun-eu-si-myeon dwae-yo.", "zh": "是的，可以在那边的自动售票机上购买。" },
+        { "role": "user", "ko": "명동까지는 얼마예요?", "phonetic": "myeong-dong-kka-ji-neun eol-ma-ye-yo?", "zh": "到明洞要多少钱？" },
+        { "role": "clerk", "ko": "1회용 카드로 하면 1,450원입니다.", "phonetic": "il-hoe-yong ka-deu-ro ha-myeon cheon-sa-baek-o-sip-won-im-ni-da.", "zh": "如果用一次用交通卡的话是 1,450 韩元。" },
+        { "role": "user", "ko": "좀 비싸네요. 교통카드는 어디서 사요?", "phonetic": "jom bi-ssa-ne-yo. gyo-tong-ka-deu-neun eo-di-seo sa-yo?", "zh": "有点贵呢。交通卡在哪里买？" },
+        { "role": "clerk", "ko": "편의점이나 지하철 역무실에서 사실 수 있어요.", "phonetic": "pyeon-ui-jeom-i-na ji-ha-cheol yeong-mu-sil-e-seo sa-sil su it-sseo-yo.", "zh": "在便利店或地铁站的办公室都可以购买。" }
+      ],
+      "tips": ["1회용 카드 是一次用交通卡，比普通交通卡稍贵。", "역무실 指地铁站内的工作人员办公室。", "교통카드 是韩国常用的交通卡（如 T-money）。"]
+    },
+    {
+      "scene": "乘坐出租车",
+      "situationZh": "在路边叫了出租车，告知司机目的地并询问大概需要多久。",
+      "roles": { "clerk": "出租车司机", "user": "我" },
+      "turns": [
+        { "role": "user", "ko": "기사님, 서울역까지 가 주세요.", "phonetic": "gi-sa-nim, seo-ul-yeon-kka-ji ga ju-se-yo.", "zh": "师傅，请到首尔站。" },
+        { "role": "clerk", "ko": "네, 조금 일찍 도착하면 좋겠네요.", "phonetic": "ne, jo-geum il-jjik do-cha-ka-myeon jo-kket-ne-yo.", "zh": "好的，希望我们能早点到。" },
+        { "role": "user", "ko": "이 시간엔 차가 막히나요?", "phonetic": "i si-ga-nen cha-ga mak-ki-na-yo?", "zh": "这个时间会堵车吗？" },
+        { "role": "clerk", "ko": "요즘엔 좀 막혀요. 아마 한 40분쯤 걸릴 거예요.", "phonetic": "yo-jeu-men jom ma-kyeo-yo. a-ma han sib-sa-bun-jjeum geol-lil geo-ye-yo.", "zh": "最近有点堵，大概要花 40 分钟左右。" },
+        { "role": "user", "ko": "그럼 빨리 갈 수 있는 길로 가 주세요.", "phonetic": "geu-reom ppal-li gal su it-neun gil-lo ga ju-se-yo.", "zh": "那就走能快点到的路吧。" },
+        { "role": "clerk", "ko": "알겠습니다. 카드로 계산하시겠어요?", "phonetic": "al-get-sseum-ni-da. ka-deu-ro gye-san-ha-si-get-sseo-yo?", "zh": "好的。请问用卡结算吗？" }
+      ],
+      "tips": ["对出租车司机用 기사님 称呼表示尊敬。", "막히다 表示交通拥堵、堵车。", "카드로 계산하다 意为用（交通）卡/信用卡结算。"]
+    },
+    {
+      "scene": "在机场巴士上",
+      "situationZh": "坐上机场大巴，向司机确认下车时间和终点站信息。",
+      "roles": { "clerk": "巴士司机", "user": "我" },
+      "turns": [
+        { "role": "user", "ko": "기사님, 인천공항에 얼마나 걸려요?", "phonetic": "gi-sa-nim, in-cheon-gong-hang-e eol-ma-na geol-lyeo-yo?", "zh": "师傅，到仁川机场要多长时间？" },
+        { "role": "clerk", "ko": "보통 한 시간쯤 걸립니다.", "phonetic": "bo-tong han si-gan-jjeum geol-lim-ni-da.", "zh": "一般需要一个小时左右。" },
+        { "role": "user", "ko": "어느 정류장에서 내려야 해요?", "phonetic": "eo-neu jeong-nyu-jang-e-seo nae-ryeo-ya hae-yo?", "zh": "我应该在哪一站下车？" },
+        { "role": "clerk", "ko": "끝까지 가시면 됩니다. 제2여객터미널에서 내리세요.", "phonetic": "kkeut-kka-ji ga-si-myeon dwem-ni-da. je-i-yeo-gaek-teo-mi-neol-e-seo nae-ri-se-yo.", "zh": "坐到终点站就可以了，请在第二航站楼下车。" },
+        { "role": "user", "ko": "짐은 어디에 둘까요?", "phonetic": "jim-eun eo-di-e dul-kka-yo?", "zh": "行李该放哪里呢？" },
+        { "role": "clerk", "ko": "버스 밑에 있는 짐칸에 넣어 주세요.", "phonetic": "beo-seu mi-te it-neun jim-kan-e neo-eo ju-se-yo.", "zh": "请放到巴士底部的行李舱里。" }
+      ],
+      "tips": ["인천공항 是仁川国际机场。", "여객터미널 指航站楼（旅客航站）。", "짐칸 指车上放行李的行李舱。"]
+    }
+  ],
+  "day7": [
+    {
+      "scene": "在银行问路",
+      "situationZh": "在街上向路人打听银行的最近位置，并确认营业时间。",
+      "roles": { "clerk": "路人", "user": "我" },
+      "turns": [
+        { "role": "user", "ko": "실례합니다, 은행이 어디 있어요?", "phonetic": "shil-lye-ham-ni-da, eun-haeng-i eo-di it-sseo-yo?", "zh": "打扰一下，银行在哪里？" },
+        { "role": "clerk", "ko": "저쪽 사거리를 건너서 오른쪽으로 가세요.", "phonetic": "jeo-jjok sa-geo-ri-reul geon-neo-seo o-reun-jjo-geu-ro ga-se-yo.", "zh": "过那边的十字路口后往右走。" },
+        { "role": "user", "ko": "걸어서 얼마나 걸려요?", "phonetic": "geol-eo-seo eol-ma-na geol-lyeo-yo?", "zh": "走路要多久？" },
+        { "role": "clerk", "ko": "5분이면 충분해요. 옆에 편의점이 있어서 찾기 쉬워요.", "phonetic": "o-bun-i-myeon chung-bun-hae-yo. yeo-pe pyeon-ui-jeo-mi it-sseo-seo chat-gi swi-wo-yo.", "zh": "五分钟就够了，旁边有便利店，很好找。" },
+        { "role": "user", "ko": "은행은 몇 시까지 해요?", "phonetic": "eun-haeng-eun myeot-si-kka-ji hae-yo?", "zh": "银行营业到几点？" },
+        { "role": "clerk", "ko": "보통 4시에 문을 닫아요.", "phonetic": "bo-tong ne-si-e mu-neul da-da-yo.", "zh": "通常四点关门。" }
+      ],
+      "tips": ["사거리 指十字路口。", "~건너서 意为穿过、越过。", "문을 닫다 意为关门、停业。"]
+    },
+    {
+      "scene": "询问地铁站",
+      "situationZh": "在市中心向一名保安询问最近的地铁站和人流情况。",
+      "roles": { "clerk": "保安", "user": "我" },
+      "turns": [
+        { "role": "user", "ko": "아저씨, 지하철역이 가까워요?", "phonetic": "a-jeo-ssi, ji-ha-cheo-ryeok-i ga-kka-wo-yo?", "zh": "大叔，地铁站近吗？" },
+        { "role": "clerk", "ko": "네, 바로 앞에 있어요. 골목을 따라 직진하세요.", "phonetic": "ne, ba-ro a-pe it-sseo-yo. gol-mo-geul tta-ra jik-jin-ha-se-yo.", "zh": "是的，就在前面，沿着巷子一直走。" },
+        { "role": "user", "ko": "그 지하철역은 어느 번이에요?", "phonetic": "geu ji-ha-cheo-ryeok-eun eo-neu beon-i-e-yo?", "zh": "那个地铁站是几号线？" },
+        { "role": "clerk", "ko": "2호선이에요. 종로 쪽으로 가세요.", "phonetic": "i-ho-seon-i-e-yo. jong-ro-jjo-geu-ro ga-se-yo.", "zh": "是二号线，往钟路方向走。" },
+        { "role": "user", "ko": "이 시간엔 사람이 많아요?", "phonetic": "i si-ga-nen sa-ra-mi ma-na-yo?", "zh": "这个时间人多吗？" },
+        { "role": "clerk", "ko": "조금 많지만 괜찮아요. 조심히 다녀오세요.", "phonetic": "jo-geum man-chi-man gwaen-chan-a-yo. jo-sim-hi da-nyeo-o-se-yo.", "zh": "虽然有点多但没关系，路上小心。" }
+      ],
+      "tips": ["직진하다 意为直走。", "호선 指地铁线路（几号线）。", "조심히 다녀오세요 是送别时常说的“路上小心”。"]
+    },
+    {
+      "scene": "问停车场",
+      "situationZh": "开车来到商场附近，向管理员询问停车场位置和费用。",
+      "roles": { "clerk": "管理员", "user": "我" },
+      "turns": [
+        { "role": "user", "ko": "죄송한데, 이 근처에 주차장이 있나요?", "phonetic": "joe-song-han-de, i geun-cheo-e ju-cha-jang-i in-na-yo?", "zh": "不好意思，这附近有停车场吗？" },
+        { "role": "clerk", "ko": "네, 맞은편 건물 지하에 있어요.", "phonetic": "ne, ma-jeun-pyeon geon-mul ji-ha-e it-sseo-yo.", "zh": "有，在对面的建筑物地下。" },
+        { "role": "user", "ko": "주차 요금이 어떻게 되요?", "phonetic": "ju-cha yo-geum-i eo-tteo-ke dwae-yo?", "zh": "停车费怎么算？" },
+        { "role": "clerk", "ko": "처음 30분은 무료이고, 이후엔 30분마다 1,000원이에요.", "phonetic": "cheo-eum sam-sib-bu-neun mu-ryo-i-go, i-hu-en sam-sip-bun-ma-da cheon-won-i-e-yo.", "zh": "头 30 分钟免费，之后每 30 分钟 1,000 韩元。" },
+        { "role": "user", "ko": "포함 고객이라면 할인이 돼요?", "phonetic": "po-ham go-kke-k-i-ra-myeon ha-ri-ni dwae-yo?", "zh": "如果是商场顾客有优惠吗？" },
+        { "role": "clerk", "ko": "네, 구매 영수증을 보여주시면 2시간 무료예요.", "phonetic": "ne, gu-mae yeong-su-jeung-eul bo-yeo-ju-si-myeon du-si-gan mu-ryo-ye-yo.", "zh": "是的，出示购物小票可以免费停 2 小时。" }
+      ],
+      "tips": ["주차장 指停车场。", "무료 意为免费。", "영수증 指收据、小票。"]
+    }
+  ],
+  "day8": [
+    {
+      "scene": "电话打错了",
+      "situationZh": "我拨打号码时发现打错电话，向对方道歉并确认号码。",
+      "roles": { "clerk": "接电话的人", "user": "我" },
+      "turns": [
+        { "role": "user", "ko": "여보세요, 김철수 씨 계세요?", "phonetic": "yeo-bo-se-yo, gim-cheol-su ssi gye-se-yo?", "zh": "喂，请问金哲洙在吗？" },
+        { "role": "clerk", "ko": "아니요, 여긴 그런 사람 없는데요.", "phonetic": "a-ni-yo, yeo-gin geu-reon sa-ram eom-neun-de-yo.", "zh": "不是，这里没有这个人。" },
+        { "role": "user", "ko": "어? 전화 잘못 걸었나 보네요.", "phonetic": "eo? jeon-hwa jal-mot geo-reon-na bo-ne-yo.", "zh": "咦？看来我打错电话了。" },
+        { "role": "clerk", "ko": "어머니 전화번호가 몇 번이세요?", "phonetic": "eom-ne-ni jeon-hwa-beo-neo-ga myeot-beo-ni-se-yo?", "zh": "您的电话号码是多少呢？" },
+        { "role": "user", "ko": "제가 실수했네요. 정말 죄송합니다.", "phonetic": "je-ga sil-su-haen-ne-yo. jeong-mal joe-song-ham-ni-da.", "zh": "我搞错了，真的很抱歉。" },
+        { "role": "clerk", "ko": "괜찮아요. 다음에 확인하고 걸으세요.", "phonetic": "gwaen-chan-a-yo. da-eu-me hwa-gin-ha-go geol-eu-se-yo.", "zh": "没关系，下次确认好再打电话吧。" }
+      ],
+      "tips": ["여보세요 是接电话/打电话时的招呼用语“喂”。", "잘못 걸다 意为打错（电话）。", "실수하다 意为犯错误、搞错。"]
+    },
+    {
+      "scene": "打电话订披萨",
+      "situationZh": "打电话到披萨店订餐，询问配送时间和菜单价格。",
+      "roles": { "clerk": "披萨店职员", "user": "我" },
+      "turns": [
+        { "role": "user", "ko": "여보세요, 배달 가능한가요?", "phonetic": "yeo-bo-se-yo, bae-dal ga-neung-han-ga-yo?", "zh": "喂，能外送吗？" },
+        { "role": "clerk", "ko": "네, 가능합니다. 어떤 메뉴 찾으세요?", "phonetic": "ne, ga-neung-ham-ni-da. eo-tteon me-nyu cha-jeu-se-yo?", "zh": "可以，需要点哪个菜单呢？" },
+        { "role": "user", "ko": "페퍼로니 피자 한 판 주세요.", "phonetic": "pe-peo-ro-ni pi-ja han pan ju-se-yo.", "zh": "请来一份腊肠披萨。" },
+        { "role": "clerk", "ko": "한 판에 19,000원이에요. 시간이 얼마나 걸려요?", "phonetic": "han pa-ne il-gu-man-won-i-e-yo. si-ga-ni eol-ma-na geol-lyeo-yo?", "zh": "一份 19,000 韩元，需要多长时间？" },
+        { "role": "user", "ko": "지금 배달하면 30분 안에 도착해요.", "phonetic": "jip-gil ba-dal-ha-myeon sam-sip-bun a-ne do-cha-kae-yo.", "zh": "现在下单的话 30 分钟内送到。" },
+        { "role": "clerk", "ko": "집 주소 좀 알려주세요.", "phonetic": "jip ju-so jom al-lyeo-ju-se-yo.", "zh": "请告诉我家庭住址。" }
+      ],
+      "tips": ["배달 意为配送、外送。", "한 판 是披萨/饼类的量词“一份”。", "~안에 意为在……之内。"]
+    },
+    {
+      "scene": "给朋友打电话",
+      "situationZh": "我打电话给朋友，因为朋友没接，改天再打的对话。",
+      "roles": { "clerk": "朋友", "user": "我" },
+      "turns": [
+        { "role": "user", "ko": "여보세요, 지민아?", "phonetic": "yeo-bo-se-yo, ji-min-a?", "zh": "喂，智敏吗？" },
+        { "role": "clerk", "ko": "응, 나 전화 왜 이렇게 갑자기?", "phonetic": "eung, na jeon-hwa wae i-reo-ke gap-ja-gi?", "zh": "嗯，怎么突然打电话？" },
+        { "role": "user", "ko": "내일 같이 점심 먹을 수 있을까?", "phonetic": "nae-il gat-i jeom-sim meo-geul su it-seul-kka?", "zh": "明天能一起吃午饭吗？" },
+        { "role": "clerk", "ko": "좋아, 몇 시에 만날까?", "phonetic": "jo-a, myeot-si-e man-nal-kka?", "zh": "好啊，几点见？" },
+        { "role": "user", "ko": "12시에 우리 집 앞에서 어때?", "phonetic": "yeol-du-si-e u-ri jip a-pe-seo eo-ttae?", "zh": "12 点在我家门前见面怎么样？" },
+        { "role": "clerk", "ko": "그래, 그럼 그때 보자!", "phonetic": "geu-rae, geu-reom geu-ttae bo-ja!", "zh": "好，那就到时候见！" }
+      ],
+      "tips": ["여보세요 接电话时用，对熟人可说 ~아/야 呼唤名字。", "갑자기 意为突然。", "~보자 是“那样吧/到时候见”的轻松说法。"]
+    }
+  ],
+  "day9": [
+    {
+      "scene": "询问今天日期",
+      "situationZh": "在办公室里向同事确认今天几号、星期几以及日期写法。",
+      "roles": { "clerk": "同事", "user": "我" },
+      "turns": [
+        { "role": "user", "ko": "오늘 며칠이에요?", "phonetic": "o-neul myeo-chil-i-e-yo?", "zh": "今天几号？" },
+        { "role": "clerk", "ko": "오늘은 9월 13일이에요.", "phonetic": "o-neu-reun gu-wol si-b-i-i-e-yo.", "zh": "今天是 9 月 13 日。" },
+        { "role": "user", "ko": "그럼 무슨 요일이에요?", "phonetic": "geu-reom mu-seun yo-il-i-e-yo?", "zh": "那今天是星期几？" },
+        { "role": "clerk", "ko": "일요일이에요.", "phonetic": "il-yo-il-i-e-yo.", "zh": "是星期天。" },
+        { "role": "user", "ko": "며칠을 어떻게 써요?", "phonetic": "myeo-chi-reul eo-tteo-ke sseo-yo?", "zh": "日期怎么写呢？" },
+        { "role": "clerk", "ko": "년·월·일 순서예요. 예를 들어 2026년 9월 13일이요.", "phonetic": "nyeon-wol-il sun-seo-ye-yo. ye-reul deu-reo i-cheon-i-si-bi-shik-nyeon gu-wol si-b-i-i-yo.", "zh": "按年·月·日的顺序，比如 2026 年 9 月 13 日。" }
+      ],
+      "tips": ["며칠 意为“几号”（问日期）。", "요일 指星期几。", "韩国日期书写顺序为 年·月·日（년·월·일）。"]
+    },
+    {
+      "scene": "约定会议日期",
+      "situationZh": "与上司商量安排会议，确认时间并定在星期三上午。",
+      "roles": { "clerk": "上司", "user": "我" },
+      "turns": [
+        { "role": "user", "ko": "사장님, 회의를 언제 할까요?", "phonetic": "sa-jang-nim, hoe-ui-reul eon-je hal-kka-yo?", "zh": "社长，会议什么时候开呢？" },
+        { "role": "clerk", "ko": "이번 주 화요일은 어때요?", "phonetic": "i-beon ju hwa-yo-il-eun eo-ttae-yo?", "zh": "这周的周二怎么样？" },
+        { "role": "user", "ko": "화요일엔 제가 바빠서 수요일은 어떤가요?", "phonetic": "hwa-yo-il-en je-ga ba-ppa-seo su-yo-il-eun eo-tteon-ga-yo?", "zh": "周二我很忙，周三怎么样？" },
+        { "role": "clerk", "ko": "좋아요. 수요일 오전 10시에 시작합시다.", "phonetic": "jo-a-yo. su-yo-il o-jeon yeol-si-e si-jak-hap-si-da.", "zh": "好，就周三上午 10 点开始吧。" },
+        { "role": "user", "ko": "회의실은 예약해 드릴게요.", "phonetic": "hoe-ui-sil-eun ye-ya-kae deu-ril-ge-yo.", "zh": "我帮您预约会议室。" },
+        { "role": "clerk", "ko": "고마워요. 그럼 수요일에 뵙겠습니다.", "phonetic": "go-ma-wo-yo. geu-reom su-yo-i-re boep-kket-sseum-ni-da.", "zh": "谢谢，那我们周三见。" }
+      ],
+      "tips": ["요일 用 화요일（周二）、수요일（周三）表达星期。", "오전 意为上午。", "회의 指会议，회의실 指会议室。"]
+    },
+    {
+      "scene": "预约生日日期",
+      "situationZh": "打电话到餐厅为下周生日做预约，确认具体日期和时间。",
+      "roles": { "clerk": "餐厅接待", "user": "我" },
+      "turns": [
+        { "role": "user", "ko": "다음 주에 생일 파티를 하려고 하는데요.", "phonetic": "da-eum ju-e saeng-il pa-ti-reul ha-ryeo-go ha-neun-de-yo.", "zh": "下周想办生日派对。" },
+        { "role": "clerk", "ko": "네, 며칠에 오실 건가요?", "phonetic": "ne, myeo-chi-re o-sil geon-ga-yo?", "zh": "好的，请问哪天来？" },
+        { "role": "user", "ko": "토요일 날에 가요.", "phonetic": "to-yo-il na-re ga-yo.", "zh": "周六去。" },
+        { "role": "clerk", "ko": "토요일이면 이번 주 19일이네요.", "phonetic": "to-yo-il-i-myeon i-beon ju sip-ki-ri-ne-yo.", "zh": "如果周六的话就是这周 19 号了。" },
+        { "role": "user", "ko": "시간은 저녁 7시로 부탁해요.", "phonetic": "si-gan-eun jeo-nyeok il-gop-si-ro bu-ta-kae-yo.", "zh": "时间请定在晚上 7 点。" },
+        { "role": "clerk", "ko": "네, 저녁 7시에 예약해 드리겠습니다.", "phonetic": "ne, jeo-nyeok il-gop-si-e ye-ya-kae deu-ri-get-sseum-ni-da.", "zh": "好的，为您预约晚上 7 点。" }
+      ],
+      "tips": ["생일 指生日，생일 파티 是生日派对。", "며칠에 意为在几号。", "토요일 是周六（一周中的周六）。"]
+    }
+  ],
+  "day10": [
+    {
+      "scene": "介绍哥哥的工作",
+      "situationZh": "和朋友聊起哥哥的工作，朋友询问家人的情况。",
+      "roles": { "clerk": "朋友", "user": "我" },
+      "turns": [
+        { "role": "clerk", "ko": "오빠는 뭐 하세요?", "phonetic": "op-pa-neun mwo ha-se-yo?", "zh": "哥哥是做什么的？" },
+        { "role": "user", "ko": "오빠는 회사원이에요.", "phonetic": "op-pa-neun hoe-sa-won-i-e-yo.", "zh": "哥哥是公司职员。" },
+        { "role": "clerk", "ko": "어디에서 일하세요?", "phonetic": "eo-di-e-seo il-ha-se-yo?", "zh": "在哪里上班？" },
+        { "role": "user", "ko": "서울의 IT 회사에서 일해요.", "phonetic": "seo-ur-e IT hoe-sa-e-seo il-hae-yo.", "zh": "在首尔的一家 IT 公司工作。" },
+        { "role": "clerk", "ko": "오빠가 몇 살이에요?", "phonetic": "op-pa-ga myeot-sa-ri-e-yo?", "zh": "哥哥多大了？" },
+        { "role": "user", "ko": "올해 서른 살이에요. 결혼도 했어요.", "phonetic": "ol-hae seo-reun sa-ri-e-yo. gyeol-hon-do hae-sseo-yo.", "zh": "今年三十岁，也结婚了。" }
+      ],
+      "tips": ["오빠 指女子称呼哥哥，男生则用 형。", "회사원 意为公司职员。", "서른 살 指三十岁。"]
+    },
+    {
+      "scene": "看家人照片",
+      "situationZh": "把手机里的家人照片给同事看，介绍爸爸妈妈和妹妹。",
+      "roles": { "clerk": "同事", "user": "我" },
+      "turns": [
+        { "role": "user", "ko": "이건 우리 가족 사진이에요.", "phonetic": "i-geon u-ri ga-jok sa-jin-i-e-yo.", "zh": "这是我们家庭的照片。" },
+        { "role": "clerk", "ko": "와, 가족이 몇 명이에요?", "phonetic": "wa, ga-jo-gi myeot myeong-i-e-yo?", "zh": "哇，家里有几口人？" },
+        { "role": "user", "ko": "아빠, 엄마, 저, 여동생까지 네 명이에요.", "phonetic": "ap-ppa, eom-ma, jeo, yeo-dong-saeng-kka-ji ne myeong-i-e-yo.", "zh": "爸爸、妈妈、我、妹妹，一共四口人。" },
+        { "role": "clerk", "ko": "여동생이 대학생이에요?", "phonetic": "yeo-dong-saeng-i dae-hak-saeng-i-e-yo?", "zh": "妹妹是大学生吗？" },
+        { "role": "user", "ko": "아니요, 고등학생이에요.", "phonetic": "a-ni-yo, go-deung-hak-saeng-i-e-yo.", "zh": "不是，是高中生。" },
+        { "role": "clerk", "ko": "부모님이랑 같이 사세요?", "phonetic": "bu-mo-nim-rang gat-i sa-se-yo?", "zh": "和父母住在一起吗？" }
+      ],
+      "tips": ["가족 指家庭、家人。", "여동생 指妹妹，오빠/형 兄弟等因性别而异。", "부모님 是称呼父母的敬语。"]
+    },
+    {
+      "scene": "周末和家人一起",
+      "situationZh": "和家人商量周末去哪里玩，最后决定一起去看电影。",
+      "roles": { "clerk": "妈妈", "user": "我" },
+      "turns": [
+        { "role": "user", "ko": "엄마, 이번 주말에 뭐 할까요?", "phonetic": "eom-ma, i-beon ju-ma-re mwo hal-kka-yo?", "zh": "妈妈，这个周末做什么呢？" },
+        { "role": "clerk", "ko": "영화 보러 갈래? 요즘 좋은 영화가 나왔대.", "phonetic": "yeong-hwa bo-reo gal-lae? yo-jeum jo-eun yeong-hwa-ga na-wat-dae.", "zh": "去看电影吗？最近有好电影上映了。" },
+        { "role": "user", "ko": "좋아요! 그럼 아빠도 같이 가요?", "phonetic": "jo-a-yo! geu-reom ap-ppa-do gat-i ga-yo?", "zh": "好啊！那爸爸也一起去吗？" },
+        { "role": "clerk", "ko": "응, 아빠도 같이 가자고 하셨어.", "phonetic": "eung, ap-ppa-do gat-i ga-ja-go ha-syeo-sseo.", "zh": "嗯，爸爸说他也一起去。" },
+        { "role": "user", "ko": "몇 시 영화로 볼까요?", "phonetic": "myeot-si yeong-hwa-ro bol-kka-yo?", "zh": "看几点的电影？" },
+        { "role": "clerk", "ko": "오후 2시에 시작하는 걸로 하자.", "phonetic": "o-hu du-si-e si-jak-ha-neun geol-lo ha-ja.", "zh": "就定下午 2 点开场的那场吧。" }
+      ],
+      "tips": ["주말 指周末。", "영화 보다 意为看电影。", "반말（~자）用于亲近的家人间对话。"]
+    }
+  ]
+}

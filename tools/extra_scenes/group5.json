@@ -1,0 +1,282 @@
+{
+  "day21": [
+    {
+      "scene": "迟到了",
+      "situationZh": "和朋友约好在咖啡厅见面，但朋友迟到了一会儿，到了之后互相打招呼。",
+      "roles": { "clerk": "朋友", "user": "我" },
+      "turns": [
+        { "role": "clerk", "ko": "미안해, 조금 늦었어. 기다렸지?", "phonetic": "mian-hae, jo-geum neu-jeot-seo. gi-da-ryeot-jji?", "zh": "对不起，我迟到了一会儿。你等了很久吧？" },
+        { "role": "user", "ko": "괜찮아, 나도 방금 도착했어. 뭐 마실래?", "phonetic": "gwaen-chan-a, na-do bang-geum do-chak-hae-sseo. mwo ma-sil-lae?", "zh": "没关系，我刚到。想喝点什么？" },
+        { "role": "clerk", "ko": "아이스 아메리카노 한 잔 주세요.", "phonetic": "a-i-seu a-me-ri-ka-no han jan ju-se-yo.", "zh": "请给我一杯冰美式。" },
+        { "role": "user", "ko": "알았어, 그럼 난 카페 라테 마실게.", "phonetic": "a-ra-sseo, geu-reom nan ka-pe ra-te ma-sil-ge.", "zh": "好的，那我喝拿铁。" },
+        { "role": "clerk", "ko": "오랜만에 보니까 너무 반가워!", "phonetic": "o-raen-man-e bo-ni-kka neo-mu ban-ga-wo!", "zh": "好久不见，见到你太开心了！" },
+        { "role": "user", "ko": "나도 반가워! 오늘 뭐 할까?", "phonetic": "na-do ban-ga-wo! o-neul mwo hal-kka?", "zh": "我也是，很高兴见到你！今天做点什么呢？" }
+      ],
+      "tips": [
+        "迟到的道歉常用'미안해, 조금 늦었어'（对不起，迟到了一会儿）。",
+        "'오랜만에'意为'好久'，是韩语中常用的见面寒暄表达。",
+        "咖啡饮品名常用外来语，如'아이스 아메리카노（冰美式）'。"
+      ]
+    },
+    {
+      "scene": "聊近况",
+      "situationZh": "在咖啡厅边喝边聊，问候彼此最近过得怎么样。",
+      "roles": { "clerk": "朋友", "user": "我" },
+      "turns": [
+        { "role": "user", "ko": "요즘 어떻게 지내고 있어?", "phonetic": "yo-jeum eo-tteo-ke ji-nae-go i-sseo?", "zh": "最近过得怎么样？" },
+        { "role": "clerk", "ko": "매일 회사 다니느라 바빠. 너는 어때?", "phonetic": "mae-il hoe-sa da-ni-neu-ra ba-ppa. neo-neun eo-ttae?", "zh": "每天都忙着上班。你呢？" },
+        { "role": "user", "ko": "나는 새로 시작한 취미가 생겼어.", "phonetic": "na-neun sae-ro si-jak-han chwi-mi-ga saeng-gyeo-sseo.", "zh": "我有了一个新开始的爱好。" },
+        { "role": "clerk", "ko": "정말? 어떤 취미야?", "phonetic": "jeong-mal? eo-tteon chwi-mi-ya?", "zh": "真的吗？是什么样的爱好？" },
+        { "role": "user", "ko": "등산을 시작했어. 주말마다 산에 가.", "phonetic": "deung-san-eul si-jak-hae-sseo. ju-mal-ma-da san-e ga.", "zh": "我开始爬山了。每个周末都去山上。" },
+        { "role": "clerk", "ko": "대단하다! 다음에 같이 가자.", "phonetic": "dae-dan-ha-da! da-eum-e ga-chi ga-ja.", "zh": "真了不起！下次一起去吧。" }
+      ],
+      "tips": [
+        "'어떻게 지내고 있어?'（过得怎么样）是经典的问候语。",
+        "'정말?'意为'真的吗？'，表示惊讶或兴趣。",
+        "'다음에 같이 가자'（下次一起去吧）是自然拉近距离的邀约表达。"
+      ]
+    },
+    {
+      "scene": "约定下次见面",
+      "situationZh": "聚会结束，约好下次见面并道别。",
+      "roles": { "clerk": "朋友", "user": "我" },
+      "turns": [
+        { "role": "user", "ko": "오늘 정말 즐거웠어. 시간이 너무 빨리 갔네.", "phonetic": "o-neul jeong-mal jeul-geo-wot-sseo. si-gan-i neo-mu ppal-li gan-ne.", "zh": "今天真的很开心。时间过得好快。" },
+        { "role": "clerk", "ko": "그러게 말이야. 다음에 또 만나자.", "phonetic": "geu-reo-ge ma-ri-ya. da-eum-e tto man-na-ja.", "zh": "就是说啊。下次再见面吧。" },
+        { "role": "user", "ko": "응, 다음 주말 어때?", "phonetic": "eung, da-eum ju-mal eo-ttae?", "zh": "嗯，下个周末怎么样？" },
+        { "role": "clerk", "ko": "좋아! 주말에 시간 있어.", "phonetic": "jo-a! ju-mal-e si-gan i-sseo.", "zh": "好啊！周末我有时间。" },
+        { "role": "user", "ko": "그럼 그때 연락할게. 조심해서 가.", "phonetic": "geu-reom geu-ttae yeon-rak-hal-ge. jo-sim-hae-seo ga.", "zh": "那到时候联系你。路上小心。" },
+        { "role": "clerk", "ko": "응, 너도 조심히 가고 연락 기다릴게!", "phonetic": "eung, neo-do jo-sim-hi ga-go yeon-rak gi-da-ril-ge!", "zh": "嗯，你也路上小心，我等你的联系！" }
+      ],
+      "tips": [
+        "'정말 즐거웠어'表示'真的很开心'，适合聚会结束后表达满足。",
+        "'주말 어때?'（周末怎么样？）用于提议见面时间。",
+        "'조심해서 가'（路上小心）是韩语道别时常用的关怀表达。"
+      ]
+    }
+  ],
+  "day22": [
+    {
+      "scene": "长辈问候",
+      "situationZh": "中秋和长辈见面，向长辈行大礼问安并收红包。",
+      "roles": { "clerk": "长辈", "user": "我" },
+      "turns": [
+        { "role": "user", "ko": "할아버지, 할머니, 추석 잘 보내셨어요?", "phonetic": "ha-ra-beo-ji, hal-meo-ni, chu-seok jal bo-nae-syeo-sseo-yo?", "zh": "爷爷、奶奶，中秋节过得好吗？" },
+        { "role": "clerk", "ko": "그래, 잘 지냈구나. 얼른 밥이나 먹자.", "phonetic": "geu-rae, jal ji-naet-gu-na. eol-leun ba-bi-na meok-ja.", "zh": "是啊，过得挺好的。快先吃饭吧。" },
+        { "role": "user", "ko": "네, 새해처럼 건강히 지내세요.", "phonetic": "ne, sae-hae-cheo-reom geon-gang-hi ji-nae-se-yo.", "zh": "好的，像新年一样希望您身体健康。" },
+        { "role": "clerk", "ko": "고맙다. 좀 더 먹어야 별로 크지.", "phonetic": "go-map-da. jom deo meo-geo-ya ol-lo keu-ji.", "zh": "谢谢。要多吃点才能长高啊。" },
+        { "role": "user", "ko": "접사하고 세배할게요. 새해 복 많이 받으세요!", "phonetic": "jeop-sa-ha-go se-bae-hal-ge-yo. sae-hae bok ma-ni ba-deu-se-yo!", "zh": "我给您行大礼拜年。祝您新年福气满满！" },
+        { "role": "clerk", "ko": "오냐, 뭐든지 하나라도 좋으니 열심히 해라.", "phonetic": "o-nya, mwo-deun-ji ha-na-ra-do jo-eu-ni yeol-sim-hi hae-ra.", "zh": "好，不管做什么事，用心做就行。" }
+      ],
+      "tips": [
+        "'세배'是韩国拜年行大礼的礼仪，用在春节或节假日问候长辈。",
+        "'새해 복 많이 받으세요'（祝您新年多福）是经典祝福语。",
+        "'할아버지/할머니'分别为爷爷/奶奶，称呼长辈时要使用敬语。"
+      ]
+    },
+    {
+      "scene": "和家人烤肉",
+      "situationZh": "中秋家庭聚餐，大家一起烤肉并互相夹菜照顾。",
+      "roles": { "clerk": "家人", "user": "我" },
+      "turns": [
+        { "role": "user", "ko": "고기 잘 구워지고 있어?", "phonetic": "go-gi jal gu-wo-ji-go i-sseo?", "zh": "肉烤好了吗？" },
+        { "role": "clerk", "ko": "응, 이제 먹을 만해. 먼저 먹어 봐.", "phonetic": "eung, i-je meo-geul man-hae. meon-jeo meo-geo bwa.", "zh": "嗯，现在可以吃了。先尝尝看。" },
+        { "role": "user", "ko": "와, 정말 맛있어! 소스 좀 더 줄래?", "phonetic": "wa, jeong-mal ma-si-sseo! so-seu jom deo jul-lae?", "zh": "哇，真的很好吃！能再给点酱料吗？" },
+        { "role": "clerk", "ko": "여기 있어. 너 이것도 먹어 봐.", "phonetic": "yeo-gi i-sseo. neo i-geot-do meo-geo bwa.", "zh": "给你。你也尝尝这个。" },
+        { "role": "user", "ko": "우와, 이거 정말 맛있네! 나중에 주말마다 먹자.", "phonetic": "u-wa, i-geo jeong-mal ma-sin-ne! na-jung-e ju-mal-ma-da meok-ja.", "zh": "哇，这个真好吃！以后我们每个周末都吃吧。" },
+        { "role": "clerk", "ko": "그래, 같이 있는 게 제일 좋지 않아.", "phonetic": "geu-rae, ga-chi it-neun ge je-il jo-chi a-na.", "zh": "是啊，大家在一起的时光才是最好的。" }
+      ],
+      "tips": [
+        "'맛있어/맛있네'分别表示'好吃'和对他人做法的赞叹。",
+        "聚餐时用'더 줄래?'（能再给一点吗）来礼貌地请求添加。",
+        "'제일 좋지'意为'最好的'，用于表达情感或观点。"
+      ]
+    },
+    {
+      "scene": "感谢与道别",
+      "situationZh": "节假日晚餐结束，向长辈表示感谢并道别。",
+      "roles": { "clerk": "长辈", "user": "我" },
+      "turns": [
+        { "role": "user", "ko": "오늘 정말 맛있는 음식 잘 먹었어요.", "phonetic": "o-neul jeong-mal ma-sin-neun eum-sik jal meo-geo-sseo-yo.", "zh": "今天真高兴吃到这么美味的食物。" },
+        { "role": "clerk", "ko": "제대로 뭐 먹기도 어려운데 고마워.", "phonetic": "je-dae-ro mwo meok-gi-do eo-ryeo-un-de go-ma-wo.", "zh": "能好好吃顿饭也不容易，谢谢。" },
+        { "role": "user", "ko": "다음에 또 뵐게요. 조심히 지내세요.", "phonetic": "da-eum-e tto boel-ge-yo. jo-sim-hi ji-nae-se-yo.", "zh": "下次再来看您，请保重身体。" },
+        { "role": "clerk", "ko": "그래, 너도 몸 조심하고 힘내라.", "phonetic": "geu-rae, neo-do mom jo-sim-ha-go him-nae-ra.", "zh": "好，你也注意身体，加油。" },
+        { "role": "user", "ko": "감사합니다. 새해에도 잘 부탁드려요!", "phonetic": "gam-sa-ham-ni-da. sae-hae-e-do jal bu-tak-deu-ryeo-yo!", "zh": "谢谢您。新的一年也请多多关照！" },
+        { "role": "clerk", "ko": "응, 잘 가. 다음에 또 보자.", "phonetic": "eung, jal ga. da-eum-e tto bo-ja.", "zh": "嗯，慢走。下次再见。" }
+      ],
+      "tips": [
+        "面对长辈用'났어요'和'고마워'等敬语表达感谢和祝福。",
+        "'뵙다'是'见面'的敬语形式，'잘 뵙겠습니다'用于告别。",
+        "'감사합니다'（谢谢）是对长辈最常用的正式感谢语。"
+      ]
+    }
+  ],
+  "day23": [
+    {
+      "scene": "约出去玩",
+      "situationZh": "用KakaoTalk发消息约朋友周末出去玩。",
+      "roles": { "clerk": "朋友", "user": "我" },
+      "turns": [
+        { "role": "user", "ko": "주말에 시간 있어?", "phonetic": "ju-mal-e si-gan i-sseo?", "zh": "周末有时间吗？" },
+        { "role": "clerk", "ko": "응, 토요일에 시간 나. 왠지 그냥 물어보는 거지?", "phonetic": "eung, to-yo-il-e si-gan na. waen-ji geun-yang mu-reo-bo-neun geo-ji?", "zh": "嗯，周六有空。怎么突然问这个呢？" },
+        { "role": "user", "ko": "영화 보고 싶은데 같이 갈래?", "phonetic": "yeong-hwa bo-go si-peun-de ga-chi gal-lae?", "zh": "我想看电影，要一起去吗？" },
+        { "role": "clerk", "ko": "좋아! 무슨 영화 볼 거야?", "phonetic": "jo-a! mu-seun yeong-hwa bol geo-ya?", "zh": "好啊！要看什么电影？" },
+        { "role": "user", "ko": "액션 영화 어때? 몇 시에 볼까?", "phonetic": "aek-syeon yeong-hwa eo-ttae? myeot si-e bol-kka?", "zh": "动作片怎么样？几点看合适呢？" },
+        { "role": "clerk", "ko": "오후 2시쯤에 보자. 좋은 거 같아.", "phonetic": "o-hu du si-jjeum-e bo-ja. jo-eun geo ga-ta.", "zh": "我们下午2点左右看吧。听起来不错。" }
+      ],
+      "tips": [
+        "'~할래?'是问对方意愿的口语表达，相当于'要不要…？'",
+        "'어때?'（怎么样？）用来征询对方的意见。",
+        "'~쯤'表示'大约'，如'2시쯤'即'大约两点'。"
+      ]
+    },
+    {
+      "scene": "分享照片",
+      "situationZh": "旅行回来后把照片发给朋友分享。",
+      "roles": { "clerk": "朋友", "user": "我" },
+      "turns": [
+        { "role": "user", "ko": "야, 방금 여행 다녀왔어!", "phonetic": "ya, bang-geum yeo-haeng da-nyeo-wa-sseo!", "zh": "嘿，我刚旅行回来了！" },
+        { "role": "clerk", "ko": "진짜? 어디 갔었어?", "phonetic": "jin-jja? eo-di ga-sseo-sseo?", "zh": "真的吗？去了哪里？" },
+        { "role": "user", "ko": "부산에 다녀왔어. 사진 보여줄게.", "phonetic": "bu-san-e da-nyeo-wa-sseo. sa-jin bo-yeo-jul-ge.", "zh": "去了釜山。我把照片发给你看看。" },
+        { "role": "clerk", "ko": "와, 사진 엄청 이쁘네! 어떤 곳 갔어?", "phonetic": "wa, sa-jin eom-cheong i-ppeu-ne! eo-tteon got ga-sseo?", "zh": "哇，照片超好看！去了哪些地方？" },
+        { "role": "user", "ko": "해변하고 시장에 갔었어. 정말 좋았어!", "phonetic": "hae-byeon-ha-go si-jang-e ga-sseo-sseo. jeong-mal jo-a-sseo!", "zh": "去了海边和市场。真的太好了！" },
+        { "role": "clerk", "ko": "부럽다! 다음에 나도 같이 가고 싶어.", "phonetic": "bu-reop-da! da-eum-e na-do ga-chi ga-go si-peo.", "zh": "真羡慕！下次我也想一起去。" }
+      ],
+      "tips": [
+        "'야'（哎/嘿）是KakaoTalk聊天时很随意的称呼开头。",
+        "'사진 보여줄게'表示'我把照片发给你看'，常用的分享表达。",
+        "'부럽다'意为'羡慕，真棒'，对朋友的分享表示羡慕。"
+      ]
+    },
+    {
+      "scene": "讨论约定内容",
+      "situationZh": "朋友见面迟到，用消息确认见面地点和时间。",
+      "roles": { "clerk": "朋友", "user": "我" },
+      "turns": [
+        { "role": "clerk", "ko": "지금 어디 있어? 좀 늦을 것 같아.", "phonetic": "ji-geum eo-di i-sseo? jom neu-jeul geot ga-ta.", "zh": "现在在哪里？我可能要迟到了。" },
+        { "role": "user", "ko": "벌써 도착했는데 어디서 기다릴까?", "phonetic": "beol-sseo do-chak-hae-neun-de eo-di-seo gi-da-ril-kka?", "zh": "我已经到了，在哪里等你呢？" },
+        { "role": "clerk", "ko": "카페 앞에서 기다려 줘. 곧 갈게.", "phonetic": "ka-pe ap-e-seo gi-da-ryeo jwo. got gal-ge.", "zh": "在咖啡厅前面等我吧。我马上到。" },
+        { "role": "user", "ko": "알았어. 느긋하게 와. 여기서 기다릴게.", "phonetic": "a-ra-sseo. neu-geut-ha-ge wa. yeo-gi-seo gi-da-ril-ge.", "zh": "好的。慢点来。我在这里等你。" },
+        { "role": "clerk", "ko": "고마워! 10분 안에 갈 길게.", "phonetic": "go-ma-wo! sip-bun an-e gal-gil-ge.", "zh": "谢谢你！我十分钟内到。" },
+        { "role": "user", "ko": "천천히 와, 안 추워. 여기 밝혀 있어.", "phonetic": "cheon-cheon-hi wa, an chu-wo. yeo-gi bar-kyeo i-sseo.", "zh": "慢慢来，不冷。这里很亮。" }
+      ],
+      "tips": [
+        "'~할 수 있어?'是询问对方掌握程度或能力，这里用在确认时间上。",
+        "'숙제해서 갈기다'等表达要留意，常用't고련히'为主，但这是寒暄。",
+        "迟到时用'좀 늦을 것 같아'（可能要晚点）自然告知对方。"
+      ]
+    }
+  ],
+  "day24": [
+    {
+      "scene": "打听房源",
+      "situationZh": "在中介看房，询问房子的租金和条件。",
+      "roles": { "clerk": "中介", "user": "我" },
+      "turns": [
+        { "role": "user", "ko": "이 근처에 방 하나 구할 수 있을까요?", "phonetic": "i geun-cheo-e bang ha-na gu-hal su i-sseul-kka-yo?", "zh": "这附近能找到一间房吗？" },
+        { "role": "clerk", "ko": "네, 이 근처에 원룸이 있습니다. 보러 가실래요?", "phonetic": "ne, i geun-cheo-e wol-lum-i it-seup-ni-da. bo-reo ga-si-llae-yo?", "zh": "是的，这附近有单间公寓。要去看一下吗？" },
+        { "role": "user", "ko": "보증금은 얼마예요?", "phonetic": "bo-jeung-geum-eun eol-ma-ye-yo?", "zh": "保证金是多少？" },
+        { "role": "clerk", "ko": "보증금 500만 원에 월세 40만 원이에요.", "phonetic": "bo-jeung-geum o-baek-man won-e wol-se sa-sip-man won-i-e-yo.", "zh": "保证金500万韩元，月租40万韩元。" },
+        { "role": "user", "ko": "월세에 관리비는 포함이에요?", "phonetic": "wol-se-e gwal-ri-bi-neun po-ham-i-e-yo?", "zh": "月租里包含管理费吗？" },
+        { "role": "clerk", "ko": "네, 관리비 포함입니다. 바로 옆에 역도 있어요.", "phonetic": "ne, gwal-ri-bi po-ham-im-ni-da. ba-ro yeop-e yeok-do i-sseo-yo.", "zh": "是的，管理费包含在内。旁边还有地铁站。" }
+      ],
+      "tips": [
+        "韩语找房常说'보증금'（保证金）和'월세'（月租）。",
+        "'~있어요'表示'有/存在'，回家问条件时很常用。",
+        "'관리비'指'管理费'，看房前务必确认是否包含在月租里。"
+      ]
+    },
+    {
+      "scene": "确认设施与细节",
+      "situationZh": "看房时确认厨房、卫生间和周边设施。",
+      "roles": { "clerk": "中介", "user": "我" },
+      "turns": [
+        { "role": "user", "ko": "주방 시설은 어떤가요?", "phonetic": "ju-bang si-seol-eun eo-tteon-ga-yo?", "zh": "厨房设施怎么样？" },
+        { "role": "clerk", "ko": "가스레인지하고 냉장고 다 있어요.", "phonetic": "ga-seu-re-in-ji-ha-go naeng-jang-go da i-sseo-yo.", "zh": "燃气灶和冰箱都有。" },
+        { "role": "user", "ko": "세탁기도 있어요?", "phonetic": "se-tak-gi-do i-sseo-yo?", "zh": "有洗衣机吗？" },
+        { "role": "clerk", "ko": "세탁기는 복도 공용으로 있어요.", "phonetic": "se-tak-gi-neun bok-do gong-yong-eu-ro i-sseo-yo.", "zh": "洗衣机在走廊是共用的。" },
+        { "role": "user", "ko": "주변에 편의시설은 많아요?", "phonetic": "ju-byeon-e pyeon-ui-si-seol-eun ma-na-yo?", "zh": "周边有很多便利设施吗？" },
+        { "role": "clerk", "ko": "네, 편의점하고 카페가 가까이 있어요.", "phonetic": "ne, pyeon-ui-jeom-ha-go ka-pe-ga ga-kka-i i-sseo-yo.", "zh": "是的，便利店和咖啡厅都在附近。" }
+      ],
+      "tips": [
+        "看房常问'스레인지（灶台）'、'냉장고（冰箱）'等家电是否齐全。",
+        "'공용'表示'共用'，如'공용 세탁기'就是'公用洗衣机'。",
+        "'편의시설'泛指'便利设施'，如便利店、咖啡店等。"
+      ]
+    },
+    {
+      "scene": "签约前咨询",
+      "situationZh": "决定签约，咨询中介签约需要准备的资料和条件。",
+      "roles": { "clerk": "中介", "user": "我" },
+      "turns": [
+        { "role": "user", "ko": "이 방으로 계약하고 싶어요. 어떻게 해야 하나요?", "phonetic": "i bang-eu-ro gye-yak-ha-go si-peo-yo. eo-tteo-ke hae-ya ha-na-yo?", "zh": "我想签这个房间，应该怎么做呢？" },
+        { "role": "clerk", "ko": "계약 시 신분증하고 계약금이 필요해요.", "phonetic": "gye-yak si sin-bun-jeung-ha-go gye-yak-geum-i pil-yo-hae-yo.", "zh": "签约时需要身份证和订金。" },
+        { "role": "user", "ko": "계약 기간은 보통 얼마예요?", "phonetic": "gye-yak gi-gan-eun bo-tong eol-ma-ye-yo?", "zh": "合同期一般是多少？" },
+        { "role": "clerk", "ko": "보통 1년 계약이 많아요.", "phonetic": "bo-tong il-nyeon gye-yak-i ma-na-yo.", "zh": "一般签一年合同居多。" },
+        { "role": "user", "ko": "처음에 얼마를 내면 되나요?", "phonetic": "cheo-eum-e eol-ma-reul nae-myeon doe-na-yo?", "zh": "一开始要付多少钱？" },
+        { "role": "clerk", "ko": "계약금으로 한 달 치 월세 수준을 내시면 됩니다.", "phonetic": "gye-yak-geum-eu-ro han dal chi wol-se su-jun-eul nae-si-myeon doem-ni-da.", "zh": "订金交相当于一个月月租的金额就可以了。" }
+      ],
+      "tips": [
+        "'신분증'指'身份证'，签约时必须携带。",
+        "'계약금'意为'订金/定金'，是签约当天要交的金额。",
+        "'계약 기간'指'合同期限'，韩语租房通常以一年为单位。"
+      ]
+    }
+  ],
+  "day25": [
+    {
+      "scene": "自我介绍",
+      "situationZh": "面试官让我简单介绍自己，并说明自己的背景。",
+      "roles": { "clerk": "面试官", "user": "我" },
+      "turns": [
+        { "role": "clerk", "ko": "먼저 자기소개를 해 주세요.", "phonetic": "meon-jeo ja-gi-so-gae-reul hae ju-se-yo.", "zh": "请先做个自我介绍。" },
+        { "role": "user", "ko": "안녕하세요. 저는 김민수라고 합니다.", "phonetic": "an-nyeong-ha-se-yo. jeo-neun gim-min-su-ra-go ham-ni-da.", "zh": "您好，我是金敏秀。" },
+        { "role": "user", "ko": "대학교에서 컴퓨터공학을 전공했습니다.", "phonetic": "dae-hak-gyo-e-seo keom-pyu-teo-gong-hak-eul jeon-gong-hae-sseum-ni-da.", "zh": "我在大学里主修了计算机工程。" },
+        { "role": "clerk", "ko": "그럼 경력 같은 게 있으세요?", "phonetic": "geu-reom gyeong-ryeok ga-teun ge i-seu-se-yo?", "zh": "那有什么相关经历吗？" },
+        { "role": "user", "ko": "네, 작년에 인턴으로 6개월 일했습니다.", "phonetic": "ne, jak-nyeon-e in-teon-eu-ro yeok-gae-wol il-hae-sseum-ni-da.", "zh": "是的，去年做了6个月的实习。" },
+        { "role": "clerk", "ko": "알겠습니다. 좋은 인상이네요.", "phonetic": "al-get-seum-ni-da. jo-eun in-sang-i-ne-yo.", "zh": "好的，印象不错。" }
+      ],
+      "tips": [
+        "面试先介绍名字时用'저는 ~라고 합니다'（我是…）。",
+        "'전공하다'意为'主修'，介绍专业背景时常用。",
+        "'경력'指'经历/履历'，面试官常追问是否有相关经验。"
+      ]
+    },
+    {
+      "scene": "回答工作问题",
+      "situationZh": "面试官问为什么想来本公司和工作计划。",
+      "roles": { "clerk": "面试官", "user": "我" },
+      "turns": [
+        { "role": "clerk", "ko": "왜 우리 회사에 지원하셨어요?", "phonetic": "wae u-ri hoe-sa-e ji-won-ha-syeo-sseo-yo?", "zh": "为什么想申请我们公司？" },
+        { "role": "user", "ko": "제가 배운 기술을 실제로 활용하고 싶어서요.", "phonetic": "je-ga bae-un gi-sul-eul sil-je-jeu-ro hwal-yong-ha-go si-peo-seo-yo.", "zh": "因为我希望把学到的技术实际应用起来。" },
+        { "role": "user", "ko": "또한 팀 분위기가 존중되는 곳에서 일하고 싶습니다.", "phonetic": "tto-han tim bun-wi-gi-ga jon-jung-doe-neun go-seo seo il-ha-go sip-seum-ni-da.", "zh": "而且我想在尊重团队氛围的地方工作。" },
+        { "role": "clerk", "ko": "장래의 계획은 어떤가요?", "phonetic": "jang-rae-ui gye-hoe-geun eo-tteon-ga-yo?", "zh": "对未来的规划是怎样的？" },
+        { "role": "user", "ko": "오래 다니면서 회사와 함께 성장하고 싶습니다.", "phonetic": "o-rae da-ni-myeon-seo hoe-sa-wa ham-kke seong-jang-ha-go sip-seum-ni-da.", "zh": "我想长期在这里工作，与公司一起成长。" },
+        { "role": "clerk", "ko": "좋은 대답이네요. 더 궁금한 점 있으세요?", "phonetic": "jo-eun dae-dap-i-ne-yo. deo gung-geum-han jeom i-seu-se-yo?", "zh": "回答得很好。还有什么想问的吗？" }
+      ],
+      "tips": [
+        "'왜 지원하셨어요?'（为什么申请）是面试必问题，要结合技术或理念回答。",
+        "'장래의 계획'指'未来的规划'，提前想好可加分。",
+        "'오래 다니면서 성장하고 싶다'表达稳定与成长意愿，体现忠诚度。"
+      ]
+    },
+    {
+      "scene": "面试提问与结束",
+      "situationZh": "面试结束时礼貌提问，并向面试官道别。",
+      "roles": { "clerk": "面试官", "user": "我" },
+      "turns": [
+        { "role": "clerk", "ko": "질문이 있으시면 여쭤보세요.", "phonetic": "jil-mun-i i-seu-si-myeon yeo-jjweo-bo-se-yo.", "zh": "如果有问题可以提问。" },
+        { "role": "user", "ko": "회사에서 신입에게 기대하는 점을 알고 싶습니다.", "phonetic": "hoe-sa-e-seo sin-ib-e-ge gi-dae-ha-neun jeom-eul al-go sip-seum-ni-da.", "zh": "我想了解公司对新人有怎样的期望。" },
+        { "role": "clerk", "ko": "적극성과 책임감이 가장 중요하다고 생각합니다.", "phonetic": "jeok-geuk-seong-gwa chaek-im-gam-i ga-jang jung-yo-ha-da-go saeng-gak-ham-ni-da.", "zh": "我们认为主动性和责任感最重要。" },
+        { "role": "user", "ko": "네, 이해했습니다. 감사합니다.", "phonetic": "ne, i-hae-hae-sseum-ni-da. gam-sa-ham-ni-da.", "zh": "是的，我理解了。谢谢。" },
+        { "role": "clerk", "ko": "오늘 면접은 여기까지입니다. 수고하셨습니다.", "phonetic": "o-neul myeon-jeop-eun yeo-gi-kka-ji-im-ni-da. su-go-ha-syeot-seum-ni-da.", "zh": "今天的面试到此结束。辛苦了。" },
+        { "role": "user", "ko": "네, 저도 좋은 기회 감사합니다. 인사드리겠습니다.", "phonetic": "ne, jeo-do jo-eun gi-hoe gam-sa-ham-ni-da. in-sa-deu-ri-get-seum-ni-da.", "zh": "好的，也很感谢您给我这个机会。我先告辞了。" }
+      ],
+      "tips": [
+        "面试结束向'신입（新人）'提问展现积极态度很加印象分。",
+        "'수고하셨습니다'意为'辛苦了'，面试结束时常对考官说。",
+        "'인사드리겠습니다'是礼貌地行告别礼的表达，体现教养。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "words": [
+    {
+      "word": "방",
+      "phonetic": "bang",
+      "meaning": "名词：房间，屋子",
+      "example": "방이 아주 넓어요.",
+      "exampleZh": "房间非常宽敞。"
+    },
+    {
+      "word": "세",
+      "phonetic": "se",
+      "meaning": "名词：月租",
+      "example": "월세가 어떻게 되요?",
+      "exampleZh": "月租是多少？"
+    },
+    {
+      "word": "보증금",
+      "phonetic": "bojeunggeum",
+      "meaning": "名词：保证金，押金",
+      "example": "보증금은 100만 원이에요.",
+      "exampleZh": "保证金是一百万韩元。"
+    },
+    {
+      "word": "계약",
+      "phonetic": "gyeyak",
+      "meaning": "名词：合同，契约",
+      "example": "계약서에 서명했어요.",
+      "exampleZh": "我在合同上签了名。"
+    },
+    {
+      "word": "계약하다",
+      "phonetic": "gyeyakhada",
+      "meaning": "动词：签约",
+      "example": "다음 주에 계약하기로 했어요.",
+      "exampleZh": "我们决定下周签约。"
+    },
+    {
+      "word": "부동산",
+      "phonetic": "budongsan",
+      "meaning": "名词：房产中介",
+      "example": "부동산에서 방을 알아봤어요.",
+      "exampleZh": "我在房产中介那里看了房。"
+    },
+    {
+      "word": "월세",
+      "phonetic": "wolse",
+      "meaning": "名词：房租（月租）",
+      "example": "월세를 한 달에 한 번 내요.",
+      "exampleZh": "房租一个月交一次。"
+    },
+    {
+      "word": "설비",
+      "phonetic": "seolbi",
+      "meaning": "名词：设施，设备",
+      "example": "이 방에는 에어컨 설비가 있어요.",
+      "exampleZh": "这间房配有空调。"
+    },
+    {
+      "word": "이사하다",
+      "phonetic": "isahada",
+      "meaning": "动词：搬家",
+      "example": "다음 달에 한국으로 이사해요.",
+      "exampleZh": "下个月搬家到韩国。"
+    },
+    {
+      "word": "새집",
+      "phonetic": "saejip",
+      "meaning": "名词：新家",
+      "example": "새집은 정말 깨끗해요.",
+      "exampleZh": "新家真的很干净。"
+    }
+  ],
+  "article": {
+    "title": "홀로 쓰는 새 방을 구하다",
+    "titleZh": "找一间自己的新房子",
+    "paragraphs": [
+      {
+        "en": "저는 부동산을 찾아가 방을 알아봤어요.",
+        "phonetic": "jeoneun budongsaneul chajaga bangeul arabwaseoyo.",
+        "zh": "我去房产中介看了房子。"
+      },
+      {
+        "en": "그 방은 월세가 50만 원이고 보증금이 500만 원이에요.",
+        "phonetic": "geu bangeun wolsega osinman wongigo bojeunggeumi obaekman woni-eyo.",
+        "zh": "那间房月租50万韩元，押金500万韩元。"
+      },
+      {
+        "en": "방 안에는 침대와 책상, 에어컨이 있어요.",
+        "phonetic": "bang anen chimdaewa chaeksang, e-eokeoni isseoyo.",
+        "zh": "房间里有床、书桌和空调。"
+      },
+      {
+        "en": "저는 마음에 들어서 다음 주에 계약하려고 해요.",
+        "phonetic": "jeoneun maeume deureoseo daeum jue gyeyakaryeogo haeyo.",
+        "zh": "我很满意，所以打算下周签合同。"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "방을 알아보다",
+        "meaning": "找房，看房"
+      },
+      {
+        "phrase": "월세를 내다",
+        "meaning": "交房租"
+      },
+      {
+        "phrase": "계약서에 서명하다",
+        "meaning": "在合同上签名"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "-기로 하다",
+        "explain": "表示'决定做…'，如 '계약하기로 했어요'（决定签约）。"
+      },
+      {
+        "point": "-려고 하다",
+        "explain": "表示'打算/想要做…'，如 '계약하려고 해요'（打算签约）。"
+      },
+      {
+        "point": "에 있어요/없어요",
+        "explain": "表示'在某处有/没有…'，用于描述房间设施，如 '책상이 있어요'。"
+      }
+    ],
+    "tips": [
+      "韩国租房常涉及 '보증금'(押金)和 '월세'(月租)，是租约的核心条款。",
+      "看房时问清楚 '전기요금, 수도비, 관리비'（电费、水费、管理费）是否另算。",
+      "签约前一定要在 '부동산'（中介）确认纸质合同。"
+    ],
+    "quiz": {
+      "choice": [
+        {
+          "q": "'보증금' 的中文意思是？",
+          "options": [
+            "房租",
+            "押金，保证金",
+            "水电费",
+            "管理费"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "'이사하다' 的意思是？",
+          "options": [
+            "上班",
+            "搬家",
+            "买东西",
+            "出差"
+          ],
+          "answer": 1
+        }
+      ],
+      "fill": [
+        {
+          "q": "房间的月租是三十万韩元。 방의 월세가 ________. (30만 원이에요)",
+          "answer": "삼십만 원이에요"
+        },
+        {
+          "q": "这个房间里有床和桌子。 이 방에는 __________. (침대와 책상이 있어요)",
+          "answer": "침대와 책상이 있어요"
+        }
+      ],
+      "writing": {
+        "prompt": "用韩语写一段话，描述你租了一间新房，包括月租、押金以及房间里的设施。"
+      }
+    }
+  },
+  "scenarios": [
+    {
+      "scene": "방 보러 가기",
+      "situationZh": "在房产中介处询问房子并看房",
+      "roles": {
+        "clerk": "中介",
+        "user": "我"
+      },
+      "turns": [
+        {
+          "role": "clerk",
+          "ko": "어떤 방을 찾으세요?",
+          "phonetic": "eotteon bangeul chajeuseyo?",
+          "zh": "您想找什么样的房子？"
+        },
+        {
+          "role": "user",
+          "ko": "조용하고 월세가 싼 방이 좋아요.",
+          "phonetic": "joyounghago wolsega ssan bangi joayo.",
+          "zh": "我想要安静、房租便宜的房间。"
+        },
+        {
+          "role": "clerk",
+          "ko": "한 번 보여 드리겠습니다.",
+          "phonetic": "han beon boyeo deurigetseumnida.",
+          "zh": "我带您看一遍。"
+        },
+        {
+          "role": "user",
+          "ko": "방이 참 밝고 깨끗하네요.",
+          "phonetic": "bangi cham barkgo kkaekkeuthaneyo.",
+          "zh": "房间真明亮又干净。"
+        },
+        {
+          "role": "user",
+          "ko": "관리는 얼마나 내야 하나요?",
+          "phonetic": "gwanrineun eolmana naeya hanayo?",
+          "zh": "管理费要交多少？"
+        },
+        {
+          "role": "clerk",
+          "ko": "관리비까지 한 달에 이십만 원이에요.",
+          "phonetic": "gwanbibikkaji han dare isipman woni-eyo.",
+          "zh": "把管理费算上，一个月二十万韩元。"
+        }
+      ],
+      "tips": [
+        "询问费用用 '얼마나 내야 해요?'（要交多少）。",
+        "看房时要看看采光 '밝다'(明亮) 和朝向。"
+      ]
+    },
+    {
+      "scene": "계약하기",
+      "situationZh": "决定租房并和房东签合同",
+      "roles": {
+        "clerk": "中介/房东",
+        "user": "我"
+      },
+      "turns": [
+        {
+          "role": "clerk",
+          "ko": "이 방으로 결정하시겠어요?",
+          "phonetic": "i bangeuro gyeoljeonghasigesseoyo?",
+          "zh": "您决定要这间房吗？"
+        },
+        {
+          "role": "user",
+          "ko": "네, 이 방으로 하겠습니다.",
+          "phonetic": "ne, i bangeuro hagetseumnida.",
+          "zh": "是的，我决定要这间房。"
+        },
+        {
+          "role": "clerk",
+          "ko": "그럼 계약서를 작성합니다.",
+          "phonetic": "geureom gyeyangseoreul jaksenghamnida.",
+          "zh": "那么我们签订合同。"
+        },
+        {
+          "role": "user",
+          "ko": "계약 기간은 얼마나 되나요?",
+          "phonetic": "gyeyak giganeun eolmana doenayo?",
+          "zh": "合同期限是多久？"
+        },
+        {
+          "role": "clerk",
+          "ko": "보통 이 년입니다.",
+          "phonetic": "botong i nyeonimnida.",
+          "zh": "通常是两年。"
+        },
+        {
+          "role": "user",
+          "ko": "알겠습니다. 여기에 서명할게요.",
+          "phonetic": "algetseumnida. yeogie seomyeonghalgeyo.",
+          "zh": "明白了。我在这里签名。"
+        }
+      ],
+      "tips": [
+        "韩国租房合同通常是一到两年，签约时要看清期限。",
+        "'서명'(签名)在签约时必不可少。"
+      ]
+    }
+  ]
+}

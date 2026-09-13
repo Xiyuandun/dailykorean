@@ -1,0 +1,272 @@
+{
+  "words": [
+    {
+      "word": "면접",
+      "phonetic": "myeonjeop",
+      "meaning": "名词：面试",
+      "example": "내일 회사 면접이 있어요.",
+      "exampleZh": "明天有公司面试。"
+    },
+    {
+      "word": "지원하다",
+      "phonetic": "jiwonhada",
+      "meaning": "动词：申请，应聘",
+      "example": "그 회사에 지원했어요.",
+      "exampleZh": "我应聘了那家公司。"
+    },
+    {
+      "word": "경력",
+      "phonetic": "gyeongnyeok",
+      "meaning": "名词：工作经验",
+      "example": "저는 2년 경력이 있어요.",
+      "exampleZh": "我有两年的工作经验。"
+    },
+    {
+      "word": "이력서",
+      "phonetic": "iryeokseo",
+      "meaning": "名词：简历",
+      "example": "이력서를 미리 제출하세요.",
+      "exampleZh": "请提前递交简历。"
+    },
+    {
+      "word": "자기소개",
+      "phonetic": "jagisogae",
+      "meaning": "名词：自我介绍",
+      "example": "자기소개를 간단히 해 주세요.",
+      "exampleZh": "请简单做一下自我介绍。"
+    },
+    {
+      "word": "장점",
+      "phonetic": "jangjeom",
+      "meaning": "名词：优点",
+      "example": "제 장점은 책임감이에요.",
+      "exampleZh": "我的优点是责任心。"
+    },
+    {
+      "word": "단점",
+      "phonetic": "danjeom",
+      "meaning": "名词：缺点",
+      "example": "단점도 솔직히 말씀했어요.",
+      "exampleZh": "我也坦诚地说了缺点。"
+    },
+    {
+      "word": "합격",
+      "phonetic": "hapgyeok",
+      "meaning": "名词：合格，录取",
+      "example": "면접에 합격했어요!",
+      "exampleZh": "我面试合格了！"
+    },
+    {
+      "word": "노력하다",
+      "phonetic": "noryeokhada",
+      "meaning": "动词：努力",
+      "example": "꿈을 위해 열심히 노력해요.",
+      "exampleZh": "为了梦想而努力。"
+    },
+    {
+      "word": "팀워크",
+      "phonetic": "timwokeu",
+      "meaning": "名词：团队合作",
+      "example": "저는 팀워크를 중요하게 생각해요.",
+      "exampleZh": "我很看重团队合作。"
+    }
+  ],
+  "article": {
+    "title": "첫 면접을 잘 보는 방법",
+    "titleZh": "第一次面试做好的方法",
+    "paragraphs": [
+      {
+        "en": "면접 전에 이력서를 다시 확인해요.",
+        "phonetic": "myeonjeop jeone iryeokseoreul dasi hwaginhae-yo.",
+        "zh": "面试前要再次检查简历。"
+      },
+      {
+        "en": "첫인상이 중요하니 정돈된 옷차림을 하세요.",
+        "phonetic": "cheosin-sangi jungyohani jeongdondoen otcharimeul haseyo.",
+        "zh": "第一印象很重要，穿着要整洁。"
+      },
+      {
+        "en": "회사와 직무에 대해 미리 공부해요.",
+        "phonetic": "hoesawa jingmue daehae miri gongbu-hae-yo.",
+        "zh": "事先了解公司和岗位。"
+      },
+      {
+        "en": "질문에는 자신 있게 답하고 웃음을 잃지 마세요.",
+        "phonetic": "jilmumeneun jasin itge daphago useumeul ilhji maseyo.",
+        "zh": "回答问题要自信，并且不要失去笑容。"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "이력서를 제출하다",
+        "meaning": "提交简历"
+      },
+      {
+        "phrase": "자기소개를 하다",
+        "meaning": "做自我介绍"
+      },
+      {
+        "phrase": "면접에 합격하다",
+        "meaning": "通过面试"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "-기 전에",
+        "explain": "表示'在…之前'，如 '면접 전에 확인해요'（面试前确认）。"
+      },
+      {
+        "point": "-면 좋겠다 / -도록",
+        "explain": "表示愿望或目标，'있으면 좋겠어요'（有就好了）。"
+      },
+      {
+        "point": "-기에/-아서 (이유)",
+        "explain": "表示原因'因为…'，如 '중요하니 정돈된 옷차림을 하세요'。"
+      }
+    ],
+    "tips": [
+      "面谈前一定要复习基本问题：'자기소개해 주세요'(请自我介绍)、'장점과 단점은?'(优缺点是什么？)。",
+      "韩国面试常问'입력하신 지원 동기는 무엇입니까?'（申请动机是什么）。",
+      "回答要简洁有力，多用敬语，并保持眼神交流。"
+    ],
+    "quiz": {
+      "choice": [
+        {
+          "q": "'이력서' 的中文意思是？",
+          "options": [
+            "合同",
+            "简历",
+            "名片",
+            "申请表"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "'면접에 합격하다' 的意思是？",
+          "options": [
+            "获得面试机会",
+            "通过面试",
+            "放弃面试",
+            "延长面试"
+          ],
+          "answer": 1
+        }
+      ],
+      "fill": [
+        {
+          "q": "面试前重新看看你的简历。 면접 전에 이력서를 ________. (확인해요)",
+          "answer": "다시 확인해요"
+        },
+        {
+          "q": "请做一下自我介绍。 __________ 해 주세요. (자기소개)",
+          "answer": "자기소개를"
+        }
+      ],
+      "writing": {
+        "prompt": "用韩语写一段你的自我介绍，包括姓名、专业或工作经历、你的优点和申请动机。"
+      }
+    }
+  },
+  "scenarios": [
+    {
+      "scene": "면접 시작",
+      "situationZh": "进入面试间，和面试官做自我介绍并回答提问",
+      "roles": {
+        "clerk": "面试官",
+        "user": "我"
+      },
+      "turns": [
+        {
+          "role": "clerk",
+          "ko": "자기소개를 간단히 해 주세요.",
+          "phonetic": "jagisogaereul gandanhi hae juseyo.",
+          "zh": "请简单做一下自我介绍。"
+        },
+        {
+          "role": "user",
+          "ko": "안녕하세요. 저는 이민수라고 합니다.",
+          "phonetic": "annyeonghaseyo. jeoneun iminsu-rago hamnida.",
+          "zh": "您好，我叫李敏秀。"
+        },
+        {
+          "role": "clerk",
+          "ko": "왜 우리 회사에 지원했습니까?",
+          "phonetic": "wae uri hoesae jiwonhaetseumnikka?",
+          "zh": "您为什么申请我们公司？"
+        },
+        {
+          "role": "user",
+          "ko": "회사의 미래가 밝다고 생각해서 지원했습니다.",
+          "phonetic": "hoesae miraega barkdago saenggakaeseo jiwonhaetseumnida.",
+          "zh": "因为觉得公司的未来很光明，所以我申请了。"
+        },
+        {
+          "role": "clerk",
+          "ko": "열심히 하실 자신 있습니까?",
+          "phonetic": "yeolsimhi hasil jasin itseumnikka?",
+          "zh": "您有努力干的信心吗？"
+        },
+        {
+          "role": "user",
+          "ko": "네, 저는 책임감이 강하기 때문에 반드시 잘하겠습니다.",
+          "phonetic": "ne, jeoneun chaegimgami ganghagi ttaemun-e bandeusi jalhagetseumnida.",
+          "zh": "是的，因为我责任心很强，所以一定会做好的。"
+        }
+      ],
+      "tips": [
+        "面试开头自我介绍的固定句式是 '안녕하세요. 저는 …라고 합니다.'。",
+        "答'为什么应聘'时要结合公司特点，说 '회사의 … 좋아서 지원했습니다'。"
+      ]
+    },
+    {
+      "scene": "면접 마무리",
+      "situationZh": "面试接近尾声，确认结果时间并告别",
+      "roles": {
+        "clerk": "面试官",
+        "user": "我"
+      },
+      "turns": [
+        {
+          "role": "clerk",
+          "ko": "좋은 답변이었습니다.",
+          "phonetic": "joeun dapbyeoni-eotseumnida.",
+          "zh": "回答得很好。"
+        },
+        {
+          "role": "user",
+          "ko": "감사합니다. 좋은 말씀 감사드립니다.",
+          "phonetic": "gamsahamnida. joeun malsseum gamsadeurimnida.",
+          "zh": "谢谢，非常感谢您的好评。"
+        },
+        {
+          "role": "clerk",
+          "ko": "결과는 일주일 안에 알려 드리겠습니다.",
+          "phonetic": "gyeolgwaneun ilju-il ane allyeo deurigetseumnida.",
+          "zh": "结果会在一个星期内通知您。"
+        },
+        {
+          "role": "user",
+          "ko": "네, 기대하고 기다리겠습니다.",
+          "phonetic": "ne, gidaehago gidarigetseumnida.",
+          "zh": "是的，我会期待并等待。"
+        },
+        {
+          "role": "clerk",
+          "ko": "오늘 수고하셨습니다.",
+          "phonetic": "oneul sugo hasilseumnida.",
+          "zh": "今天辛苦了。"
+        },
+        {
+          "role": "user",
+          "ko": "감사합니다. 안녕히 계세요.",
+          "phonetic": "gamsahamnida. annyeonghi gyeseyo.",
+          "zh": "谢谢，再见。"
+        }
+      ],
+      "tips": [
+        "结束时要礼貌致谢 '김사합니다'，并说 '수고하셨습니다'。",
+        "接到通知后常说 '기다리겠습니다'（我会等待）。"
+      ]
+    }
+  ]
+}

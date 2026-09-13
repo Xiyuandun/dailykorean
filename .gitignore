@@ -1,0 +1,10 @@
+models/vosk-model-small-en-us-0.15/
+__pycache__/
+*.zip
+# GitHub Pages 纯静态部署用不到的后端/配置类文件
+server.py
+proxy_connect.py
+tunnel.py
+render.yaml
+vercel.json
+requirements.txt

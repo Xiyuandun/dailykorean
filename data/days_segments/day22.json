@@ -1,0 +1,260 @@
+{
+  "words": [
+    {
+      "word": "설날",
+      "phonetic": "seollal",
+      "meaning": "名词：春节",
+      "example": "설날에 가족들이 다 모여요.",
+      "exampleZh": "春节时家人都聚在一起。"
+    },
+    {
+      "word": "추석",
+      "phonetic": "chuseok",
+      "meaning": "名词：中秋",
+      "example": "추석에는 가족과 송편을 먹어요.",
+      "exampleZh": "中秋节和家人一起吃松饼。"
+    },
+    {
+      "word": "세배하다",
+      "phonetic": "sebaehada",
+      "meaning": "动词：拜年（行礼问候）",
+      "example": "아이들이 어른들께 세배를 해요.",
+      "exampleZh": "孩子们向长辈拜年。"
+    },
+    {
+      "word": "떡국",
+      "phonetic": "tteokguk",
+      "meaning": "名词：年糕汤",
+      "example": "설날 아침에 떡국을 먹어요.",
+      "exampleZh": "春节早上吃年糕汤。"
+    },
+    {
+      "word": "덕담",
+      "phonetic": "deokdam",
+      "meaning": "名词：吉祥话，祝福语",
+      "example": "새해에는 서로 덕담을 나눠요.",
+      "exampleZh": "新年互相说吉祥话。"
+    },
+    {
+      "word": "전통",
+      "phonetic": "jeontong",
+      "meaning": "名词：传统",
+      "example": "한복 입기는 전통 풍습이에요.",
+      "exampleZh": "穿韩服是传统风俗。"
+    },
+    {
+      "word": "고향",
+      "phonetic": "gohyang",
+      "meaning": "名词：家乡",
+      "example": "추석에 고향에 갑니다.",
+      "exampleZh": "中秋回老家。"
+    },
+    {
+      "word": "가족",
+      "phonetic": "gajok",
+      "meaning": "名词：家人",
+      "example": "가족과 함께 보내요.",
+      "exampleZh": "和家人一起度过。"
+    },
+    {
+      "word": "조상",
+      "phonetic": "josang",
+      "meaning": "名词：祖先",
+      "example": "추석에는 조상께 제사를 지내요.",
+      "exampleZh": "中秋举行祭祀祖先的仪式。"
+    },
+    {
+      "word": "보름달",
+      "phonetic": "boreumdal",
+      "meaning": "名词：满月",
+      "example": "추석에 보름달이 아주 밝아요.",
+      "exampleZh": "中秋的满月非常亮。"
+    }
+  ],
+  "article": {
+    "title": "한국의 추석",
+    "titleZh": "韩国中秋",
+    "paragraphs": [
+      {
+        "en": "추석은 한국의 큰 명절입니다.",
+        "phonetic": "chuseogeun hangung-eui keun myeongjeorimnida.",
+        "zh": "中秋是韩国重大的节日。"
+      },
+      {
+        "en": "설날과 함께 가장 중요한 가족의 날이에요.",
+        "phonetic": "seollalgwa hamkke gajang jung-yohan gajog-eui nari-eyo.",
+        "zh": "与春节一样，这是最重要的家庭团聚之日。"
+      },
+      {
+        "en": "추석에는 사람들이 고향에 가서 가족을 만납니다.",
+        "phonetic": "chuseog-eun saramdeul-i gohyang-e gaseo gajogeul mannapnida.",
+        "zh": "中秋节人们回到家乡与家人团聚。"
+      },
+      {
+        "en": "조상께 제사를 지내고 송편을 나누어 먹어요.",
+        "phonetic": "josangkke jesareul jinae-go songpyeoneul nanueo meogeoyo.",
+        "zh": "先为祖先举行祭祀，然后分享松饼。"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "명절을 보내다",
+        "meaning": "过节，度过节日"
+      },
+      {
+        "phrase": "제사를 지내다",
+        "meaning": "举行祭祀"
+      },
+      {
+        "phrase": "덕담을 나누다",
+        "meaning": "互致吉祥话"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "와/과 함께",
+        "explain": "表示'和…一起'，如 '가족과 함께'（和家人一起）。"
+      },
+      {
+        "point": "에서/에게/께",
+        "explain": "'께'是宾语对象'에게'的尊敬形，如 '조상께 제사를 지내다'。"
+      },
+      {
+        "point": "-할게요/-합니다 (격식체)",
+        "explain": "正式的陈述结尾，用于书面或郑重场合，如 '갑니다'、'만납니다'。"
+      }
+    ],
+    "tips": [
+      "韩国过节常说 '즐거운 명절 보내세요'（祝你节日愉快）。",
+      "过中秋要回家乡，高速非常堵车，路上习惯说 '길이 너무 막혀요'（路太堵了）。",
+      "春节长辈会给压岁钱，叫做 '세뱃돈'。"
+    ],
+    "quiz": {
+      "choice": [
+        {
+          "q": "'송편' 是什么？",
+          "options": [
+            "年糕汤",
+            "松饼（中秋节传统点心）",
+            "饺子",
+            "泡菜"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "韩国人春节早上一般吃什么？",
+          "options": [
+            "떡국 (年糕汤)",
+            "송편 (松饼)",
+            "비빔밥 (拌饭)",
+            "떡볶이 (炒年糕)"
+          ],
+          "answer": 0
+        }
+      ],
+      "fill": [
+        {
+          "q": "亲人们在中秋聚在一起。 추석에는 가족들이 ________. (모여요)",
+          "answer": "모여요"
+        },
+        {
+          "q": "周末和家人一起吃松饼。 주말에 가족과 __________. (먹어요)",
+          "answer": "송편을 먹어요"
+        }
+      ],
+      "writing": {
+        "prompt": "用韩语写一小段文章，介绍你的中秋节（或春节）是怎么和家人一起度过的，提到了食物和活动。"
+      }
+    }
+  },
+  "scenarios": [
+    {
+      "scene": "설날 인사",
+      "situationZh": "春节期间到长辈家拜年，行礼并说祝福语",
+      "roles": {
+        "clerk": "长辈 할머니",
+        "user": "我"
+      },
+      "turns": [
+        {
+          "role": "clerk",
+          "ko": "설날 잘 지냈어요?",
+          "phonetic": "seollal jal jinaesseoyo?",
+          "zh": "春节过得好吗？"
+        },
+        {
+          "role": "user",
+          "ko": "네, 할머니께 세배 드리러 왔어요.",
+          "phonetic": "ne, halmeonikke sebae deurireo wasseoyo.",
+          "zh": "是的，我来给您拜年了。"
+        },
+        {
+          "role": "clerk",
+          "ko": "오, 고맙구나. 올해도 건강해야 한다.",
+          "phonetic": "o, gomapguna. olhaedo geonganghaeya handa.",
+          "zh": "哦，真懂事。今年也要健健康康的。"
+        },
+        {
+          "role": "user",
+          "ko": "할머니도 새해 복 많이 받으세요.",
+          "phonetic": "halmeoni-do saehae bok mani badeuseyo.",
+          "zh": "奶奶也祝您新年多福。"
+        },
+        {
+          "role": "clerk",
+          "ko": "여기 세뱃돈이다.",
+          "phonetic": "yeogi sebaetdonida.",
+          "zh": "这是给你的压岁钱。"
+        }
+      ],
+      "tips": [
+        "拜年用语 '새해 복 많이 받으세요'（新年多福）是春节最常用祝福。",
+        "对长辈一定要用敬语 '드리러 왔어요'。"
+      ]
+    },
+    {
+      "scene": "송편 만들기",
+      "situationZh": "和家人一起做中秋松饼，聊天",
+      "roles": {
+        "clerk": "妈妈 어머니",
+        "user": "我"
+      },
+      "turns": [
+        {
+          "role": "clerk",
+          "ko": "오늘 같이 송편 만들자.",
+          "phonetic": "oneul gachi songpyeon mandeulja.",
+          "zh": "今天一起做松饼吧。"
+        },
+        {
+          "role": "user",
+          "ko": "좋아요! 어떻게 만드는지 가르쳐 주세요.",
+          "phonetic": "joayo! eotteoke mandeuneunji gareuchyeo juseyo.",
+          "zh": "好啊！请教我怎么做。"
+        },
+        {
+          "role": "clerk",
+          "ko": "반죽에 팥소를 넣고 반달 모양으로 빚어요.",
+          "phonetic": "banjug-e patsoreul neokko bandal moyang-euro bityeoyo.",
+          "zh": "把红豆馅放进面团里，捏成半月形。"
+        },
+        {
+          "role": "user",
+          "ko": "어렵지 않네요. 한번 해 볼게요.",
+          "phonetic": "eoryeopji anneyo. hanbeon hae bolgeyo.",
+          "zh": "原来不难。我来试试。"
+        },
+        {
+          "role": "clerk",
+          "ko": "잘했어! 찌면 이제 곧 먹을 수 있어.",
+          "phonetic": "jalhaesseo! jjimyeon ije got meogeul su isseo.",
+          "zh": "做得好！蒸好就可以吃了。"
+        }
+      ],
+      "tips": [
+        "'반달 모양'（半月形）是松饼的传统形状。",
+        "做松饼时如果馅漏出来就'속이 빠지다'（露馅），也有'出岔子'的引申义。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "words": [
+    {"word":"초대하다","phonetic":"chodaehada","meaning":"动词，邀请","example":"친구를 집에 초대했어요.","exampleZh":"我邀请朋友来家里了。"},
+    {"word":"인사하다","phonetic":"insahada","meaning":"动词，打招呼、问候","example":"처음 만나면 먼저 인사해요.","exampleZh":"第一次见面时会先打招呼。"},
+    {"word":"건배하다","phonetic":"geonbaehada","meaning":"动词，干杯","example":"모두 건강을 위해 건배합시다.","exampleZh":"让我们为健康一起干杯吧。"},
+    {"word":"대접하다","phonetic":"daejeophada","meaning":"动词，款待、招待","example":"맛있는 음식으로 손님을 대접해요.","exampleZh":"用美味的食物款待客人。"},
+    {"word":"어서 오세요","phonetic":"eoseo oseyo","meaning":"短语，欢迎光临、请进","example":"어서 오세요, 오늘은 편하게 쉬세요.","exampleZh":"欢迎光临，今天请随意休息。"},
+    {"word":"환영하다","phonetic":"hwanyeonghada","meaning":"动词，欢迎","example":"여러분을 진심으로 환영합니다.","exampleZh":"真心欢迎各位。"},
+    {"word":"선물","phonetic":"seonmul","meaning":"名词，礼物","example":"생일에 선물을 받아서 기뻤어요.","exampleZh":"生日收到礼物，我很高兴。"},
+    {"word":"식사하다","phonetic":"siksahada","meaning":"动词，用餐、吃饭","example":"다 같이 맛있게 식사했어요.","exampleZh":"大家一起愉快地用餐了。"},
+    {"word":"잡수시다","phonetic":"japsusida","meaning":"动词（敬语），用餐","example":"할머니, 맛있게 잡수세요.","exampleZh":"奶奶，请慢慢享用。"},
+    {"word":"특별하다","phonetic":"teukbyeolhada","meaning":"形容词，特别的","example":"오늘은 특별한 날이에요.","exampleZh":"今天是特别的日子。"}
+  ],
+  "article": {
+    "title":"제사와 모임",
+    "titleZh":"聚会与礼仪",
+    "paragraphs": [
+      {"en":"한국에서는 초대를 받으면 꼭 답장하고, 시간을 지켜야 합니다.","phonetic":"Hangugeseoneun chodaereul badeumyeon kkok dapjanghago, siganeul jikyeoya hamnida.","zh":"在韩国，收到邀请后一定要回复，并且要守时。"},
+      {"en":"모임에 가면 장유유서에 따라 윗사람에게 먼저 인사합니다.","phonetic":"Moime gamyeon jangyuyuseoe ttara witsaram-ege meonjeo insahamnida.","zh":"参加聚会时要按长幼尊卑，先向长辈问好。"},
+      {"en":"식사 자리에서는 어른이 먼저 젓가락을 들 때까지 기다립니다.","phonetic":"Siksa jarieseoneun eoreuni meonjeo jeotgarak-eul deul ttaekkaji gidarimnida.","zh":"用餐时，要等到长辈先动筷子才行。"},
+      {"en":"건배할 때는 상대방의 눈을 보고, 기분 좋게 건배합니다.","phonetic":"Geonbaehal ttaeneun sangdaebang-ui nuneul bogo, gibun jokke geonbaehamnida.","zh":"干杯时要看着对方的眼睛，气氛愉快地干杯。"}
+    ],
+    "phrases": [
+      {"phrase":"어서 오세요","meaning":"欢迎光临"},
+      {"phrase":"잘 먹겠습니다","meaning":"我开动了（饭前用语）"},
+      {"phrase":"잘 먹었습니다","meaning":"我吃好了（饭后用语）"},
+      {"phrase":"감사합니다","meaning":"谢谢"}
+    ],
+    "grammar": [
+      {"point":"-(으)세요","explain":"敬语命令/请求形，语调比“-요”更恭敬。例：맛있게 잡수세요（请慢用）。"},
+      {"point":"-(으)ㅂ시다","explain":"敬语共动形，意为“我们一起……吧”。例：건배합시다（干杯吧）。"},
+      {"point":"-에 따라","explain":"表示“按照、依据”。例：나이에 따라 대접해요（按年龄来招待）。"}
+    ],
+    "tips":[
+      "韩国饭前说“잘 먹겠습니다”，饭后说“잘 먹었습니다”，这是基本餐桌礼仪。",
+      "对长辈或上司用餐时用敬语“잡수시다”，对非正式场合一般用“먹다”。",
+      "“어서 오세요”是主人迎接客人的常用语，字面是“快请进”。"
+    ],
+    "quiz": {
+      "choice": [
+        {"q":"喝酒前大家一起说“건배합시다”，它的意思是什么？","options":["我们吃饭吧","我们干杯吧","我们回家吧","我们唱歌吧"],"answer":1},
+        {"q":"对长辈盛菜时，最好用下面哪个词表示“请吃”？","options":["먹으세요","잡수세요","드세요","바빠세요"],"answer":2}
+      ],
+      "fill": [{"q":"_ 오세요, 오늘은 편하게 있어요.（意思是“欢迎光临，今天请随意坐”）","answer":"어서"}],
+      "writing": {"prompt":"用韩语写一段话，描述你参加一次朋友聚会或饭局的经过，至少三句，注意使用“초대하다”、“인사하다”、“건배하다”等敬语词汇。"}
+    }
+  },
+  "scenarios": [
+    {
+      "scene":"집에 초대",
+      "situationZh":"朋友受邀来你家做客，你热情欢迎并安排入座。",
+      "roles":{"clerk":"朋友","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"어서 오세요. 오늘 와 주셔서 감사합니다.","phonetic":"Eoseo oseyo. Oneul wa jusyeoseo gamsahamnida.","zh":"欢迎光临，谢谢您今天来。"},
+        {"role":"user","ko":"초대해 주셔서 감사해요.","phonetic":"Chodaehae jusyeoseo gamsahaeyo.","zh":"谢谢您的邀请。"},
+        {"role":"clerk","ko":"편하게 앉으세요. 음료수 마실래요?","phonetic":"Pyeonhage anjeuseyo. Eumnyosu masillaeyo?","zh":"请随便坐，要喝饮料吗？"},
+        {"role":"user","ko":"네, 물이 좋아요.","phonetic":"Ne, muri joayo.","zh":"好的，水就可以。"},
+        {"role":"clerk","ko":"천천히 쉬세요. 식사 준비할게요.","phonetic":"Cheoncheonhi swiseyo. Siksa junbihalgeyo.","zh":"慢慢休息，我去准备饭菜。"},
+        {"role":"user","ko":"네, 도와드릴까요?","phonetic":"Ne, dowadeurilkkayo?","zh":"好的，需要我帮忙吗？"}
+      ],
+      "tips":["“어서 오세요”迎接客人最常用，非常自然。","“도와드릴까요”比“도와줄까요”更客气，体现对主人的尊重。"]
+    },
+    {
+      "scene":"직장 회식",
+      "situationZh":"公司聚餐，大家欢迎新来的同事并一起干杯。",
+      "roles":{"clerk":"同事","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"안녕하세요. 만나서 반갑습니다.","phonetic":"Annyeonghaseyo. Mannaseo banggapseumnida.","zh":"您好，很高兴见到您。"},
+        {"role":"user","ko":"저도 만나서 반갑습니다. 잘 부탁드립니다.","phonetic":"Jeodo mannaseo banggapseumnida. Jal butakdeurimnida.","zh":"我也很高兴见到您，请多关照。"},
+        {"role":"clerk","ko":"먼저 건배하시겠어요?","phonetic":"Meonjeo geonbaehasigess-eoyo?","zh":"先一起干杯吧？"},
+        {"role":"user","ko":"네, 우리 모두 건강을 위해 건배합시다.","phonetic":"Ne, uri modu geongangeul wihae geonbaehapsida.","zh":"好的，为我们大家的健康干杯。"},
+        {"role":"clerk","ko":"잘 먹겠습니다.","phonetic":"Jal meokgetsseumnida.","zh":"我开动了。"},
+        {"role":"user","ko":"맛있게 먹겠습니다.","phonetic":"Masitge meokgetsseumnida.","zh":"我会吃得香香的。"}
+      ],
+      "tips":["初次见面说“반갑습니다（很高兴认识）”加“잘 부탁드립니다（请多关照）”，正式又得体。","用餐前后记得说“잘 먹겠습니다 / 잘 먹었습니다”。注意“잘 먹겠습니다”要写在吃饭前。"]
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "words": [
+    {
+      "word": "메시지",
+      "phonetic": "mesiji",
+      "meaning": "名词：消息，信息",
+      "example": "메시지를 보내 주세요.",
+      "exampleZh": "请发个消息给我。"
+    },
+    {
+      "word": "문자",
+      "phonetic": "munja",
+      "meaning": "名词：短信",
+      "example": "나중에 문자할게요.",
+      "exampleZh": "我待会发短信给你。"
+    },
+    {
+      "word": "앱",
+      "phonetic": "aep",
+      "meaning": "名词：App，应用",
+      "example": "이 앱을 다운로드하세요.",
+      "exampleZh": "请下载这个应用。"
+    },
+    {
+      "word": "다운로드하다",
+      "phonetic": "daunrodeuhada",
+      "meaning": "动词：下载",
+      "example": "사진을 다운로드했어요.",
+      "exampleZh": "我下载了照片。"
+    },
+    {
+      "word": "업로드하다",
+      "phonetic": "eomrodeuhada",
+      "meaning": "动词：上传",
+      "example": "방금 영상을 업로드했어요.",
+      "exampleZh": "我刚刚上传了视频。"
+    },
+    {
+      "word": "연결하다",
+      "phonetic": "yeon-gyeolhada",
+      "meaning": "动词：连接",
+      "example": "인터넷에 잘 연결됐어요.",
+      "exampleZh": "网络连接得很好。"
+    },
+    {
+      "word": "친구 추가",
+      "phonetic": "chin-gu chuga",
+      "meaning": "名词：加好友",
+      "example": "카카오톡에서 친구 추가를 해요.",
+      "exampleZh": "在KakaoTalk上加好友。"
+    },
+    {
+      "word": "사이버",
+      "phonetic": "saibeo",
+      "meaning": "名词：网络的，虚拟的",
+      "example": "사이버 공간에서 만났어요.",
+      "exampleZh": "我们在网络空间里认识了。"
+    },
+    {
+      "word": "보내다",
+      "phonetic": "bonaeda",
+      "meaning": "动词：发送",
+      "example": "파일을 보낼게요.",
+      "exampleZh": "我把文件发给你。"
+    },
+    {
+      "word": "확인하다",
+      "phonetic": "hwagin hada",
+      "meaning": "动词：确认，查看",
+      "example": "메시지를 확인했어요.",
+      "exampleZh": "我确认了消息。"
+    }
+  ],
+  "article": {
+    "title": "카카오톡으로 친구에게 메시지 보내기",
+    "titleZh": "用KakaoTalk给朋友发消息",
+    "paragraphs": [
+      {
+        "en": "나는 앱으로 친구에게 메시지를 보냅니다.",
+        "phonetic": "naneun aebeuro chinguege mesijireul bonamnida.",
+        "zh": "我用应用给朋友发消息。"
+      },
+      {
+        "en": "한국에서는 카카오톡을 가장 많이 사용해요.",
+        "phonetic": "hangukeseoneun kakaotokeul gajang mani sayonghaeyo.",
+        "zh": "在韩国使用最多的就是KakaoTalk。"
+      },
+      {
+        "en": "친구 추가를 하면 바로 대화할 수 있어요.",
+        "phonetic": "chinguchugareul hamyeon baro daehwahal su isseoyo.",
+        "zh": "加上好友之后就能立刻对话了。"
+      },
+      {
+        "en": "사진과 파일을 보내려면 '보내기' 버튼을 누르세요.",
+        "phonetic": "sajingwa pailreul bonaeryeomyeon 'bonaegi' beoteuneul nureuseyo.",
+        "zh": "想发送照片和文件就按下'发送'按钮。"
+      }
+    ],
+    "phrases": [
+      {
+        "phrase": "메시지를 보내다",
+        "meaning": "发送消息"
+      },
+      {
+        "phrase": "친구를 추가하다",
+        "meaning": "添加好友"
+      },
+      {
+        "phrase": "화상 통화를 하다",
+        "meaning": "进行视频通话"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "-려면 (하려면)",
+        "explain": "表示'如果想要…'，如 '보내려면'（如果想发送）。"
+      },
+      {
+        "point": "-면 바로",
+        "explain": "'只要…就立刻'，如 '추가를 하면 바로 대화해요'（加了就能聊）。"
+      },
+      {
+        "point": "-하세요 (명령 존대)",
+        "explain": "请求/命令的敬语形，如 '누르세요'（请按）、'보세요'（请看）。"
+      }
+    ],
+    "tips": [
+      "韩国最流行的通讯软件是 '카카오톡'（KakaoTalk），外国人也常用 '라인'(Line) 和 '텔레그램'(Telegram)。",
+      "韩国人常在聊天里用 'ㅋㅋ' 表示笑声（相当于'哈哈'），非常常见。",
+      "看到对方已读但没回信时说 '읽고 답장을 안 하다'，意为'已读不回'。"
+    ],
+    "quiz": {
+      "choice": [
+        {
+          "q": "'메시지를 보내다' 的中文意思是？",
+          "options": [
+            "收消息",
+            "发送消息",
+            "删除消息",
+            "转发消息"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "韩国最常用的聊天软件是？",
+          "options": [
+            "WeChat (微信)",
+            "카카오톡 (KakaoTalk)",
+            "Telegram",
+            "Line"
+          ],
+          "answer": 1
+        }
+      ],
+      "fill": [
+        {
+          "q": "请每天给我发一个消息。 매일 저에게 ________. (보내세요)",
+          "answer": "메시지를 보내세요"
+        },
+        {
+          "q": "加了朋友就可以立刻聊天。 친구를 추가하면 __________. (대화할 수 있어요)",
+          "answer": "바로 대화할 수 있어요"
+        }
+      ],
+      "writing": {
+        "prompt": "用韩语写一段对话，内容是和朋友用APP沟通，约好见面并确认消息是否收到。"
+      }
+    }
+  },
+  "scenarios": [
+    {
+      "scene": "채팅 시작하기",
+      "situationZh": "在KakaoTalk上发起对话，和朋友打招呼并约时间",
+      "roles": {
+        "clerk": "朋友 지훈",
+        "user": "我"
+      },
+      "turns": [
+        {
+          "role": "clerk",
+          "ko": "안녕! 잘 지내?",
+          "phonetic": "annyeong! jal jinae?",
+          "zh": "嗨！过得好吗？"
+        },
+        {
+          "role": "user",
+          "ko": "응, 잘 지내. 너는?",
+          "phonetic": "eung, jal jinae. neoneun?",
+          "zh": "嗯，挺好的。你呢？"
+        },
+        {
+          "role": "clerk",
+          "ko": "나도 괜찮아. 내일 시간 있어?",
+          "phonetic": "nado gwaenchana. naeil sigani isseo?",
+          "zh": "我也挺好。明天有空吗？"
+        },
+        {
+          "role": "user",
+          "ko": "있어. 몇 시에?",
+          "phonetic": "isseo. myeoch sie?",
+          "zh": "有。几点？"
+        },
+        {
+          "role": "clerk",
+          "ko": "오후 두 시에 역 앞에서 보자.",
+          "phonetic": "ohu du sie yeog apeseo boja.",
+          "zh": "下午两点在车站前见吧。"
+        },
+        {
+          "role": "user",
+          "ko": "좋아, 그럼 ㅋㅋ 내일 보자!",
+          "phonetic": "joa, geureom heukheuk naeil boja!",
+          "zh": "好，那明天见吧！"
+        }
+      ],
+      "tips": [
+        "聊天时'ㅋㅋ'代表笑声，相当于'哈哈'。",
+        "'역 앞'(车站前)是韩国常见的见面地点。"
+      ]
+    },
+    {
+      "scene": "파일 보내기",
+      "situationZh": "上传照片和文件给朋友，并确认对方收到",
+      "roles": {
+        "clerk": "朋友 유나",
+        "user": "我"
+      },
+      "turns": [
+        {
+          "role": "clerk",
+          "ko": "아까 찍은 사진 좀 보내 줄래?",
+          "phonetic": "akka jjigeun sajin jom bonae jullae?",
+          "zh": "能把你刚拍的照片发给我吗？"
+        },
+        {
+          "role": "user",
+          "ko": "응, 지금 업로드해서 보낼게.",
+          "phonetic": "eung, jigeum eomrodeuhaeseo bonaelge.",
+          "zh": "嗯，我现在上传后发给你。"
+        },
+        {
+          "role": "clerk",
+          "ko": "받았어! 잘 보여.",
+          "phonetic": "badasseo! jal boyeo.",
+          "zh": "收到了！很清楚。"
+        },
+        {
+          "role": "user",
+          "ko": "그 파일도 확인해 봐.",
+          "phonetic": "geu paildo hwaginhae bwa.",
+          "zh": "你也看看那个文件吧。"
+        },
+        {
+          "role": "clerk",
+          "ko": "확인했어, 고마워!",
+          "phonetic": "hwaginhaesseo, gomawo!",
+          "zh": "确认了，谢谢！"
+        }
+      ],
+      "tips": [
+        "上传说 '업로드하다'，下载说 '다운로드하다'。",
+        "'받았어'(收到了)是很常用的确认回复。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "words": [
+    {"word":"장르","phonetic":"jangneu","meaning":"名词 体裁、类型(影视/音乐)","example":"제가 좋아하는 장르는 코미디예요.","exampleZh":"我喜欢的类型是喜剧。"},
+    {"word":"예고편","phonetic":"yegopyeon","meaning":"名词 预告片、预告","example":"영화 예고편을 자주 봐요.","exampleZh":"我经常看电影预告片。"},
+    {"word":"감상","phonetic":"gamsang","meaning":"名词/动词 欣赏、鉴赏","example":"주말마다 영화 감상을 즐겨요.","exampleZh":"每个周末我都喜欢欣赏电影。"},
+    {"word":"배우","phonetic":"baeu","meaning":"名词 演员","example":"제가 좋아하는 배우가 나와요.","exampleZh":"有我喜欢的演员出演。"},
+    {"word":"결말","phonetic":"gyeolmal","meaning":"名词 结尾、结局","example":"영화의 결말이 놀라웠어요.","exampleZh":"电影的结局很令人惊讶。"},
+    {"word":"흥미","phonetic":"heungmi","meaning":"名词 兴趣、趣味","example":"이 책은 정말 흥미로워요.","exampleZh":"这本书真的很有趣。"},
+    {"word":"대본","phonetic":"daebon","meaning":"名词 剧本、台词","example":"대본을 읽으며 연습해요.","exampleZh":"我读着剧本进行练习。"},
+    {"word":"추천하다","phonetic":"chucheonhada","meaning":"动词 推荐","example":"재미있는 영화를 추천해 주세요.","exampleZh":"请给我推荐一部有趣的电影。"},
+    {"word":"기대하다","phonetic":"gidaehada","meaning":"动词 期待、期望","example":"이 영화를 정말 기대하고 있어요.","exampleZh":"我真的很期待这部电影。"},
+    {"word":"인상적","phonetic":"insangjeok","meaning":"冠形词/名词 印象深刻的","example":"배우의 연기가 인상적이었어요.","exampleZh":"演员的表演令人印象深刻。"}
+  ],
+  "article": {
+    "title":"영화 감상을 좋아해요","titleZh":"我喜欢看电影",
+    "paragraphs": [
+      {"en":"저는 좋아하는 배우가 나오는 영화는 꼭 봐요.","phonetic":"jeoneun joahaneun baeuga naoneun yeonghwaneun kkok bwayo","zh":"有我喜欢的演员出演的电影我一定会看。"},
+      {"en":"지난주에는 판타지 장르의 영화를 보았는데, 결말이 정말 인상적이었어요.","phonetic":"jinjujue-neun pantaji jang-neu-ui yeonghwareul boanneunde, gyeolmari jeongmal insangjeog-ieosseoyo","zh":"上周我看了部奇幻题材电影，结局真的很令人印象深刻。"},
+      {"en":"영화를 보기 전에 예고편을 보고 줄거리를 미리 알아봐요.","phonetic":"yeonghwareul bogi jeone yegopyeoneul bogo julgeorireul miri arabwayo","zh":"看电影前我会先看预告片，提前了解剧情。"},
+      {"en":"요즘은 친구와 대본을 읽으며 연습하는 취미도 생겼어요.","phonetic":"yojeumeun chingugwa daeboneul ilgeumyeonseo yeonseubhaneun chwimido saenggyeosseoyo","zh":"最近我也养成了和朋友读剧本练习的爱好。"}
+    ],
+    "phrases": [
+      {"phrase":"영화를 보다","meaning":"看电影"},
+      {"phrase":"예고편을 보다","meaning":"看预告片"},
+      {"phrase":"줄거리를 알아보다","meaning":"了解剧情"},
+      {"phrase":"인상적이다","meaning":"令人印象深刻"},
+      {"phrase":"취미가 생기다","meaning":"养成/产生兴趣爱好"}
+    ],
+    "grammar": [
+      {"point":"~는데요","explain":"用于句尾，带转折或缘由，常表示“话说……/不过……”。如：보았는데요(看了，然后……)。"},
+      {"point":"~기 전에","explain":"表示“在……之前”。如：보기 전에(在看之前)。"},
+      {"point":"~(으)며","explain":"表示伴随/并列，“一边……一边……”。如：대본을 읽으며(读着剧本)。"},
+      {"point":"~ㄴ/은적이 있다","explain":"表示“有……的经历”。如：감상한 적이 있어요(有欣赏过的经历)。"}
+    ],
+    "tips": [
+      "看电影前先看예고편(预告片)是了解剧情的好方法。",
+      "描述对作品的感受可用인상적이다、흥미롭다、감동했다(受感动)。",
+      "推荐作品时说재미있는 영화를 추천해 주세요(请推荐有趣的电影)很常用。"
+    ],
+    "quiz": {
+      "choice": [
+        {"q":"“在看电影之前”用韩语怎么说？","options":["보기 전에","본 후에","보는 동안","본 다음에니까"],"answer":0},
+        {"q":"“我真的很期待这部电影”中用哪个动词？","options":["기대하다","추천하다","감상하다","연기하다"],"answer":0}
+      ],
+      "fill": [{"q":"대본을 읽(으)며 연습해요. → 括号部分应填：대본을 읽__ 연습해요.","answer":"으며"}],
+      "writing": {"prompt":"用韩语写一段话介绍你最近看的一部电影：说明题材、大概剧情和你最喜欢的部分，并给出推荐理由（至少5句）。"}
+    }
+  },
+  "scenarios": [
+    {
+      "scene":"영화 고르기","situationZh":"和朋友商量一起去看哪部电影",
+      "roles":{"clerk":"친구(朋友)","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"이번 주말에 영화 볼래? 어떤 장르 좋아해?","phonetic":"ibeon jumare yeonghwa bollae? eotteon jangneu joahae?","zh":"这周末要看电影吗？你喜欢什么类型呀？"},
+        {"role":"user","ko":"나는 코미디를 좋아해. 재미있는 영화를 추천해 줘.","phonetic":"naneun komidireul joahae. jaeminneuen yeonghwareul chucheonhae jwo","zh":"我喜欢喜剧，请给我推荐个有趣的电影吧。"},
+        {"role":"clerk","ko":"그래? 그럼 <행복한 하루>가 어때? 예고편을 봤는데 정말 웃기더라.","phonetic":"geurae? geureom <haengbokan haru>-ga eottae? yegopyeoneul bwatneunde jeongmal utgideora","zh":"是吗？那《幸福的一天》怎么样？我看了预告片，真的很好笑。"},
+        {"role":"user","ko":"좋아! 좋아하는 배우가 나와? 인기가 어때?","phonetic":"joa! joahaneun baeuga na-wa? ingiga eottae?","zh":"好啊！有我喜欢演员出演吗？人气怎么样？"},
+        {"role":"clerk","ko":"응, 주연 배우가 유명하고 인기도 굉장해. 곧 개봉해서 같이 보자.","phonetic":"eung, juyeon baeuga yumyeonghago ingido goengjanghae. got gaebonghaeseo gachi boja","zh":"嗯，主演演员很有名，也特别受欢迎。马上就上映了，一起看吧。"},
+        {"role":"user","ko":"좋아, 그럼 주말에 만나서 같이 영화 보자!","phonetic":"joa, geureom jumare mannaseo gachi yeonghwa boja!","zh":"好呀，那周末见面一起看电影吧！"}
+      ],
+      "tips":["问爱好类型用어떤 장르 좋아해，推荐用어때?/추천해 줘。","描述观感可说웃기다(好笑)、감동하다(感动)、재미있다(有趣)。","정말用于强调程度，如정말 웃기더라(真的好好笑)。"]
+    },
+    {
+      "scene":"영화 관람 후 대화","situationZh":"看完电影后和朋友交流感想",
+      "roles":{"clerk":"친구(朋友)","user":"我"},
+      "turns":[
+        {"role":"clerk","ko":"영화 어땠어? 재미있었어?","phonetic":"yeonghwa eottasseo? jaemiisseosseo?","zh":"电影怎么样？好看吗？"},
+        {"role":"user","ko":"정말 재미있었어! 특히 결말이 인상적이었어.","phonetic":"jeongmal jaemiisseosseo! teukhi gyeolmari insangjeog-ieosseo","zh":"真的很好看！尤其是结局令人印象深刻。"},
+        {"role":"clerk","ko":"나도 그 생각이야. 배우의 연기가 정말 좋았어.","phonetic":"nado geu saenggag-iya. baeu-ui yeongiga jeongmal joasseo","zh":"我也这么想。演员的演技真的很好。"},
+        {"role":"user","ko":"맞아, 그래서 출연진을 다시 찾아보게 됐어.","phonetic":"mata, geuraeseo chulryeonjineul dasi chajaboge dwaesseo","zh":"对呀，所以我重新去查了出演阵容。"},
+        {"role":"clerk","ko":"그럼 다음에 이 감독의 다른 작품도 같이 볼래?","phonetic":"geureom daeume i gamdok-ui dareun jakpumdo gachi bollae?","zh":"那下次要不要一起看这位导演的其他作品？"},
+        {"role":"user","ko":"좋아! 이번에는 내가 추천할게.","phonetic":"joa! ibeon-eneun naega chucheonhalge","zh":"好！这次我来推荐吧。"}
+      ],
+      "tips":["问观影感受用영화 어땠어?,表示优秀用재미있었어、연기가 좋았어。","表达“我也这么想”用나도 그 생각이야。","用다음에 ~볼래?(下次要不要……)自然地约定下次。"]
+    }
+  ]
+}
